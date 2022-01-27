@@ -1,0 +1,73 @@
+.mm-menu {
+				height: calc( 90% - 40px ) !important;
+				--mm-color-background: #000000;
+				--mm-listitem-size: 60px;
+			}
+			.mm-navbars_top {
+				--mm-color-background: #000000;
+				border-bottom: none !important;
+			}
+			.mm-navbar {
+				color: #f00!important;
+				font-size: 14px;
+				font-weight: bold;
+			}
+			.mm-navbar input {
+				text-align: center;
+			}
+			.mm-navbar:first-child {
+				align-content: center;
+				justify-content: center;
+				align-items: center;
+			}
+			.mm-navbar img {
+				flex-grow: 0;
+				opacity: 100;
+				border: 3px solid #f00;
+				border-radius: 0px;
+				width: 100%;
+				height: 100%;
+				padding: 10px;
+				margin: 0 10px;
+			}
+			.mm-navbar .fa {
+				flex-grow: 0;
+				border: 2px solid rgba(255, 0, 0, 1);
+				border-radius: 60px;
+				color: rgba(255, 0, 0, 1) !important;
+				font-size: 46px !important;
+				line-height: 50px;
+				width: 60px;
+				height: 60px;
+				padding: 0;
+			}
+			.mm-navbar .fa:hover {
+				border-color: #f00;
+				color: #f00!important;
+			}
+
+			.mm-panels > .mm-panel:after {
+				content: none;
+				display: none;
+			}
+			.mm-panels > .mm-panel > .mm-listview {
+				margin-top: 10px !important;
+			}
+
+			.mm-listview {
+				font-size: 16px;
+			}
+			.mm-listitem:last-child:after {
+				content: none;
+				display: none;
+			}
+			.mm-listitem a,
+			.mm-listitem span {
+				color: rgba(255, 0, 0, 1);
+				text-align: center;
+				padding-right: 20px !important;
+			}
+			.mm-listitem a:hover,
+			.mm-listitem a:hover + span {
+				color: #f00;
+			}
