@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Theming a site with CSS Custom Properties</title>
-  <link rel="stylesheet" href="./style.css">
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<header>
-  <h1>
-  Super Stream<input type="color" id="choose-theme-color"></h1>
-  <div class="subtitle">Subtitle</div>
-</header>
-
-<main>
 
 
 
@@ -62,8 +46,8 @@
 <a href="#"><button  class="btn">UNIVERSO</button> </a>
 <a href="#"><button  class="btn">VIAJES</button> </a>
 
-
-
+<br><br><br>
+<input type="color" id="choose-theme-color">
 
 			</div> </header><section class="grid" id="grid">
         
@@ -1422,7 +1406,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-greyscale-max,.w3-grayscale-max,.w3-hover-greyscale:hover,.w3-hover-grayscale:hover{filter:grayscale(100%)}
 .w3-greyscale,.w3-grayscale{filter:grayscale(75%)}.w3-greyscale-min,.w3-grayscale-min{filter:grayscale(50%)}
 .w3-sepia{filter:sepia(75%)}.w3-sepia-max,.w3-hover-sepia:hover{filter:sepia(100%)}.w3-sepia-min{filter:sepia(50%)}
-.w3-tiny{font-size:10px!important}.w3-small{font-size:12px!important}.w3-medium{font-size:15px!important}.w3-large{font-size:18px!important;border: 1px solid red;border-radius: 50px;}
+.w3-tiny{font-size:10px!important}.w3-small{font-size:12px!important}.w3-medium{font-size:15px!important}.w3-large{font-size:18px!important;border: 1px solid var(--mainColor);border-radius: 50px;}
 .w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
 .w3-left-align{text-align:left!important}.w3-right-align{text-align:right!important}.w3-justify{text-align:justify!important}.w3-center{text-align:center!important}
 .w3-border-0{border:0!important}.w3-border{border:1px solid #ccc!important}
@@ -1536,7 +1520,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
 
-.button { background-color: #ff00007a; /* Green */ border: none; color: white; padding: 8px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; } .button {border-radius: 12px;}
+.button { background-color: var(--mainColor); /* Green */ border: none; color: white; padding: 8px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; } .button {border-radius: 12px;}
 
 .banner{
 padding: 1em;
@@ -2010,14 +1994,7 @@ header .search-bar {
 
 
 
-  
-</main>
 
-<footer>
-  Footer
-</footer>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
 </body>
 </html>
@@ -2045,7 +2022,7 @@ colorInput.addEventListener("change", function() {
 }
 
 h1 {
-  background: var(--mainColor);
+  background: #2f0fcc00;;
   margin: 0;
   padding: 1rem;
   color: white;
