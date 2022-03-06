@@ -1,5 +1,6 @@
 
 
+
 <div class="container">
   <div class="header-container">
     <img src="https://cdn.discordapp.com/attachments/827059486086004789/949532505986441287/el_senor_de_los_anillos_1a.webp"  class="header-image" />
@@ -64,7 +65,7 @@
 
 
 
- <iframe width="100%" height="315" src="https://www.youtube.com/embed/3GJp6p_mgPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br>
+ <iframe width="100%" height="515" src="https://www.youtube.com/embed/3GJp6p_mgPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
                      
                      
                      
@@ -450,7 +451,7 @@ html {
   box-shadow: 0 0 50px rgba(0,0,0,.3);
   margin: 10px auto;
   overflow: hidden;
-
+  width: 100%;
   
   
 }
@@ -461,14 +462,13 @@ html {
 }
 
 .header-image {
- width: 100%;
   left: 0;
   position: absolute;
   top: 0;
-  z-index: -1;
-  height: 100%;
-  -webkit-animation: zoomEffect 35s infinite;
-          animation: zoomEffect 35s infinite;
+  z-index: -1000;
+  height: auto;
+  -webkit-animation: zoomEffect 15s infinite;
+          animation: zoomEffect 15s infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-direction: alternate;
@@ -484,8 +484,8 @@ html {
             transform: scale(1) translateX(0);
   }
   100% {
-    -webkit-transform: scale(1.2) translateX(-60px) translateY(-80px);
-            transform: scale(1.2) translateX(-60px) translateY(-80px);
+    -webkit-transform: scale(1.2) translateX(-360px) translateY(-80px);
+            transform: scale(1.2) translateX(-360px) translateY(-80px);
   }
 }
 
@@ -495,17 +495,18 @@ html {
             transform: scale(1) translateX(0) translateY(0);
   }
   100% {
-    -webkit-transform: scale(1.2) translateX(-60px) translateY(-80px);
-            transform: scale(1.2) translateX(-60px) translateY(-80px);
+    -webkit-transform: scale(1.2) translateX(-360px) translateY(-80px);
+            transform: scale(1.2) translateX(-360px) translateY(-80px);
   }
 }
 
 .header {
   color: #fff;
- padding: 105px;
-  height: 470px;
+  padding: 15px;
+  height: 500px;
+  width: 100%;
   background: rgba(0, 0, 0, 0.4)
-}
+} 
 
 .header > svg {
   cursor: pointer;
@@ -522,7 +523,7 @@ html {
 .tag {
   background-color: rgba(255, 0, 0, .8);
   border-radius: 20px;
-  font-size: 11px;
+  font-size: 15px;
   margin-right: 8px;
   padding: 4px 10px;
   text-transform: uppercase;
@@ -534,7 +535,7 @@ html {
 
 .stat-module {
   display: inline-block;
-  font-size: 12px;
+  font-size: 22px;
   margin-right: 20px;
   text-transform: uppercase;
   
@@ -547,14 +548,13 @@ html {
 }
 
 .overlay-header {
-  background-color: #000;
+
   height: 160px;
   margin: -110px 0 0 -1%;
   transform: rotate(-10deg);
   width: 150%;
-  z-index: -100px;
+  z-index: 0;
    border-radius: 150%;
-   
   
 }
 
@@ -570,54 +570,47 @@ html {
 .body-image {
   border-radius: 10%;
   box-shadow: 5px 10px 75px rgba(0, 0, 0, .4);
-  float: left;
+  float: center;
   margin: -90px 0 0px;
   position: relative;
-  z-index: 2;
-  height: 250px;
-  width: 150px;
-  box-shadow: 5px 6px 20px 0px rgb(243 0 0 / 55%), 9px 7px 20px 0px rgb(255 0 0 / 14%);
+  z-index: 0;
+  height: 450px;
+  width: 290px;
+  
 }
 
+
+
+
+
+
+
+button, a.btn
+{
+  
+  
+ 
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  background-position: 92% center;
+  box-shadow: 0 0.1rem 0 #ff0000;
+  
+} 
+
+button:hover, a.btn:hover
+{
+  background-color: crimson;
+  color: white;
+  background-image: url('');
+  box-shadow: 0 0.3rem 0 #ff0000;
+  transform: translateY(-0.2rem);
 }
-
-
-
-
-
 
 
 /*=========
 Animaciones
 ===========*/
-
-@keyframes sube
-{
-  0% 
-  { 
-    background:?#A00F2F;
-    top: 80%;
-    opacity: 0;
-  }
-  100% 
-  { 
-    background:#A00F2F;
-    top: 10%;
-    opacity: 1;
-  }
-}
-
-@keyframes aparece
-{
-  0% 
-  { 
-    opacity: 0;
-  }
-  100% 
-  { 
-    opacity: 1;
-  }
-}
 
 
 
