@@ -1,3 +1,101 @@
+
+<div class="container">
+  <div class="header-container">
+    <img src="https://cdn.discordapp.com/attachments/827059486086004789/950446738097987644/El_ejercito_de_los_muertos.webp"  class="header-image" />
+    <div class="header">
+     
+
+      
+       
+      </svg>
+      <h1 class="main-heading">El ejército de los muertos</h1>
+<span  class="tag">Acción</span>
+<span  class="tag">Zombies</span>
+
+
+
+
+
+    
+
+     
+    
+      <div class="stats">
+        <span class="stat-module">
+          Año <span class="stat-number">2021</span>
+        </span>
+        <span class="stat-module">
+          Duración <span class="stat-number">2h 28m</span>
+        </span>
+        
+        </span>
+      </div>
+    </div> <!-- END header -->
+  </div>
+  
+  <div class="overlay-header"></div>
+  
+  <div class="body">
+    <img src="https://cdn.discordapp.com/attachments/827059486086004789/950446738450305055/El_ejercito_de_los_muertos1.webp" alt="Hugh Jackman" class="body-image" />
+    <div class="body-action- u-flex-center">
+      
+        
+      </svg>
+    </div>
+    <span class="body-stats"> <br><span></span></span>
+<FONT SIZE=10> 
+    <span class="body-stats">SINOPSIS <br><span></span></span>
+    <div class="u-clearfix"></div>
+    <div class="body-info">
+      <div align='center'>
+       <FONT SIZE=4> 
+ <br>
+        
+      <p>
+Tras la aparición de zombis en Las Vegas, un grupo de mercenarios lo arriesga todo y se aventura al área de cuarentena para llevar a cabo el mayor atraco de sus vidas.
+      </p>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+ <iframe width="100%" height="515" src="https://www.youtube.com/embed/ikxpwm2-fTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+                     
+                     
+                     
+                     
+                              <button class="collapsible">Ver pelicula</button>
+<div class="content">
+
+   
+    
+				</aside><aside class="video-options"><ul  ><div class="accordian"><ul><li class="active"> <li><h3><span class=""></span></h3><ul> 
+                
+                
+                
+                
+                
+                
+
+
+<li><a href="https://ok.ru/videoembed/2156279302752?autoplay=1" class="btn third" >latino</a><div  class="visto"><input class="tgl tgl-flip" id="160475" type="checkbox" type="checkbox" store="160475"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="160475"></label></div><br>Codigo<br>160475<br><br>
+    
+    
+    
+    
+    
+    </ul>
+    
+    </div>
+    
+    <link rel="stylesheet" href="https://juandell90.github.io/playmedia/stylepel.cs" />
+<script src="https://juandell90.github.io/playmedia/scriptpel.js"></script>
+
+<style>
  /*-------diseño plantilla---------*/
 
 html 
@@ -25,9 +123,9 @@ html
   left: 0;
   position: absolute;
   top: 0;
-   width: 110%;
+   width: 150%;
   z-index: -1000;
-  height: auto;
+  height: 720;
   -webkit-animation: zoomEffect 15s infinite;
           animation: zoomEffect 15s infinite;
   -webkit-animation-timing-function: linear;
@@ -37,7 +135,7 @@ html
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   
-}
+}	
 
 @-webkit-keyframes zoomEffect {
   0% {
@@ -45,8 +143,8 @@ html
             transform: scale(1) translateX(0);
   }
   100% {
-    -webkit-transform: scale(1.2) translateX(-60px) translateY(-80px);
-            transform: scale(1.2) translateX(-60px) translateY(-80px);
+    -webkit-transform: scale(1.2) translateX(0px) translateY(0px);
+            transform: scale(1.2) translateX(0px) translateY(0px);
   }
 }
 
@@ -56,8 +154,8 @@ html
             transform: scale(1) translateX(0) translateY(0);
   }
   100% {
-    -webkit-transform: scale(1.2) translateX(-60px) translateY(-80px);
-            transform: scale(1.2) translateX(-60px) translateY(-80px);
+    -webkit-transform: scale(1.2) translateX(0px) translateY(0px);
+            transform: scale(1.2) translateX(0px) translateY(0px);
   }
 }
 
@@ -298,3 +396,5 @@ li {
 
 .video-options li .btn{text-align:center;line-height:2rem;padding:.9rem;border-radius:10px;color:rgb(0 0 0);background-color:#b0b0b0}
  /*-------boton capitulo---------*/
+</style>
+    
