@@ -156,11 +156,11 @@ html
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 40%;
+  width: 60%;
   border: none;
  border: 1px solid red;
   outline: none;
- font-size: 25px;
+ font-size: 15px;
     border-radius: 100px;
 }
 
