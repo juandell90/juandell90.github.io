@@ -268,7 +268,7 @@ li {
 .tgl + .tgl-btn {
   outline: 0;
   display: block;
-  width: 4em;
+  width: 100;
   height: 2em;
   position: relative;
   cursor: pointer;
