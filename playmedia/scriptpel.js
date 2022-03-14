@@ -21,8 +21,6 @@ for (i = 0; i < coll.length; i++) {
 }
 /*-------boton ver---------*/
 
-
-}
 /*-------boton tabs---------*/
 
 $(document).ready(function() { 
