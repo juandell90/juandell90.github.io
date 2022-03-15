@@ -359,4 +359,24 @@ justify-content: space-evenly;
 .video-options li .btn{text-align:center;line-height:2rem;padding:.9rem ;text-decoration: none;width: 110;border-radius:10px;color:rgb(0 0 0);background-color:#b0b0b0}
  /*-------boton capitulo---------*/
 
-    
+  /*-------favoritos---------*/  
+.card-item__add-button {
+  position: absolute;
+ 
+  left: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 15px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+
+
+border: 1px solid red;
+    border-radius: 50px;
+
+}
+.card-item__add-button:hover {
+  background-color: #600707;
+}
+/*-------favoritos---------*/
