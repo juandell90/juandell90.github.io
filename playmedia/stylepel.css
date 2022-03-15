@@ -26,9 +26,9 @@ html
   left: 0;
   position: absolute;
   top: 0;
-   width: 150%;
+   width: 100%;
   z-index: -1000;
-  height: 720;
+  height: 160%;
   -webkit-animation: zoomEffect 15s infinite;
           animation: zoomEffect 15s infinite;
   -webkit-animation-timing-function: linear;
