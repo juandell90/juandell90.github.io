@@ -1,0 +1,317 @@
+
+<script src="https://archive.org/download/menu_20210420/scriptmenu1.js"></script>
+
+<style>
+
+
+
+.basket-component__item {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-bottom: 1.5em;
+  box-shadow: 2px 2px 15px #aaa;
+  border-radius: 3px;
+}
+.basket-component__img {
+ width: 100%;
+    height: 350px;
+  min-height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.basket-component__delete-btn {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 10px;
+  background-color: red;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.basket-component__delete-btn:hover {
+  background-color: #f00;
+}
+.basket-component__content {
+ 
+  width: 100%;
+}
+.basket-component__title {
+ padding: 10;
+}
+.basket-component__title--intotal {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
+.basket-component__descr {
+  padding: 0;
+  margin: 0 0 0.2em;
+  font-size: 0.9em;
+}
+.basket-component__descr span {
+  float: right;
+}
+.basket-component__descr--intotal {
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+}
+
+}
+
+
+.basket-component__banner--isActive {
+  transform: scale(1);
+}
+
+
+
+
+
+-----favoritos---------*/
+
+
+</style>
+
+
+   
+ 
+  <a  id="projects"><p class="basket-toggle">
+		
+		<span class="basket-toggle__counter">(1) </span>
+		<span>Favoritos❤️</span>
+	</p></a>
+ 
+</div>
+<a id="chat-head" ></a>
+<div class="basket-component" id="bsk">Para cerrar pulza de nuevo el boton favorito... las ❌ quitan de este listado los favoritos
+  <div class="basket-component__wrapper">
+	<h2 class="basket-component__empty" v-if='emptyArray'>No hay favoritos 😓😔... pulsa el boton favoritos para cerrar</h2>
+    <div class="basket-component__item" v-for="item in items" :key="item.id">
+      <button class="basket-component__delete-btn" @click="delMeth(item.id)">x</button>
+      <div class="basket-component__img" :style="{backgroundImage: 'url(' + item.img +')' }"></div>
+      <div class="basket-component__content">
+        <h3 class="basket-component__title">{{ item.name }}</h3>
+      
+      <div class="basket-component__href-container">
+			<button class="btn" class="basket-component__href" @click="window.open(item.href)">Ver Telenovela</button>	
+				</div>
+          </div>
+        </div></div></div>
+		
+		<section class="grid" id="grid">
+ 
+ 
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+
+<script>
+
+let basket = new Vue({
+  el: "#bsk",
+  data: {
+    items: [],
+    storagename: '_local_basket_',
+    sendWindow: false,
+    name: '',
+    email: '',
+    phone: '',
+    bannerContent: '',
+    bannerStatus: false,
+    outputLink: null },
+
+  methods: {
+    changeStorage(type, id) {
+      if (type === "add") {
+        this.items.forEach(item => {
+          if (item.id === id) {
+            item.amount = item.amount += 1;
+          }
+        });
+      } else if (type === "delete") {
+        this.items = this.items.filter(item => item.id !== id);
+      } else if (type === 'count_down') {
+        this.items.forEach(item => {
+          if (item.id === id) {
+            if (item.amount > 0) {
+              item.amount -= 1;
+            }
+          }
+        });
+      }
+      this.localStorageActions();
+    },
+    getDB() {
+      this.items = JSON.parse(localStorage.getItem('_local_basket_')) || [];
+    },
+    setBasketAmount(element) {
+      this.outputLink = element;
+    },
+    setAmount() {
+      this.outputLink.innerHTML = `( ${this.items.length} )`;
+    },
+    localStorageActions() {
+      localStorage.removeItem(this.storagename);
+      let sendData = JSON.stringify(this.items);
+      localStorage.setItem(this.storagename, sendData);
+    },
+    minMeth(id) {
+      this.changeStorage('count_down', id);
+    },
+    maxMeth(id) {
+      this.changeStorage('add', id);
+    },
+    delMeth(id) {
+      this.changeStorage('delete', id);
+      this.setAmount();
+    },
+    toggleSendWindow() {
+      this.sendWindow = !this.sendWindow;
+    },
+    sendOrder() {
+      let order = {
+        items: this.items,
+        totals: this.getTotal(),
+        self: {
+          name: this.name,
+          email: this.email,
+          phone: this.phone } };
+
+
+      this.banner('You order send!');
+      if (order.self.name && order.self.email && order.self.phone) {
+        //alert('And now AXIOS time!!!!')
+      }
+    },
+    banner(content) {
+      this.bannerContent = content;
+      this.bannerStatus = true;
+      setTimeout(() => {this.bannerStatus = false;}, 1000);
+    },
+    getTotal() {
+      let output = { w: 0, p: 0 };
+      this.items.forEach(item => {
+        output.w += +item.weight * +item.amount;
+        output.p += +item.price * +item.amount;
+      });
+      return output;
+    } },
+
+  created() {
+    this.items = JSON.parse(localStorage.getItem('_local_basket_')) || [];
+    this.setAmount();
+  },
+  mounted() {
+
+  },
+  computed: {
+    getTotalValues() {
+      let output = { w: 0, p: 0 };
+      this.items.forEach(item => {
+        output.w += +item.weight * +item.amount;
+        output.p += +item.price * +item.amount;
+      });
+      return output;
+    },
+    emptyArray() {
+      return this.items.length === 0 ? true : false;
+    } } });
+
+
+
+class BasketComponent {
+  constructor() {
+    this.namespace = 'basket-component';
+    this.storagename = '_local_basket_';
+    this.addClasses = ['card-item__add-button'];
+    this.toggleBasketElement = document.querySelector('.basket-toggle');
+    this.basket = document.querySelector(`.${this.namespace}`);
+    this.counter = document.querySelector('.basket-toggle__counter');
+
+    this.init();
+  }
+  toggleBasket() {
+    this.toggleBasketElement.addEventListener('click', () => {
+      this.basket.classList.toggle('basket-component--isActive');
+    });
+  }
+  setControllers() {
+    let elements = [];
+    this.addClasses.forEach(v => {
+      let e = document.querySelectorAll(`.${v}`);
+      elements = [...elements, ...e];
+    });
+    elements.forEach(element => {
+      element.addEventListener('click', e => {
+        let currentDataClick = {
+          "id": e.target.getAttribute('data-item-id'),
+          href: e.target.getAttribute("data-item-href"),
+          "img": e.target.getAttribute('data-item-img'),
+          "name": e.target.getAttribute('data-item-name'),
+          "weight": e.target.getAttribute('data-item-weight'),
+          "price": e.target.getAttribute('data-item-price'),
+          "amount": 1 };
+
+        this.localStorageActions('add', currentDataClick);
+        basket.getDB();
+        this.counter.textContent = `( ${JSON.parse(localStorage.getItem('_local_basket_')).length} )`;
+      });
+    });
+  }
+  outputLink() {
+    return this.counter;
+  }
+  localStorageActions(type, value, storage_data_base) {
+
+    let data = JSON.parse(localStorage.getItem(this.storagename)) || [],
+    middleValue = '',
+    sendData = '';
+
+    function isContain() {
+      if (data.length !== 0) {
+        return data.find(v => v.id === value.id);
+      }
+      return false;
+    }
+
+    let filterElements = data.filter(element => value.id !== element.id);
+    let findElement = data.find(element => value.id === element.id);
+
+    if (type === 'add') {
+      if (isContain()) {
+        let currentAmount = +findElement.amount;
+        currentAmount += 1;
+        let fe = { ...findElement, amount: currentAmount };
+        middleValue = [...filterElements, fe];
+      } else
+      {
+        middleValue = [...data, value];
+      }
+    }
+    sendData = JSON.stringify(middleValue);
+    localStorage.setItem(this.storagename, sendData);
+  }
+  initBasketLength() {
+    let bsk = JSON.parse(localStorage.getItem('_local_basket_'));
+    this.counter.textContent = `( ${bsk ? bsk.length : 0} )`;
+  }
+  init() {
+    this.toggleBasket();
+    this.setControllers();
+    this.initBasketLength();
+  }}
+
+
+let _basket = new BasketComponent();
+
+basket.setBasketAmount(_basket.outputLink());
+
+
+
+
+</script>
