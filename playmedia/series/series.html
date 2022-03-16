@@ -1,0 +1,288 @@
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+</head>
+<body> <div align='center'> 
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div id="buttons"></div>
+  <div id="search">
+    <label for="filter-search">Buscar :</label>
+    <input type="text" placeholder="Nombre, Año" id="filter-search" />
+  </div>
+  <div id="gallery">
+   
+   
+    <a href="https://juandell90.github.io/playmedia/series/amazon/Harina%20El%20Teniente%20vs%20El%20Cancelador%202022.html"><img data-tags="Comedia,Amazon,2022" src="https://cdn.discordapp.com/attachments/823957641784197151/953730572952408125/Harina.webp" alt="Harina El Teniente vs El Cancelador" /></a>
+   
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+
+<style>
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#gallery {
+ 
+  padding: 4px 0 0 0;
+  
+}
+
+#gallery img {
+  margin: 8px;
+  width: 170px;
+  height: 310px;
+  cursor: pointer;
+  border-radius: 30px;
+    
+}
+
+#gallery img:hover {
+  margin: 8px;
+  opacity: .8;
+}
+
+header h1 {
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+#buttons button {
+background: black;
+  margin-right: 8px;
+border: 1px solid red;
+    border-radius: 50px;
+
+  color: white;
+}
+
+#buttons button.active {
+ background-color: #000;
+    color: #fff;
+}
+
+#buttons {
+  margin: 8px;
+  padding-bottom: 8px;
+      overflow: auto;
+    display: flex;
+}
+
+#search {
+  margin: 8px;
+   color: red;
+}
+
+input[type="text"]{
+  background: black;
+    border: 1px solid #f30000;
+    padding: 10 80px;
+    border-radius: 50px;
+    color: white;
+}
+
+button:hover{
+  background-color: #111;
+  color: #fff;
+}
+body {
+    margin: 0;
+    background: #0e0d0d;
+}
+</style>
+
+<script>
+(function() {
+  var $imgs = $('#gallery img');
+  var $buttons = $('#buttons');
+  var tagged = {};
+
+  $imgs.each(function() {
+    var img = this;
+    var tags = $(this).data('tags');
+
+    if (tags) {
+      tags.split(',').forEach(function(tagName) {
+        if (tagged[tagName] == null) {
+          tagged[tagName] = [];
+        }
+        tagged[tagName].push(img);
+      })
+    }
+  })
+
+  $('<button></button>', {
+    text: 'Todos',
+    class: 'active',
+    click: function() {
+      $(this)
+        .addClass('active')
+        .siblings()
+        .removeClass('active');
+      $imgs.show();
+    }
+  }).appendTo($buttons);
+
+  $.each(tagged, function(tagName) {
+    var $n = $(tagged[tagName]).length;
+    $('<button></button>', {
+      text: tagName + '(' + $n + ')',
+      click: function() {
+        $(this)
+          .addClass('active')
+          .siblings()
+          .removeClass('active');
+        $imgs
+          .hide()
+          .filter(tagged[tagName])
+          .show();
+      }
+    }).appendTo($buttons);
+  });
+}())
+
+(function() {
+  var $imgs = $('#gallery img');
+  var $search = $('#filter-search');
+  var cache = [];
+
+  $imgs.each(function() {
+    cache.push({
+      element: this,
+      text: this.alt.trim().toLowerCase()
+    })
+  })
+
+  function filter() {
+    var query = this.value.trim().toLowerCase();
+    cache.forEach(function(img) {
+      var index = 0;
+      if (query) {
+        index = img.text.indexOf(query);
+      }
+      img.element.style.display = index === -1 ? 'none' : '';
+    })
+  }
+  if ('oninput' in $search[0]) {
+    $search.on('input', filter);
+  } else {
+    $search.on('keyup', filter);
+  }
+}())
+</script>
