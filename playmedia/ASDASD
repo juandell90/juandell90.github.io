@@ -1,0 +1,1053 @@
+
+</div>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<script src="https://juandell90.github.io/scriptmenu1.js"></script>
+
+
+
+
+<body style="background-color:black;">
+
+
+ 
+
+
+
+<div align='center'>
+<FONT SIZE=4> 
+
+<style>
+
+
+
+
+
+
+/*-----galeria-------*/
+.btn {
+
+    background: black;
+    padding: 2px 8px;  
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50px;
+    color: white;
+}
+
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+header form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+header .search-bar {
+	background: #000;
+	    border: 1px solid rgb(255 0 0);
+	border-radius: 100px;
+	font-size: 16px;
+	height: 40px;
+	text-align: center;
+	width: 70%;
+	line-height: 40px;
+	padding: 0 20px;
+    color: white;
+}
+
+
+.grid {
+	position: relative;
+	opacity: 0;
+	transition: opacity 0.5s linear 1s;
+	width: 100%;
+}
+
+.grid.loaded-images {
+	opacity: 1;
+}
+
+.grid .item {
+	position: absolute;
+	display: block;
+	margin: 10px;
+	padding: 0;
+	width: calc(33.33% - 20px);
+}
+
+.grid .item-content {
+	position: relative;
+}
+
+.grid .item img {
+	border: 1px solid rgb(0 0 0 / 0%);
+	border-radius: 0px;
+	cursor: pointer;
+	vertical-align: top;
+	width: 100%;
+}
+
+
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+
+	
+
+	header .search-bar {
+		width: 100%;
+	}
+
+	}
+
+@media screen and (min-width: 1281px) {
+	.container {
+		max-width: 1500px;
+	}
+
+	.grid .item {
+		width: calc(20% - 20px);
+	}
+
+	header .search-bar {
+		width: 50%;
+	}
+}
+
+/*-----galeria-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+ 
+
+
+		<header>
+
+			<form action="">
+				<input type="text" class="search-bar" id="search-bar" placeholder="Buscar">
+			</form>
+
+			<!-- Categorías -->
+
+			<div class="categories" id="categories">
+
+				<a href="#"><button  class="btn" class="active">Todas</button></a>
+
+
+<a href="#"><button  class="btn">ACCION</button> </a>
+<a href="#"><button  class="btn">ANIMACION</button> </a>
+<a href="#"><button  class="btn">ANIME</button> </a>
+<a href="#"><button  class="btn">AVENTURA</button> </a>
+<a href="#"><button  class="btn">CIENCIA FICCION</button> </a>
+<a href="#"><button  class="btn">COMEDIA</button> </a>
+<a href="#"><button  class="btn">FANTASIA</button> </a>
+<a href="#"><button  class="btn">MISTERIO</button> </a>
+<a href="#"><button  class="btn">MUSICAL</button> </a>
+<a href="#"><button  class="btn">RELIGIOSA</button> </a>
+<a href="#"><button  class="btn">ROMANCE</button> </a>
+<a href="#"><button  class="btn">TERROR</button> </a>
+<a href="#"><button  class="btn">VIEJO OESTE</button> </a>
+
+
+
+
+
+
+
+
+
+
+			</div><br>
+		
+        
+		
+		<section class="grid" id="grid">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     <div class="item" 
+data-categoria="aventura" 
+data-etiquetas="capitán Nova capitán Nova capitan Nova 2022">
+<div class="container">
+<img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/prINReSbCkoktcRbrIgmbY4f0tp.jpg">  <a class="popup-youtube" href="https://www.youtube.com/watch?v=pJnkKdJhhCM"><button class="btna">►</button></a></div> 
+<div id="linkme">
+<h4 id="mtitle">Capitán Nova</h4>
+<h6 id="artist">2022</h6>   
+<a href="https://ok.ru/videoembed/3378293836393?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 121239<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2Q1QTFIcTVkeVFXaDdaeWVzMG51NVE0WEd2cmxpZndQWFRxYkE0RGFzazdIalVFeEhyL2NZK3JHYXdXbVR0TDZBa25EZEovQ25HTHI2U3VGOHoxdzEwTDE3MHllLzVsMi9jV2NLSWgxVm1Ya0p4ZXVtc2xJb3VNVng3R052SzZjMW9LL1VRc1oybXJSWTNTMmtGS0luaEE4SmpvejRJaGg3R2lnOEFEM3AzZkZuN2NUM0YxMFNERzZuMm8xN1dhTHRGRkFLdXJuSTBnclFZeXdwYktnR3V4K2hXVUhTc2x1TUt1NG5sWWt4dnZRPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 755675<br>
+
+
+				</div></div> 
+ 
+ 
+ <div class="item" 
+data-categoria="comedia" 
+data-etiquetas="La burbuja la burbuja 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/edYk5TSowZIDv138bCpF5ls3XI5.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=ZrnAobYO0sE"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La burbuja</h4>
+<h6 id="artist">2022</h6>   
+<a href="https://pelisplus.esplay.io/player.html#62484e6f2a496c5acecbeeea"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 824459<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2ZZUjBPNjhEeTltSFplNWdLOXRveWF5RnZDQy8wbXpMOXdWZWp5YnNjSGpjcmViRlF1U1lMcGswcFhrT09DUDdiOFl5K296NHJCM09XNmQxenQ3d3Y1NFdBN2k4UFU1ZkpCMEJ3NVFwbGRsMDFTSjFxQUdwSkVEaXZDRXVoeXVMaHBoWWgxNi9MdmlwcDNqMkt5NlpTWm1YQXVONjJzK3F4MEtUWlk1SXFhK0JiSldDQ0xzSFhSYS90TitsZzArenNvUWx1SXo1MGYwaHZ1VW1TdzZQYkxkSWhESElrNkhzOElxYXpNY0UyNTFRPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 713311<br>
+
+
+				</div></div> 
+                
+   <div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Batalla estilo libre batalla estilo libre 2022">
+<div class="container">
+<img src="https://static.esplay.io/movie/cover/original/vdgUNCruHI6jX9TU4vvplgpDtL7.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=IVzAh9sOnZ4"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Batalla: estilo libre</h4>
+<h6 id="artist">2022</h6>   
+<a href="https://pelisplus.esplay.io/player.html#6248c73a2a496c5ace812347"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 492840<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2UySG9yOUxHa1p4QkRuNjRISXBlUk1zdWFUMnNyazkxSDI1N0xvZ2tVY0l2MFhMWXdZa0dYVVludWlscVpMZWtpVFB5ZTIrbFRXSThiZmdsRlhyclZLajlwQjJUUkdQeEgzZlE2Zi81eVlVbFRGTVFYR0JrUERsYXlpRkpzMmJhdnk4TXVXMGFJa3ZwcHZBY3JZOWJxZU1uR1dhd0tPRDdjanJjTVNGOVBlU3I1RXRWcjBsL0pQWFdrVS9nSldFTFpsazl2WWJzSEZ6bE1GRjJOeDVIcjhzRlRRSU1oNnZyQVpUSnRpOWNoWm1BPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 839350<br>
+
+
+				</div></div>               
+                
+  <div class="item" 
+data-categoria="drama" 
+data-etiquetas="Cabalgando a la gloria cabalgando a la gloria  2022">
+<div class="container">
+<img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/eByrTo3s4VQqKGlZwxEPymSfpeA.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=flf4LSZHW-Q"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Cabalgando a la gloria</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2VRWDhSVHFTdjd1NDdvMWx4UnlKWnprWExGbm5YVXFJbWd4MGgxQ0RPRkVTSGNRbDV1TWxGTjFpc0FwNTk3WG5WV0VwQlY3aXluYUtqUFZGQzRWajNvdHFlZTZBMXBwMDNkWktMVTRTM2NBSFAyOW9pbjk4d3ZDV0o4V2EyMTlReDlKbEhKNjBBMERQNUs0YS9zdnBGWnVkSlp3Y1ZxWGhxTk9nbEpWcysxOEd1WDlIcndRWDQ2ZC8wN3hoT1VCQkxHbHJ1Q2FZNzR6Mmo1bUkyNEx6eXFPbTZGU2FpTXZWTVlzSUNrNGlhMlFBPT0"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 101763<br>
+<a href="https://ok.ru/videoembed/4523515382379?autoplay=1"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 752964<br>
+
+				</div></div>  
+                
+     <div class="item" 
+data-categoria="drama" 
+data-etiquetas="Granizo granizo 2022">
+<div class="container">
+<img src="https://static.esplay.io/movie/cover/original/pnTp17HCwQ6EhsWfqzgwnUfhSym.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=-F2watcvQQs"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Granizo</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://pelisplus.esplay.io/player.html#6245bafb2a496c5aceeae36f"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 573592<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2Z3R0t2TWZzT1BHamJvODExUFpMaUpCTm9zV05PdnhuTnd2bzd0MTdwYXZkeWNFNEhHYjJwTit3MHVYTldyUlFCbUkwemZXUTZxZWhBMTdtWXZNM1J6dE02UmZhR3hBeHlvMHVER09RQ0U3eDF5MmtmVlJleGh0Y2Jhd0FCQWt1SEw0akluMU5NQ1NMaWozcU9NRStFeXdLZ29pRVplSi8yRElSSU1LR2RkRjlkcDR5YWVlQjFBZnlIaUtxcFppa1ozRjdCdzlFK2E0VTk4c0RLNE80MnUzYS9RU010NkFNRnNSK2kwSXhRNk1nPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 752964<br>
+
+				</div></div>                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+ <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Godzilla vs kong godzilla vs kong king kong 2021">
+<div class="container">
+<img src="https://static.esplay.io/movie/cover/original/4aab7ad06bca11ebbc25b1f40778293b.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=RIKOJP9PHP0"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Godzilla vs. Kong</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://pelisplus.esplay.io/player.html#605fb7a10a37969d8463c836"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 8828<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2N6N0R1bGNUckd1Tkl6dEYvL2Rabk1Ob0Rwb1hqbTVCQWVjZ0lRc3RNVW01TS9Vaks3czRybVB4TE9KQTYzTFhEWDJrSC94UkZ6ZFVtOHlER2czdURnTGY5S2JIQjlxZG8xRnhEWnhiZXRtN0xtaEVkLzhlYjdIWlV5dXBqY2JQVExHZEhXVHFXcitCZVJlTEt1aGFIYndtVVkzaTB1a2xRbThvdk9rT2VkZmc1RkJGS0thQ2wxdWt3ZHZIT2djeFlmdlMybXREVW93dmE4ZFE2N1FGTDk3TVlNbmZ1Z0lkQzNZczBrZ3Z1U3RnPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 971181<br>
+
+				</div></div>                
+                
+ <div class="item" 
+data-categoria="animacion" 
+data-etiquetas="Luca luca 2021">
+<div class="container">
+<img src="https://static.esplay.io/movie/cover/original/pr06RihHOGE3waZQx5fs2WYUdwr.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=EJk_Z-OasXc"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Luca</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://pelisplus.esplay.io/player.html#60cf6fc5c004e7b172287104"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 454751<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2RuZFoweS9RdjJMNmJpTDZLeWoraHlBOWtFTGdJaktMY3hKN1Z6THlKN1BLMTVOTkI3b2tCV1diVUl4WEJvUE1RZWYxK0RPUnVQWnNpL1RlMXhrSGYzM25veDhGMFVLWGVDOWduZkUzU21QQmhRUkdtTTZXTDlsMFlJYmZBclEybXBBR1o3RU5BVmxzU01DRFB1TGoyQzhGamM3eE5BZjdBMnk0K2NCb1pGWUNqNmxJdWNzSk9LVnlWSmtEcXV3alZpZGF2V3EyUXlZUWNxYXRrc0FYbjlBVjk1TElDSEFac3RWdHVZY2syeE5BPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 796286<br>
+
+				</div></div>        
+                
+  <div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Cruella cruella 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/tNFBP5OTmKm7CTc5ptUwgmepd8G.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=oK13SZYZqmA"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Cruella</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://pelisplus.esplay.io/player.html#60b2a241c004e7b172f76928"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 177037<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2VYUWE3MDlicEhPYVBWVXhxS0h1SUVESDM4emROeTFuUnkyeThmU05LSmVqekxraE1uMGhqend4QUxsUGNZWkJzVDlGMUpBMXhnNnovdXI2U3ZrR0Q3ZTdqcmFDY0RMSWxyblQ1MkJYRmF6ODVXbWxON0NROUlpQS9RUTF3WlpRbWVwcWQ3eEVidWtiQmVjUDU2djE1NmJoWVhJKysrL21SejdFMmRSSG0zc0dOZVA4N0YwZ0c4b3ZTRk53OUVhenFIN1VjaERaUm92b05tYWNDTHU4TitHS3RlZjRkV1BHMHB2ZDJuVWIzU3VnPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 513605<br>
+
+				</div></div>               
+                
+ <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Avengers 4 endgame avengers 4 endgame 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/br6krBFpaYmCSglLBWRuhui7tPc.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=-51-LXoTahA"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Avengers 4: Endgame</h4>
+<h6 id="artist">2019</h6>            
+<a href="https://pelisplus.esplay.io/player.html#5fab6f246dc51d7b5d867654"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 337820<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2NsWHNqMWZlL3lMV1Jma2kyY0RjVVhCYVRWZEZHL21GZTRyZ2tRY3NuMjYyVzI0bjNOTGEwVzZ0ZlNPL0doYUQvRTdkdVpSTEV4YVkxZFQ1UExuclFacUV0UXBxZys5ZWVua2d6NjhORFRBTk05MElFMjlZL0hrUk1QMTRXemdTVVN1K2JZdVJpMGFXWUx5ckdLMklveGhHNWF2SDkxYTE3UXRoUmR4YnNGVFdXUHlPdzVZRlprNG4wR1JOZ3FHMytpSWlraXZWcTc2UjJCdDhpR2ZIZTdYMFZzU3RORnBMcDd6M2d1R3FvMDR3PT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 182224<br>
+
+				</div></div>                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+ 
+ 
+ <div class="item" 
+data-categoria="animacion" 
+data-etiquetas="La era de hielo: Las aventuras de Buck la era de hielo las aventuras de buck 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/iDah4ZcDX3F316LcLlmNNAzsRqF.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=1ECN-CIBRGk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La era de hielo: Las aventuras de Buck</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/4030220601906?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 679293<br>
+<a href="https://pelisplus.esplay.io/player.html#61f4fb1bfd40f9efd6c3df59"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 176991<br>
+
+				</div></div>
+ 
+ 
+ 
+  <div class="item" 
+data-categoria="animacion" 
+data-etiquetas="Hotel transilvania 4 transformania hotel transilvania 4 transformania 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/pwSlzCAynIF6aEP7oxWddo7Kng2.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=JpVorwyjixo"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Hotel Transilvania 4: Transformanía</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/4091087620793?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 446131<br>
+<a href="https://pelisplus.esplay.io/player.html#61e2e0bcfd40f9efd61c5b23"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 485998<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="The bunker game the bunker game El juego del bunker el juego del búnker bunker 2022">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/954443969658499112/The_Bunker_Game.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=fzBzi8YOENM"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El juego del búnker</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/3740759427658?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 495930<br>
+<a href="https://pelisplus.esplay.io/player.html#623482615a10b27921f17fbc"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 40376<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El proyecto adam el proyecto adam 2022">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/952257122190655528/El_Proyecto_Adam_2022.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=AxQXlXpiHBg"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El proyecto adam</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/3830922611372?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 717836<br>
+<a href="https://pelisplus.esplay.io/player.html#6237328a5a10b27921444528"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 979444<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="   " 
+data-etiquetas="Volviendose rojo volviendose rojo 2022">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/952245615335710730/Volviendose_Rojo.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=5IdjR-8MNSE"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Volviendose rojo</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/3831273949868?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 227787<br>
+<a href="https://pelisplus.esplay.io/player.html#6236320f5a10b279212cd95c"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 959867<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="animacion" 
+data-etiquetas="Agencia secreta de control magico agencia secreta de control magico 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/snCDylJCTmzyz4fmxkm5MsgjKyJ.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=b5ZbtIEot1s"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Agencia secreta de control magico</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/2873400363686?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 334968<br>
+<a href="https://sbfast.com/e/c9sqaqlyyxuw.html"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 247299<br>
+
+				</div></div>
+                
+                 <div class="item" a
+data-categoria="accion" 
+data-etiquetas="El ejército de los muertos el ejercito de los muertos 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/4h1Uc13QPjHTTUX0bikICWUxTSV.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=ikxpwm2-fTk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El ejército de los muertos</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/2156279302752?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 160475<br>
+<a href="https://pelisplus.esplay.io/player.html#60a8ca6fc004e7b172e7554f"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 141424<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="romance" 
+data-etiquetas="Allí me encontrarás allí me encontrarás alli me encontraras">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951532034587770931/Alli_me_encontraras_2021.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=E8MrhWwyLn4"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Allí me encontrarás</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3315106318953?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 907125<br>
+<a href="https://pelisplus.esplay.io/player.html#6228adde5a10b27921c51800"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 691042<br>
+
+				</div></div>
+ 
+ 
+ 
+  <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Asesinos sádicos asesinos sadicos asesinos sádicos butchers Butchers2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951261831836622918/Asesinos_Sadicos_2021.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=M2SgVBxMGRs"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Asesinos sádicos</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/2878188948073?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 349277<br>
+<a href="https://pelisplus.esplay.io/player.html#6085ac50cbe3b8075d39069f"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 634217<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Bajo Ataque bajo Ataque Overrun overrun 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951265833525583872/Bajo_Ataque_2021.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=9xSrXGuE3Ok"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">  Bajo Ataque </h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3307406297705?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 286461<br>
+<a href="https://pelisplus.esplay.io/player.html#612e1a8727e0614f06f3fa85"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 825292<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="   " 
+data-etiquetas="Al filo de la muerte al filo de la muerte Out of death out of Death 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951539508111896636/Al_Filo_De_La_Muerte.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=nT-9VCJbbps"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Al filo de la muerte</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3307406494313?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 33134<br>
+<a href="https://pelisplus.esplay.io/player.html#622a73835a10b279213dbe41"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 565842<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El día después de mañana el dia después de mañana 2004">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951256451161153536/El_dia_despues_de_manana_2004.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=uGU3KLfT81I"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El día después de mañana</h4>
+<h6 id="artist">2004</h6>            
+<a href="https://ok.ru/videoembed/2443460348512?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo885865<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad86836dc51d7b5d87d0d8"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 378562<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Spider Man sin camino a casa spider Man sin camino a casa 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/823957641784197151/953741350954745876/Spider-Man_Sin_camino_a_casa.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=aIONNnhkonQ"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Spider Man sin camino a casa</h4>
+<h6 id="artist">2021</h6>            
+
+<a href="https://pelisplus.esplay.io/player.html#61bb411a6b5a399d4c755959"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 70935<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Dos sinverguenzas dos sinverguenzas2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/954473909888102430/Dos_Sinverguenzas.webp">
+<a class="popup-youtube"class="popup-youtube" href="https://www.youtube.com/watch?v=sOQCOP81rqs"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Dos Sinvergüenzas </h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/2337538443881?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 902127<br>
+
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Venom carnage liberado venom carnage liberado habra matanza 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/954479044479553656/Venom_Carnage_Liberado.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=F4Ygcigj0Gk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Venom carnage liberado</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://pelisplus.esplay.io/player.html#615dab2a42abd6714a033dee"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 407774<br>
+
+
+				</div></div>
+ 
+ 
+ 
+  <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Halloween kills la noche aun no termina halloween kills la noche aun no termina 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/954482822410829884/Halloween_Kills_La_Noche_Aun_No_Termina1.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=QKePDtYoGeE"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Halloween kills la noche aun no termina</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3343116798587?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo    <br>
+<a href="https://ok.ru/videoembed/   "><button  class="btn">LATINO 2▶️</button></a><br>Codigo    <br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Aves de presa aves de presa 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4GCqF17I2ST5M8iSkwh1jwqvi7F.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=cqYOShqq4zY"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Aves de presa</h4>
+<h6 id="artist">2020</h6>            
+<a href="https://ok.ru/videoembed/2365886040672?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 394772<br>
+<a href="https://pelisplus.esplay.io/player.html#605c862a50ede53c44c1afcd"><button  class="btn">LATINO 2▶️</button></a><br>Codigo480053<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="It it Eso eso 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/9oERKIVyTWpHNum3STVsAGD4ojz.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=o1sQbtZpsic"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">It (Eso): Capítulo dos</h4>
+<h6 id="artist">2019</h6>            
+<a href="https://pelisplus.esplay.io/player.html#5fab702a6dc51d7b5d8677af"><button  class="btn">LATINO 1▶️</button></a><br>Codigo198390<br>
+
+
+				</div></div>
+                
+                
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="It it Eso eso 1990">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950466136640729108/it.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=8qW9lyAKg0s"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">It (Eso)</h4>
+<h6 id="artist">1990</h6>            
+<a href="https://ok.ru/videoembed/2242397997664?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo250836<br>
+
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Logan wolverine Logan wolverine 2017">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950461210854322196/Loga1n.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=atu1yOOXIz0"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Logan: wolverine</h4>
+<h6 id="artist">2017</h6>            
+<a href="https://ok.ru/videoembed/2242397473376?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 746549<br>
+<a href="https://pelisplus.esplay.io/player.html#5faba3906dc51d7b5d8695b4"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 774586<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Venganza a golpes venganza a golpe 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/948793732516413470/Venganza_a_Golpes.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=y3bDNQL_zGA"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Venganza a golpes</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3054211107482?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 14418<br>
+<a href="https://pelisplus.esplay.io/player.html#62177888dd56b3e59fbf2ed2"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 915214<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El señor de los anillos la comunidad del anillo el señor de los anillos la comunidad del anillo 2001">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=GuW21RLMndc"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Señor de los Anillos 1: La Comunidad del Anillo</h4>
+<h6 id="artist">2001</h6>            
+<a href="https://ok.ru/videoembed/3977141029389?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 414471<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad44e56dc51d7b5d87a373"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 268646<br>
+
+				</div></div>
+                
+                
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El señor de los anillos las dos torres el señor de los anillos las dos torres 2002">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qHEU9067PL8iIZULg7q58NvoWlS.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=GPAOgWeAU-E"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Señor de los Anillos 2: Las dos torres</h4>
+<h6 id="artist">2002</h6>            
+<a href="https://pelisplus.esplay.io/player.html#5fad44e56dc51d7b5d87a373"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 753891<br>
+<a href="https://ok.ru/videoembed/3589877467765?autoplay=1"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 809373<br>
+
+				</div></div>
+                
+                
+                                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El señor de los anillos el retorno del rey 2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mWuFbQrXyLk2kMBKF9TUPtDwuPx.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=h-9RYiqyqjk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Señor de los Anillos 3: El Retorno del Rey</h4>
+<h6 id="artist">2003</h6>            
+<a href="https://pelisplus.esplay.io/player.html#5fad2d326dc51d7b5d879a94"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 165830<br>
+<a href="https://ok.ru/videoembed/3310200359621?autoplay=1"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 660523<br>
+
+				</div></div>
+                
+                
+                                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Amor y monstruos amor y monstruos 2020">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/949889117938937866/AMOR_Y_MONSTRUOS.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=QCuzHub7jaI"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Amor y monstruos </h4>
+<h6 id="artist">2020</h6>            
+<a href="https://ok.ru/videoembed/2641545464533?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 529086<br>
+<a href="https://sbembed.com/e/jqf8nbvf655v.html"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 247934<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Soldado universal soldado universal 1992">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bVzCLh3nDdEqOvdLQIxGQirRzfa.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=vQOBzODlz38"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Soldado universal</h4>
+<h6 id="artist">1992</h6>            
+<a href="https://ok.ru/videoembed/344304323203?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 640146   <br>
+
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park 1993 ">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/456FcvyTujRwzgoMoKKoheeCOlU.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=nFMqT3f-3XU"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic Park 1</h4>
+<h6 id="artist">1993</h6>            
+<a href="https://ok.ru/videoembed/2260902808160?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 675938<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad3b966dc51d7b5d879fba"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 103707<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950490068185923644/Jurassic_Park_2.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=KI4FMhFCU7c"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic Park II: El Mundo Perdido</h4>
+<h6 id="artist">1997</h6>            
+<a href="https://ok.ru/videoembed/2260902939232?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 116350<br>
+<a href="https://pelisplus.esplay.io/player.html#5fadbeb16dc51d7b5d880f60"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 548266<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950491765218095134/Jurassic_Park_III.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=qehG9dKVDG4"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic Park III</h4>
+<h6 id="artist">2001</h6>            
+<a href="https://ok.ru/videoembed/2260902742624?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 229146<br>
+<a href="https://sbfast.com/e/p1m060mxayxy.html"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 850170<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950495034149572719/Jurassic_World.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=nQwt1nlSQ3A"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic World: Mundo Jurásico</h4>
+<h6 id="artist">2015</h6>            
+<a href="https://ok.ru/videoembed/2260902873696?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 952962<br>
+<a href="https://pelisplus.esplay.io/player.html#5fabb6216dc51d7b5d869978"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 969391<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950497230773706774/Jurassic_World_El_Reino_Caido.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=ye8-GQNf8p0"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic World: El Reino Caído</h4>
+<h6 id="artist">2018</h6>            
+<a href="https://ok.ru/videoembed/2260903004768?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 458115<br>
+<a href="https://pelisplus.esplay.io/player.html#5faba3766dc51d7b5d8695a4"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 605431<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Chucky el muñeco diabólico chucky el muñeco diabólico 1988">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950609387968430110/Chucky.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=sjiyV8mtXiU"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Chucky: el muñeco diabólico </h4>
+<h6 id="artist">1988</h6>            
+<a href="https://ok.ru/videoembed/2320009267808?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 538135<br>
+
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Chucky el muñeco diabólico chucky el muñeco diabólico 1990">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950611254727299132/Chucky_el_muneco_diabolico_2.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=xIRWyGHn0Ck"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Chucky: el muñeco diabólico 2</h4>
+<h6 id="artist">1990</h6>            
+<a href="https://ok.ru/videoembed/2320009202272?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 126031<br>
+<a href="https://pelisplus.esplay.io/player.html#5face7506dc51d7b5d878b5b"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 285273<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Chucky el muñeco diabólico chucky el muñeco diabólico 1991">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950615255430598656/Chucky_el_muneco_diabolico_3.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=PXhjlYbvUco"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Chucky: el muñeco diabólico 3</h4>
+<h6 id="artist">1991</h6>            
+<a href="https://ok.ru/videoembed/2320009333344?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 567325<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad36a36dc51d7b5d879dca"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 138552<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="La novia de chucky la novia de Chucky 1998">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/mBodnkKUe1gPXOihAsIHTvFvLK4.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=acmd3l1rr0g"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La novia de Chucky</h4>
+<h6 id="artist">1998</h6>            
+<a href="https://ok.ru/videoembed/2320009923168?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 162622<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad24076dc51d7b5d87982e"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 725728<br>
+
+				</div></div>
+                
+                                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="El hijo de chucky el hijo de chucky 2004">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950839476027002880/El_hijo_de_chucky.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=-g4TZOoXC1E"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El hijo de Chucky</h4>
+<h6 id="artist">2004</h6>            
+<a href="https://ok.ru/videoembed/2320010316384?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 364672<br>
+
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="La maldición de chucky la maldición de chucky 2013">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950844184938553404/La_maldicion_de_Chucky.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=GgoO7GLQShw"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La maldición de Chucky </h4>
+<h6 id="artist">2013</h6>            
+<a href="https://ok.ru/videoembed/2320010119776?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 197718<br>
+
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Culto a chucky culto a chucky 2017">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950865790175944784/Culto_a_Chucky.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=K2qtNIL_5VM"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Culto a Chucky </h4>
+<h6 id="artist">2017</h6>            
+<a href="https://ok.ru/videoembed/2320009988704?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 55536<br>
+<a href="https://pelisplus.esplay.io/player.html#60e317f8c004e7b17247bb10"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 850261<br>
+
+				</div></div>
+           
+           
+                                            <div class="item" 
+data-categoria="terror" 
+data-etiquetas="El muñeco diabólico el muñeco diabólico Chucky chucky 2019">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951243431110397963/El_muneco_diabolico.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=3QkBwIb_6o0"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El muñeco diabólico</h4>
+<h6 id="artist">2019</h6>            
+<a href="https://ok.ru/videoembed/2320010054240?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 446429<br>
+
+
+				</div></div>
+                   
+                   
+        
+
+            
+           
+            
+           
+            
+             
+            
+           
+            
+             
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+			
+		
+			
+		</section>
+
+	
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+
+
+  <script>
+  /* Inicializar Muuri */
+const grid = new Muuri('.grid', {
+	layout: {
+		rounding: false
+	}
+});
+
+/* Transición al Cargar la Imágenes*/
+window.addEventListener('load', () => {
+	grid.refreshItems().layout();
+	document.getElementById('grid').classList.add('loaded-images');
+
+	/* Listener de los Enlaces para Filtrar por Categoría */
+	const enlaces = document.querySelectorAll('#categories a');
+	enlaces.forEach( (elemento) => {
+		elemento.addEventListener('click', (evento) => {
+			evento.preventDefault();
+			enlaces.forEach((enlace) => enlace.classList.remove('active'));
+			event.target.classList.add('active');
+
+			/* Identificar la categoria del enlace que fué cliqueado */
+			const categoria = evento.target.innerHTML.toLowerCase();
+			categoria === 'todas' ? grid.filter('[data-categoria]') : grid.filter(`[data-categoria="${categoria}"]`);
+		});
+	} );
+
+	/* Listener para la Barra de Búsqueda */
+	document.querySelector('#search-bar').addEventListener('input', (evento) => {
+		const busqueda = evento.target.value;
+		grid.filter( (item) => item.getElement().dataset.etiquetas.includes(busqueda) );
+	});
+
+
+
+});
+  
+ </script>
+
+
+
+ 
