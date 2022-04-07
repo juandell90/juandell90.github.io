@@ -10,7 +10,8 @@
 
 body{
 
-background: black;
+background: #404040;
+color: red;
 }
 
 
@@ -33,10 +34,10 @@ background: black;
 }
 
 #gallery img {
-  margin: 8px;
-  width: 214px;
+  margin: 1px;
+  width:150px;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 20px;
   
 }
 
@@ -52,16 +53,31 @@ header h1 {
 }
 
 #buttons button {
-  border: 1px solid #efefef;
-  margin-right: 8px;
-  border: 0;
-  padding: 8px;
-  border-radius: 3px;
+
+    background: black;
+    padding: 4px 10px;
+ 
+ 
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50px;
+    color: white;
 }
 
+.btn{
+ background: black;
+    padding: 4px 10px;
+ 
+ 
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50px;
+    color: white;
+    }
+
 #buttons button.active {
-  background-color: #bbb;
-  color: #111;
+  background-color: #000;
+  color: #f00;
 }
 
 #buttons {
@@ -74,15 +90,18 @@ header h1 {
 }
 
 input[type="text"]{
-  border-radius: 3px;
-  border: 1px solid #efefef;
-  padding: 0 8px;
+  border-radius: 30px;
+      border: 1px solid #ff0000;
+  padding: 5px 42px;
+  background: black;
+  color: red;
 }
 
 button:hover{
   background-color: #111;
   color: #fff;
 }
+
 
 
 </style>
@@ -94,10 +113,10 @@ button:hover{
 <div class="container">
   <div id="buttons"></div>
   <div id="search">
-    <label for="filter-search">Search : </label>
-    <input type="text" placeholder="..." id="filter-search" />
+    <label for="filter-search">Buscar</label>
+    <input type="text" placeholder="Nombre o Año" id="filter-search" />
   </div>
-  <div id="gallery" ><img class="kk" data-tags="ACCION,ANIMACION,ANIME,AVENTURA,CIENCIA FICCION,COMEDIA,FANTASIA,MISTERIO,MUSICAL,RELIGIOSA,ROMANCE,TERROR,VIEJO OESTE" width="1000">
+  <div id="gallery" ><img class="kk" data-tags="ACCION,ANIMACION,ANIME,AVENTURA,CIENCIA FICCION,COMEDIA,FANTASIA,MISTERIO,MUSICAL,RELIGIOSA,ROMANCE,TERROR,VIEJO OESTE" >
     
     
     
@@ -108,56 +127,17 @@ button:hover{
 
 
   
-<img onclick="document.getElementById('id01').style.display='block'"  data-tags="ACCION" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/prINReSbCkoktcRbrIgmbY4f0tp.jpg" alt="Capitán Nova" />
+<img onclick="document.getElementById('Capitán Nova 2022').style.display='block'"  data-tags="ACCION" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/prINReSbCkoktcRbrIgmbY4f0tp.jpg" alt="Capitan Nova 2022" />
 
-  <div id="id01" class="w3-modal w3-animate-opacity">
+  <div id="Capitán Nova 2022" class="w3-modal w3-animate-opacity">
     <div class="w3-modal-content w3-card-4">
       <header class="w3-container w3-teal"> 
-        <span onclick="document.getElementById('id01').style.display='none'" 
+        <span onclick="document.getElementById('Capitán Nova 2022').style.display='none'" 
         class="w3-button w3-large w3-display-topright">&times;</span>
         <h2>Capitán Nova 2022</h2>
       </header>
       <div class="w3-container">
-        <a href="https://ok.ru/videoembed/3378293836393?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 121239<br>
-<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2Q1QTFIcTVkeVFXaDdaeWVzMG51NVE0WEd2cmxpZndQWFRxYkE0RGFzazdIalVFeEhyL2NZK3JHYXdXbVR0TDZBa25EZEovQ25HTHI2U3VGOHoxdzEwTDE3MHllLzVsMi9jV2NLSWgxVm1Ya0p4ZXVtc2xJb3VNVng3R052SzZjMW9LL1VRc1oybXJSWTNTMmtGS0luaEE4SmpvejRJaGg3R2lnOEFEM3AzZkZuN2NUM0YxMFNERzZuMm8xN1dhTHRGRkFLdXJuSTBnclFZeXdwYktnR3V4K2hXVUhTc2x1TUt1NG5sWWt4dnZRPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 755675<br>
-      </div>
-      <footer class="w3-container w3-teal">
-        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=pJnkKdJhhCM"><button>Ver Trailer►</button></a></p>
-      </footer>
-    </div>
-  </div>
-
-
-<img onclick="document.getElementById('id01').style.display='block'"  data-tags="ACCION" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/prINReSbCkoktcRbrIgmbY4f0tp.jpg" alt="Capitán Nova" />
-
-  <div id="id01" class="w3-modal w3-animate-opacity">
-    <div class="w3-modal-content w3-card-4">
-      <header class="w3-container w3-teal"> 
-        <span onclick="document.getElementById('id01').style.display='none'" 
-        class="w3-button w3-large w3-display-topright">&times;</span>
-        <h2>Capitán Nova 2022</h2>
-      </header>
-      <div class="w3-container">
-        <p>Some text..</p>
-        <p>Some text..</p>
-      </div>
-      <footer class="w3-container w3-teal">
-        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=pJnkKdJhhCM"><button>Ver Trailer►</button></a></p>
-      </footer>
-    </div>
-  </div>
-
-    <img onclick="document.getElementById('id01').style.display='block'"  data-tags="ACCION" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/prINReSbCkoktcRbrIgmbY4f0tp.jpg" alt="Capitán Nova" />
-
-  <div id="id01" class="w3-modal w3-animate-opacity">
-    <div class="w3-modal-content w3-card-4">
-      <header class="w3-container w3-teal"> 
-        <span onclick="document.getElementById('id01').style.display='none'" 
-        class="w3-button w3-large w3-display-topright">&times;</span>
-        <h2>Capitán Nova 2022</h2>
-      </header>
-      <div class="w3-container">
-        <a href="https://ok.ru/videoembed/3378293836393?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 121239<br>
+        <a href="https://ok.ru/videoembed/3378293836393?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 121239<br><br>
 <a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2Q1QTFIcTVkeVFXaDdaeWVzMG51NVE0WEd2cmxpZndQWFRxYkE0RGFzazdIalVFeEhyL2NZK3JHYXdXbVR0TDZBa25EZEovQ25HTHI2U3VGOHoxdzEwTDE3MHllLzVsMi9jV2NLSWgxVm1Ya0p4ZXVtc2xJb3VNVng3R052SzZjMW9LL1VRc1oybXJSWTNTMmtGS0luaEE4SmpvejRJaGg3R2lnOEFEM3AzZkZuN2NUM0YxMFNERzZuMm8xN1dhTHRGRkFLdXJuSTBnclFZeXdwYktnR3V4K2hXVUhTc2x1TUt1NG5sWWt4dnZRPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 755675<br>
       </div>
       <footer class="w3-container w3-teal">
@@ -166,43 +146,404 @@ button:hover{
     </div>
   </div>
   
-  <img onclick="document.getElementById('id01').style.display='block'"  data-tags="ACCION" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/prINReSbCkoktcRbrIgmbY4f0tp.jpg" alt="Capitán Nova" />
-
-  <div id="id01" class="w3-modal w3-animate-opacity">
-    <div class="w3-modal-content w3-card-4">
-      <header class="w3-container w3-teal"> 
-        <span onclick="document.getElementById('id01').style.display='none'" 
-        class="w3-button w3-large w3-display-topright">&times;</span>
-        <h2>Capitán Nova 2022</h2>
-      </header>
-      <div class="w3-container">
-        <a href="https://ok.ru/videoembed/3378293836393?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 121239<br>
-<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2Q1QTFIcTVkeVFXaDdaeWVzMG51NVE0WEd2cmxpZndQWFRxYkE0RGFzazdIalVFeEhyL2NZK3JHYXdXbVR0TDZBa25EZEovQ25HTHI2U3VGOHoxdzEwTDE3MHllLzVsMi9jV2NLSWgxVm1Ya0p4ZXVtc2xJb3VNVng3R052SzZjMW9LL1VRc1oybXJSWTNTMmtGS0luaEE4SmpvejRJaGg3R2lnOEFEM3AzZkZuN2NUM0YxMFNERzZuMm8xN1dhTHRGRkFLdXJuSTBnclFZeXdwYktnR3V4K2hXVUhTc2x1TUt1NG5sWWt4dnZRPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 755675<br>
-      </div>
-      <footer class="w3-container w3-teal">
-        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=pJnkKdJhhCM"><button>Ver Trailer►</button></a></p>
-      </footer>
-    </div>
-  </div>
+  <!--                 dividir               -->
   
-  <img onclick="document.getElementById('id01').style.display='block'"  data-tags="ACCION" src="https://static.esplay.io/movie/cover/original/vdgUNCruHI6jX9TU4vvplgpDtL7.webp" alt="Capitán Nova" />
+  
+  <img onclick="document.getElementById('La burbuja 2022').style.display='block'"  data-tags="COMEDIA" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/edYk5TSowZIDv138bCpF5ls3XI5.jpg" alt="La burbuja 2022" />
 
-  <div id="id01" class="w3-modal w3-animate-opacity">
+  <div id="La burbuja 2022" class="w3-modal w3-animate-opacity">
     <div class="w3-modal-content w3-card-4">
       <header class="w3-container w3-teal"> 
-        <span onclick="document.getElementById('id01').style.display='none'" 
+        <span onclick="document.getElementById('La burbuja 2022').style.display='none'" 
         class="w3-button w3-large w3-display-topright">&times;</span>
-        <h2>Capitán Nova 2022</h2>
+        <h2>La burbuja 2022</h2>
       </header>
       <div class="w3-container">
-        <a href="https://ok.ru/videoembed/3378293836393?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 121239<br>
-<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2Q1QTFIcTVkeVFXaDdaeWVzMG51NVE0WEd2cmxpZndQWFRxYkE0RGFzazdIalVFeEhyL2NZK3JHYXdXbVR0TDZBa25EZEovQ25HTHI2U3VGOHoxdzEwTDE3MHllLzVsMi9jV2NLSWgxVm1Ya0p4ZXVtc2xJb3VNVng3R052SzZjMW9LL1VRc1oybXJSWTNTMmtGS0luaEE4SmpvejRJaGg3R2lnOEFEM3AzZkZuN2NUM0YxMFNERzZuMm8xN1dhTHRGRkFLdXJuSTBnclFZeXdwYktnR3V4K2hXVUhTc2x1TUt1NG5sWWt4dnZRPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 755675<br>
+        <a href="https://pelisplus.esplay.io/player.html#62484e6f2a496c5acecbeeea"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 824459<br><br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2ZZUjBPNjhEeTltSFplNWdLOXRveWF5RnZDQy8wbXpMOXdWZWp5YnNjSGpjcmViRlF1U1lMcGswcFhrT09DUDdiOFl5K296NHJCM09XNmQxenQ3d3Y1NFdBN2k4UFU1ZkpCMEJ3NVFwbGRsMDFTSjFxQUdwSkVEaXZDRXVoeXVMaHBoWWgxNi9MdmlwcDNqMkt5NlpTWm1YQXVONjJzK3F4MEtUWlk1SXFhK0JiSldDQ0xzSFhSYS90TitsZzArenNvUWx1SXo1MGYwaHZ1VW1TdzZQYkxkSWhESElrNkhzOElxYXpNY0UyNTFRPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 713311<br>
       </div>
       <footer class="w3-container w3-teal">
-        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=pJnkKdJhhCM"><button>Ver Trailer►</button></a></p>
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=ZrnAobYO0sE"><button>Ver Trailer►</button></a></p>
       </footer>
     </div>
   </div>
+
+  <!--                 dividir               -->
+
+
+<img onclick="document.getElementById('Batalla: estilo libre 2022').style.display='block'"  data-tags="COMEDIA" src="https://static.esplay.io/movie/cover/original/vdgUNCruHI6jX9TU4vvplgpDtL7.webp" alt="Batalla estilo libre 2022" />
+
+  <div id="Batalla: estilo libre 2022" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Batalla: estilo libre 2022').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Batalla: estilo libre 2022</h2>
+      </header>
+      <div class="w3-container">
+       <a href="https://pelisplus.esplay.io/player.html#6248c73a2a496c5ace812347"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 492840<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2UySG9yOUxHa1p4QkRuNjRISXBlUk1zdWFUMnNyazkxSDI1N0xvZ2tVY0l2MFhMWXdZa0dYVVludWlscVpMZWtpVFB5ZTIrbFRXSThiZmdsRlhyclZLajlwQjJUUkdQeEgzZlE2Zi81eVlVbFRGTVFYR0JrUERsYXlpRkpzMmJhdnk4TXVXMGFJa3ZwcHZBY3JZOWJxZU1uR1dhd0tPRDdjanJjTVNGOVBlU3I1RXRWcjBsL0pQWFdrVS9nSldFTFpsazl2WWJzSEZ6bE1GRjJOeDVIcjhzRlRRSU1oNnZyQVpUSnRpOWNoWm1BPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 839350<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=IVzAh9sOnZ4"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  <img onclick="document.getElementById('Cabalgando a la gloria 2021').style.display='block'"  data-tags="DRAMA" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/eByrTo3s4VQqKGlZwxEPymSfpeA.jpg" alt="Cabalgando a la gloria 2021" />
+
+  <div id="Cabalgando a la gloria 2021" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Cabalgando a la gloria 2021').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Cabalgando a la gloria 2021</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2VRWDhSVHFTdjd1NDdvMWx4UnlKWnprWExGbm5YVXFJbWd4MGgxQ0RPRkVTSGNRbDV1TWxGTjFpc0FwNTk3WG5WV0VwQlY3aXluYUtqUFZGQzRWajNvdHFlZTZBMXBwMDNkWktMVTRTM2NBSFAyOW9pbjk4d3ZDV0o4V2EyMTlReDlKbEhKNjBBMERQNUs0YS9zdnBGWnVkSlp3Y1ZxWGhxTk9nbEpWcysxOEd1WDlIcndRWDQ2ZC8wN3hoT1VCQkxHbHJ1Q2FZNzR6Mmo1bUkyNEx6eXFPbTZGU2FpTXZWTVlzSUNrNGlhMlFBPT0"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 101763<br><br>
+<a href="https://ok.ru/videoembed/4523515382379?autoplay=1"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 752964<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=flf4LSZHW-Q"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+    <img onclick="document.getElementById('Granizo 2022').style.display='block'"  data-tags="DRAMA" src="https://static.esplay.io/movie/cover/original/pnTp17HCwQ6EhsWfqzgwnUfhSym.webp" alt="Granizo 2022" />
+
+  <div id="Granizo 2022" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Granizo 2022').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Granizo 2022</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://pelisplus.esplay.io/player.html#6245bafb2a496c5aceeae36f"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 573592<br><br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2Z3R0t2TWZzT1BHamJvODExUFpMaUpCTm9zV05PdnhuTnd2bzd0MTdwYXZkeWNFNEhHYjJwTit3MHVYTldyUlFCbUkwemZXUTZxZWhBMTdtWXZNM1J6dE02UmZhR3hBeHlvMHVER09RQ0U3eDF5MmtmVlJleGh0Y2Jhd0FCQWt1SEw0akluMU5NQ1NMaWozcU9NRStFeXdLZ29pRVplSi8yRElSSU1LR2RkRjlkcDR5YWVlQjFBZnlIaUtxcFppa1ozRjdCdzlFK2E0VTk4c0RLNE80MnUzYS9RU010NkFNRnNSK2kwSXhRNk1nPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 752964<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=-F2watcvQQs"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  
+  <img onclick="document.getElementById('Godzilla vs kong 2021').style.display='block'"  data-tags="DRAMA" src="https://static.esplay.io/movie/cover/original/4aab7ad06bca11ebbc25b1f40778293b.webp" alt="Godzilla vs kong 2021" />
+
+  <div id="Godzilla vs kong 2021" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Godzilla vs kong 2021').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Godzilla vs kong 2021</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://pelisplus.esplay.io/player.html#605fb7a10a37969d8463c836"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 8828<br><br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2N6N0R1bGNUckd1Tkl6dEYvL2Rabk1Ob0Rwb1hqbTVCQWVjZ0lRc3RNVW01TS9Vaks3czRybVB4TE9KQTYzTFhEWDJrSC94UkZ6ZFVtOHlER2czdURnTGY5S2JIQjlxZG8xRnhEWnhiZXRtN0xtaEVkLzhlYjdIWlV5dXBqY2JQVExHZEhXVHFXcitCZVJlTEt1aGFIYndtVVkzaTB1a2xRbThvdk9rT2VkZmc1RkJGS0thQ2wxdWt3ZHZIT2djeFlmdlMybXREVW93dmE4ZFE2N1FGTDk3TVlNbmZ1Z0lkQzNZczBrZ3Z1U3RnPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 971181<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=RIKOJP9PHP0"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  
+  <img onclick="document.getElementById('luca 2021').style.display='block'"  data-tags="DRAMA" src="https://static.esplay.io/movie/cover/original/pr06RihHOGE3waZQx5fs2WYUdwr.webp" alt="luca 2021" />
+
+  <div id="luca 2021" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('luca 2021').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>luca 2021</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://pelisplus.esplay.io/player.html#60cf6fc5c004e7b172287104"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 454751<br><br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2RuZFoweS9RdjJMNmJpTDZLeWoraHlBOWtFTGdJaktMY3hKN1Z6THlKN1BLMTVOTkI3b2tCV1diVUl4WEJvUE1RZWYxK0RPUnVQWnNpL1RlMXhrSGYzM25veDhGMFVLWGVDOWduZkUzU21QQmhRUkdtTTZXTDlsMFlJYmZBclEybXBBR1o3RU5BVmxzU01DRFB1TGoyQzhGamM3eE5BZjdBMnk0K2NCb1pGWUNqNmxJdWNzSk9LVnlWSmtEcXV3alZpZGF2V3EyUXlZUWNxYXRrc0FYbjlBVjk1TElDSEFac3RWdHVZY2syeE5BPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 796286<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=EJk_Z-OasXc"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  
+   <img onclick="document.getElementById('Cruella 2021').style.display='block'"  data-tags="DRAMA" src="https://www.themoviedb.org/t/p/w220_and_h330_face/tNFBP5OTmKm7CTc5ptUwgmepd8G.jpg" alt="Cruella 2021" />
+
+  <div id="Cruella 2021" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Cruella 2021').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Cruella 2021</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://pelisplus.esplay.io/player.html#60b2a241c004e7b172f76928"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 177037<br><br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2VYUWE3MDlicEhPYVBWVXhxS0h1SUVESDM4emROeTFuUnkyeThmU05LSmVqekxraE1uMGhqend4QUxsUGNZWkJzVDlGMUpBMXhnNnovdXI2U3ZrR0Q3ZTdqcmFDY0RMSWxyblQ1MkJYRmF6ODVXbWxON0NROUlpQS9RUTF3WlpRbWVwcWQ3eEVidWtiQmVjUDU2djE1NmJoWVhJKysrL21SejdFMmRSSG0zc0dOZVA4N0YwZ0c4b3ZTRk53OUVhenFIN1VjaERaUm92b05tYWNDTHU4TitHS3RlZjRkV1BHMHB2ZDJuVWIzU3VnPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 513605<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=oK13SZYZqmA"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  <img onclick="document.getElementById('Avengers 4: Endgame 2019').style.display='block'"  data-tags="DRAMA" src="https://www.themoviedb.org/t/p/w220_and_h330_face/br6krBFpaYmCSglLBWRuhui7tPc.jpg" alt="Avengers 4: Endgame 2019" />
+
+  <div id="Avengers 4: Endgame 2019" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Avengers 4: Endgame 2019').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Avengers 4: Endgame 2019</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://pelisplus.esplay.io/player.html#5fab6f246dc51d7b5d867654"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 337820<br><br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2NsWHNqMWZlL3lMV1Jma2kyY0RjVVhCYVRWZEZHL21GZTRyZ2tRY3NuMjYyVzI0bjNOTGEwVzZ0ZlNPL0doYUQvRTdkdVpSTEV4YVkxZFQ1UExuclFacUV0UXBxZys5ZWVua2d6NjhORFRBTk05MElFMjlZL0hrUk1QMTRXemdTVVN1K2JZdVJpMGFXWUx5ckdLMklveGhHNWF2SDkxYTE3UXRoUmR4YnNGVFdXUHlPdzVZRlprNG4wR1JOZ3FHMytpSWlraXZWcTc2UjJCdDhpR2ZIZTdYMFZzU3RORnBMcDd6M2d1R3FvMDR3PT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 182224<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=-51-LXoTahA"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+   <img onclick="document.getElementById('La era de hielo: Las aventuras de Buck 2022').style.display='block'"  data-tags="DRAMA" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/iDah4ZcDX3F316LcLlmNNAzsRqF.jpg" alt="La era de hielo: Las aventuras de Buck 2022" />
+
+  <div id="La era de hielo: Las aventuras de Buck 2022" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('La era de hielo: Las aventuras de Buck 2022').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>La era de hielo: Las aventuras de Buck 2022</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://ok.ru/videoembed/4030220601906?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 679293<br><br>
+<a href="https://pelisplus.esplay.io/player.html#61f4fb1bfd40f9efd6c3df59"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 176991<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=1ECN-CIBRGk"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  
+   <img onclick="document.getElementById('Hotel transilvania 4 transformania 2022').style.display='block'"  data-tags="DRAMA" src="https://www.themoviedb.org/t/p/w220_and_h330_face/pwSlzCAynIF6aEP7oxWddo7Kng2.jpg" alt="Hotel transilvania 4 transformania 2022" />
+
+  <div id="Hotel transilvania 4 transformania 2022" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Hotel transilvania 4 transformania 2022').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Hotel Transilvania 4: Transformanía 2022</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://ok.ru/videoembed/4091087620793?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 446131<br><br>
+<a href="https://pelisplus.esplay.io/player.html#61e2e0bcfd40f9efd61c5b23"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 485998<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=s2B-mGtNw2U"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  <img onclick="document.getElementById('El juego del búnker 2022').style.display='block'"  data-tags="DRAMA" src="https://cdn.discordapp.com/attachments/827059486086004789/954443969658499112/The_Bunker_Game.webp" alt="El juego del búnker 2022" />
+
+  <div id="El juego del búnker 2022" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('El juego del búnker 2022').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>El juego del búnker 2022</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://ok.ru/videoembed/3740759427658?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 495930<br><br>
+<a href="https://pelisplus.esplay.io/player.html#623482615a10b27921f17fbc"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 40376<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=fzBzi8YOENM"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  <img onclick="document.getElementById('El proyecto adam 2022').style.display='block'"  data-tags="DRAMA" src="https://cdn.discordapp.com/attachments/827059486086004789/952257122190655528/El_Proyecto_Adam_2022.webp" alt="El proyecto adam 2022" />
+
+  <div id="El proyecto adam 2022" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('El proyecto adam 2022').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>El proyecto adam 2022</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://ok.ru/videoembed/3830922611372?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 717836<br><br>
+<a href="https://pelisplus.esplay.io/player.html#6237328a5a10b27921444528"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 979444<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=AxQXlXpiHBg"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  <img onclick="document.getElementById('Volviendose rojo 2022').style.display='block'"  data-tags="DRAMA" src="https://cdn.discordapp.com/attachments/827059486086004789/952245615335710730/Volviendose_Rojo.webp" alt="Volviendose rojo 2022" />
+
+  <div id="Volviendose rojo 2022" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Volviendose rojo 2022').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Volviendose rojo 2022</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://ok.ru/videoembed/3831273949868?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 227787<br>
+<a href="https://pelisplus.esplay.io/player.html#6236320f5a10b279212cd95c"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 959867<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=5IdjR-8MNSE"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  <img onclick="document.getElementById('Agencia secreta de control magico  2021').style.display='block'"  data-tags="DRAMA" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/snCDylJCTmzyz4fmxkm5MsgjKyJ.jpg" alt="Agencia secreta de control magico  2021" />
+
+  <div id="Agencia secreta de control magico  2021" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Agencia secreta de control magico  2021').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Agencia secreta de control magico  2021</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://ok.ru/videoembed/2873400363686?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 334968<br><br>
+<a href="https://sbfast.com/e/c9sqaqlyyxuw.html"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 247299<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=b5ZbtIEot1s"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  <img onclick="document.getElementById('El ejército de los muertos  2021').style.display='block'"  data-tags="DRAMA" src="https://www.themoviedb.org/t/p/w220_and_h330_face/4h1Uc13QPjHTTUX0bikICWUxTSV.jpg" alt="El ejército de los muertos  2021" />
+
+  <div id="El ejército de los muertos  2021" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('El ejército de los muertos  2021').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>El ejército de los muertos  2021</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://ok.ru/videoembed/2156279302752?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 160475<br>
+<a href="https://pelisplus.esplay.io/player.html#60a8ca6fc004e7b172e7554f"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 141424<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=ikxpwm2-fTk"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  <img onclick="document.getElementById('Alli me encontrarás  2021').style.display='block'"  data-tags="DRAMA" src="https://cdn.discordapp.com/attachments/827059486086004789/951532034587770931/Alli_me_encontraras_2021.webp" alt="Alli me encontrarás  2021" />
+
+  <div id="Alli me encontrarás  2021" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('Alli me encontrarás  2021').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>Allí me encontrarás  2021</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://ok.ru/videoembed/3315106318953?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 907125<br><br>
+<a href="https://pelisplus.esplay.io/player.html#6228adde5a10b27921c51800"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 691042<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=E8MrhWwyLn4"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+   <img onclick="document.getElementById('El Señor de los Anillos 2: Las dos torres 2002').style.display='block'"  data-tags="DRAMA" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qHEU9067PL8iIZULg7q58NvoWlS.jpg" alt="El Señor de los Anillos 2: Las dos torres 2002" />
+
+  <div id="El Señor de los Anillos 2: Las dos torres 2002" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('El Señor de los Anillos 2: Las dos torres 2002').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>El Señor de los Anillos 2: Las dos torres 2002</h2>
+      </header>
+      <div class="w3-container">
+<a href="https://pelisplus.esplay.io/player.html#5fad44e56dc51d7b5d87a373"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 753891<br><br>
+<a href="https://ok.ru/videoembed/3589877467765?autoplay=1"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 809373<br>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p><a class="popup-youtube" href="https://www.youtube.com/watch?v=GPAOgWeAU-E"><button>Ver Trailer►</button></a></p>
+      </footer>
+    </div>
+  </div>
+
+  <!--                 dividir               -->
     
     
     
@@ -225,16 +566,22 @@ button:hover{
     
     
     
-    <img data-tags="Animators, Illustrators" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="barkeeper" />
-    <img data-tags="Photographers,Filmmakers" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="disco ball" />
-    <img data-tags="Photographers,Filmmakers" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="Bar" />
-    <img data-tags="Designers" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="Tokyo" />
     
-    <img data-tags="Designers" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="Guitar" />
-    <img data-tags="Animators,Photographers" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="Bar" />
-    <img data-tags="caca" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="Reception" />
-    <img data-tags="sol, Illustrators" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="bottles" />
-    <img data-tags="Animators, Illustrators" src="https://cdn.discordapp.com/attachments/922166052002086925/935752895889039360/image_11.webp" alt="bottles" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   </div>
   <br />
  
@@ -268,7 +615,7 @@ button:hover{
   })
 
   $('<button/>', {
-    text: 'Show All',
+    text: 'TODOS',
     class: 'active',
     click: function() {
       $(this)
@@ -327,7 +674,7 @@ button:hover{
 }())
 </script>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
@@ -467,5 +814,63 @@ button.mfp-arrow {
 
 
 
-</style>
 
+
+
+
+
+
+
+
+
+
+
+
+
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+.w3-btn.w3-disabled:hover,.w3-btn:disabled:hover{box-shadow:none}
+
+
+
+.w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.w3-modal-content{margin:auto;background-color:#000;position:relative;padding:0;outline:0;width:600px}
+
+
+@media (max-width:1205px){.w3-auto{max-width:95%}}
+@media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}	
+.w3-hide-small{display:none!important}.w3-mobile{display:block;width:100%!important}.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
+.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
+@media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
+@media (min-width:993px){.w3-modal-content{width:900px}.w3-hide-large{display:none!important}.w3-sidebar.w3-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.w3-hide-medium{display:none!important}}
+@media (max-width:992px){.w3-sidebar.w3-collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}.w3-auto{max-width:100%}}
+.w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}.w3-top{top:0}.w3-bottom{bottom:0}
+.w3-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.w3-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.w3-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.w3-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+
+
+
+
+
+
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+
+
+.w3-display-topleft{position:absolute;left:0;top:0}.w3-display-topright{position:absolute;right:0;top:0;color:black;background:red;border-radius: 50px;}
+.w3-display-bottomleft{position:absolute;left:0;bottom:0}.w3-display-bottomright{position:absolute;right:0;bottom:0}
+.w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#000000!important}
+
+
+</style>
