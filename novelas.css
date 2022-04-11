@@ -167,7 +167,7 @@ fieldset{border:1px solid transparent;padding:var(--size)}
 
 .btn,button,[type='button'],[type='reset'],[type='submit'],.pagination a,.extend,.tagcloud a,a.comment-reply-link{cursor:pointer;padding:.5rem 1.5rem;display:inline-block;vertical-align:top;text-align:center;line-height:2rem;width:100px;height:60px;background-color:#b0b0b0;color:rgb(0 0 0);min-width:3rem;border:0}
 
-.btna{cursor:pointer;padding:-10rem 1.5rem;display:inline-block;vertical-align:top;text-align:center;line-height:2rem;width:80px;height:30px;    position: absolute;z-index: 100;background-color:#fff;color:rgb(0 0 0);min-width:3rem;border-radius: 50px;}
+.btna{cursor:pointer;padding:-10rem 1.5rem;display:inline-block;vertical-align:top;text-align:center;line-height:2rem;width:80px;height:30px;    position: absolute;z-index: 100;background-color:#fff;color:rgb(0 0 0);min-width:3rem;border-radius: 50px;float: left;width: 100px;}
 
 .btn:hover,a.btn:hover,button:hover,.tagcloud a:hover,a.comment-reply-link:hover,[type='button']:hover,[type='reset']:hover,[type='submit']:hover,.pagination a:hover,.pagination .current{background-color:#C03A3A;color:#000}
 
