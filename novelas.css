@@ -1,4 +1,4 @@
-  html {
+ html {
   background-color: #000000;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -167,7 +167,10 @@ fieldset{border:1px solid transparent;padding:var(--size)}
 
 .btn,button,[type='button'],[type='reset'],[type='submit'],.pagination a,.extend,.tagcloud a,a.comment-reply-link{cursor:pointer;padding:.5rem 1.5rem;display:inline-block;vertical-align:top;text-align:center;line-height:2rem;width:100px;height:60px;background-color:#b0b0b0;color:rgb(0 0 0);min-width:3rem;border:0}
 
+.btna{cursor:pointer;padding:-10rem 1.5rem;display:inline-block;vertical-align:top;text-align:center;line-height:2rem;width:80px;height:30px;    position: absolute;z-index: 100;background-color:#fff;color:rgb(0 0 0);min-width:3rem;border-radius: 50px;}
+
 .btn:hover,a.btn:hover,button:hover,.tagcloud a:hover,a.comment-reply-link:hover,[type='button']:hover,[type='reset']:hover,[type='submit']:hover,.pagination a:hover,.pagination .current{background-color:#C03A3A;color:#000}
+
 
 
 
@@ -227,4 +230,4 @@ button:hover, a.btn:hover
 .visto input[type="checkbox"]{ width: 50px; height: 20px; -webkit-appearance:none; background: #c6c6c6; border-radius: 50px; outline: none; transition: .5s; box-shadow: inset 0 0 5px rgba(0,0,0,.3); position: relative; } .visto input[type="checkbox"]:checked{ background; background: #ff0000;; } .visto input[type="checkbox"]:checked ~  h2 > span{ display: none; } .visto h2 span{ } .visto input[type="checkbox"]::before{ content: ''; width: 20px; height: 20px; border-radius: 50px; background: #868ca0; position: absolute; top: 0; left: 0; transform: scale(1.1); box-shadow: 0 2px 6px rgba(0,0,0,.2); transition: .4s; } .visto input:checked[type="checkbox"]::before{ left: 30px; } .visto h2{ font-size: 10px; font-weight: 600; color: white; }
 
   
-
+#aa-options{ color:red;}
