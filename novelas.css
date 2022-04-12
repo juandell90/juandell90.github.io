@@ -1,4 +1,4 @@
- html {
+html {
   background-color: #000000;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -167,8 +167,13 @@ fieldset{border:1px solid transparent;padding:var(--size)}
 
 .btn,button,[type='button'],[type='reset'],[type='submit'],.pagination a,.extend,.tagcloud a,a.comment-reply-link{cursor:pointer;padding:.5rem 1.5rem;display:inline-block;vertical-align:top;text-align:center;line-height:2rem;width:100px;height:60px;background-color:#b0b0b0;color:rgb(0 0 0);min-width:3rem;border:0}
 
-.btna{cursor:pointer;padding:-10rem 1.5rem;display:inline-block;vertical-align:top;text-align:center;line-height:2rem;width:80px;height:30px;    position: absolute;z-index: 100;background-color:#fff;color:rgb(0 0 0);min-width:3rem;border-radius: 50px;float: left;width: 100px;}
+.btna{cursor:pointer;padding:-10rem 1.5rem;display:inline-block;vertical-align:top;text-align:center;line-height:2rem;width:80px;height:30px;    position: absolute;z-index: 100;background-color:#fff;color:rgb(0 0 0);min-width:3rem;border-radius: 50px;background-color: #fff0;}
 
+#left{float:left;
+}
+
+#right{float:right;
+}
 .btn:hover,a.btn:hover,button:hover,.tagcloud a:hover,a.comment-reply-link:hover,[type='button']:hover,[type='reset']:hover,[type='submit']:hover,.pagination a:hover,.pagination .current{background-color:#C03A3A;color:#000}
 
 
@@ -200,7 +205,7 @@ button:hover, a.btn:hover
 
 
 
-.video{position:relative;min-height:250px;overflow:hidden;max-height:43rem;background-color:#000;margin-bottom:var(--size)}
+.video{position:relative;min-height:420px;overflow:hidden;max-height:43rem;background-color:#000;margin-bottom:var(--size)}
 
 .video:last-child{margin-bottom:0}
 
@@ -210,10 +215,10 @@ button:hover, a.btn:hover
 
 .aa-tb.on{display:block}
 
-.aa-tbs{margin:0 0 var(--size);padding:0;list-style:none;white-space:nowrap}
+.aa-tbs{margin:0 0 var(--size);padding:0px 0px 0px 0px;list-style:none;white-space:nowrap}
+.aa-tbsx{margin:0 0 var(--size);padding:0px 0px 180px 0px;list-style:none;white-space:nowrap}
 
-
-.aa-tbs a{display:block;line-height:2rem;font-size:var(--f-size);color:var(--text);white-space:nowrap;position:relative;margin-bottom:var(--size);opacity:}
+.aa-tbs a{display:block;line-height:2rem;font-size:var(--f-size);color:var(--text);white-space:nowrap;position:relative;margin-bottom:var(--size);border: 1px solid red;}
 
 .aa-tbs a:before{height:3px;content:'';position:absolute;left:0;right:0;bottom:calc(-1 * var(--size));width:0;margin:auto;-webkit-transition:.2s;transition:.2s}
 
