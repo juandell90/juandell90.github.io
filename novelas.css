@@ -1,4 +1,4 @@
-html {
+ html {
   background-color: #000000;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -215,7 +215,7 @@ button:hover, a.btn:hover
 
 .aa-tb.on{display:block}
 
-.aa-tbs{margin:0 0 var(--size);padding:0px 0px 0px 0px;list-style:none;white-space:nowrap}
+.aa-tbs{margin: 0px 0px -45% 0px;padding:0px 0px 0px 0px;list-style:none;white-space:nowrap}
 .aa-tbsx{margin:0 0 var(--size);padding:0px 0px 180px 0px;list-style:none;white-space:nowrap}
 
 .aa-tbs a{display:block;line-height:2rem;font-size:var(--f-size);color:var(--text);white-space:nowrap;position:relative;margin-bottom:var(--size);border: 1px solid red;}
