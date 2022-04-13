@@ -1,3 +1,7 @@
+<div class="backdrop"><article class="TPost movtv-info cont"><div class="Image"><figure><img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/ApcYCg7fMCBx6ZZDYrb2aZ5IMCI.jpg" data-src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/ApcYCg7fMCBx6ZZDYrb2aZ5IMCI.jpg" alt="Los Olchis" class="lazy"></figure></div><header><h1 class="Title">Los Olchis</h1><h2 class="SubTitle">Smelliville</h2></header><footer><p class="meta"> <span>1h 25m</span> <span>2021</span> <span class="Qlty">HD</span></p><ul class="ListPOpt">   </ul></footer><div class="Description"><p>Los Ogglies buscan un nuevo hogar, pero nunca se sienten bienvenidos en ningún sitio. Apestan y la mayoría de los humanos no les quieren. Cuando Firebottom, el dragón de la familia, aterriza en el vertedero de Smelliville, los Ogglies se sienten como en casa. Y es aquí donde quieren quedarse.</p></div><div class="MvTbCn on anmt" id="MvTb-Info"></div></article><div class="Image"><figure class="Objf"><img src="https://image.tmdb.org/t/p/w1280/2nU5H8XIgtMkJrxsryP6nJuAHQ.jpg" class="lazy" data-src="https://image.tmdb.org/t/p/w1280/2nU5H8XIgtMkJrxsryP6nJuAHQ.jpg" alt="img"></figure></div></div>
+
+
+<style>
 
 
 
@@ -189,14 +193,7 @@ img[src*="half.gif"]{background:url(../img/star-hf.svg) no-repeat}
 	.lgtbx-lnk,.more-options{display: none;}
 	.TPlayerNv>li{width: 100%;margin-right: 0;}
 }
-@media (max-width:576px){
-	.mdl-hd .Title{font-size: 1.25rem;}
-	.mdl-hd .Title:before{width: 2.5rem;height: 2.5rem;line-height: 2.5rem;font-size: 1rem;}
-	.profile .left{margin-right: 1.5rem;}
-	.tvshow{padding-left: 0;}
-	.tvshow:before{display: none;}
-	.MovieListSld,.MovieListSld .owl-stage{overflow: hidden;}
-}
+
 @media (max-width:424px){
 	.activity-List>li{margin-left: 60px;}
 	.activity-List>li:before{left: -60px;width: 40px;height: 40px;font-size: 1rem;line-height: 40px;}
@@ -227,74 +224,20 @@ img[src*="half.gif"]{background:url(../img/star-hf.svg) no-repeat}
 	.cont{max-width:540px}
 	.dfxa{display:-webkit-flex;display:flex}
 	.MovieList.Rows>li,.Wdgt .MovieList.Rows>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
-	.people-List>li{-ms-flex: 0 0 25%;flex: 0 0 25%;max-width: 25%;}
-	.AZList{white-space: normal;}
-	.profile .Description{clear: none;overflow: hidden;}
-	.movtv-info>.Image{width: 200px;margin-right: 1.5rem;}
-	.addlist>.Button{font-size: 1rem;padding: .5rem 1rem;}
-	.addlist>ul{font-size: 1rem;min-width: 200px;}
-	.addlist>ul>li>a:before{width: 1.5rem;}
-	.ListPOpt>li:first-child{display: inline-block;font-size: .875rem;}
-	.movtv-info .Description{clear: none;}
+
 }
 @media (min-width:768px){
-	.cont{max-width:100%}
-	.dfxb,.TpRwCont,.frm-cols{display:-webkit-flex;display:flex}
-	.TpRwCont>main{-webkit-flex: 0 0 calc(100% - 300px);-ms-flex: 0 0 calc(100% - 300px);flex: 0 0 calc(100% - 300px);max-width:calc(100% - 300px);padding-right: 2rem;}
-	.TpRwCont>aside{-webkit-flex: 0 0 300px;-ms-flex: 0 0 300px;flex: 0 0 300px;max-width: 300px;}
-	main .MovieList.Rows>li,.frm-cols>.col{-webkit-flex: 0 0 50%;-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}	
-	.ft .logo-ft{margin-right: 1.5rem;margin-bottom: 0;}
-	.mnft>li{margin-right: 1rem;}
-	.mnft>li:last-child{margin-right: 0;}
-	.copy{padding-top: 1.5rem;}
-	section>.Top>.right{float: right;margin-top: 1rem;}
-	.people-List>li{-ms-flex: 0 0 20%;flex: 0 0 20%;max-width: 20%;}
-	.nosidebar main .MovieList.Rows>li{-ms-flex: 0 0 25%;flex: 0 0 25%;max-width: 25%;}
-	.movtv-info>.Image{margin-right: 1.5rem;}	
-	.movtv-info .meta{margin-bottom: 0;}
-	.movtv-info footer{margin-bottom: 1rem;}
-	.movtv-info footer .VotesCn{float: left; margin-right: 1rem;padding-right: 1rem;border-right: 1px solid rgba(79, 107, 149, 0.3);min-height: 3rem}
-	.movtv-info footer .meta{min-height: 2.8rem;padding-top: .2rem;float: left;}
-	.movtv-info .ListPOpt{clear: both;}
-	.movtv-info .MvTbCn{overflow: hidden;}
-	.movtv-info header .Title,.video>.Title{font-size: 2.25rem;line-height: 1.5;}
-	.movtv-info>.Image{margin-right: 2.5rem;}
-	.frm-row{position: relative;padding-left: 180px;}
-	.frm-row>label{position: absolute;left: 0;top: .7rem;}
-	.frm-row>label>span{text-transform: none;font-size: 1rem;font-weight: 400;}
-	.alpha-list .MovieList>li{-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+		.cont{max-width:540px}
+	.dfxa{display:-webkit-flex;display:flex}
+	.MovieList.Rows>li,.Wdgt .MovieList.Rows>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
 }
 @media (min-width:992px){    
-	.cont,.MovieListSldCn .TPMvCn,.MovieListSld .owl-dots{max-width:1140px}
-	.dfxc{display:-webkit-flex;display:flex}
-	.Header .Menu{order:2}
-	.Header .login,.Header .sup-ava,.Header .Search{order:3}
-	.Menu>ul>li{margin-right:1.5rem;float:left}
-	.Menu>ul>li:last-child{margin-right:0}
-	.MenuBtn{display:none}
-	.menu-item-has-children{position:relative}
-	.menu-item-has-children:hover>ul{display:block}
-	.mdl-hd,.mdl-bd,.mdl-ft{padding: 2rem;}
-	.Result{min-width: 290px;}
-	.ep-autosuggest{min-width: 290px;}
-	.sub-menu{position:absolute;left:-1rem;top:100%;background-color: #1E2747;border-radius: 5px;width: 180px;padding: .5rem;box-shadow: 0 0 30px rgba(0,0,0,.2)}
-	.sub-menu:before{content: '';position: absolute;left: 1rem;top: -5px;width: 0;height: 0;border-left: 5px solid transparent;border-right: 5px solid transparent;border-bottom: 5px solid #1E2747;}
-	.sub-menu a{display: block;padding: .5rem 1rem;border-radius: 5px;font-size: .875rem;}
-	.sub-menu a:hover{background-color: rgba(0,0,0,.3);}
-	.cols3>.sub-menu{width: 600px;}
-	.cols3>.sub-menu:after{clear: both;display: block;overflow: hidden;content: '';}
-	.cols3>.sub-menu>li{float: left;width: 25%;}	
-	main .MovieList.Rows>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
-	.TPost.C:hover .TPMvCn{display: block;}
-	.people-List>li{-ms-flex: 0 0 16.66666666666667%;flex: 0 0 16.66666666666667%;max-width: 16.66666666666667%;}
-	.nosidebar main .MovieList.Rows>li{-ms-flex: 0 0 20%;flex: 0 0 20%;max-width: 20%;}
-	.movtv-info footer{padding-top: .5rem;}
-	.movtv-info .ListPOpt{float: right;clear: none;margin-top: -.5rem;}
-    .delete-com{float: right;margin-top: -2rem;}
-    .AZList-bx .AZList{display: -webkit-flex;display: flex;width: auto;}
-    .AZList-bx .AZList>li{flex-grow: 1;}
-    .AZList-bx .AZList>li>a{min-width: 0;}
-	.alpha-list .MovieList>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
+		.cont{max-width:540px}
+	.dfxa{display:-webkit-flex;display:flex}
+	.MovieList.Rows>li,.Wdgt .MovieList.Rows>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
 }
 
 
+
+
+</style>
