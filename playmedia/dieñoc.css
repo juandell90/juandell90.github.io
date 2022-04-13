@@ -1,9 +1,3 @@
-<div class="backdrop"><article class="TPost movtv-info cont"><div class="Image"><figure><img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/ApcYCg7fMCBx6ZZDYrb2aZ5IMCI.jpg" data-src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/ApcYCg7fMCBx6ZZDYrb2aZ5IMCI.jpg" alt="Los Olchis" class="lazy"></figure></div><header><h1 class="Title">Los Olchis</h1><h2 class="SubTitle">Smelliville</h2></header><footer><p class="meta"> <span>1h 25m</span> <span>2021</span> <span class="Qlty">HD</span></p><ul class="ListPOpt">   </ul></footer><div class="Description"><p>Los Ogglies buscan un nuevo hogar, pero nunca se sienten bienvenidos en ningún sitio. Apestan y la mayoría de los humanos no les quieren. Cuando Firebottom, el dragón de la familia, aterriza en el vertedero de Smelliville, los Ogglies se sienten como en casa. Y es aquí donde quieren quedarse.</p></div><div class="MvTbCn on anmt" id="MvTb-Info"></div></article><div class="Image"><figure class="Objf"><img src="https://image.tmdb.org/t/p/w1280/2nU5H8XIgtMkJrxsryP6nJuAHQ.jpg" class="lazy" data-src="https://image.tmdb.org/t/p/w1280/2nU5H8XIgtMkJrxsryP6nJuAHQ.jpg" alt="img"></figure></div></div>
-
-
-<style>
-
-
 
 *{box-sizing:border-box}body{margin:0;font:400 1rem/1.5625rem sans-serif;overflow-x:hidden;word-wrap:break-word}hr{border:1px solid currentColor;margin:-1px 0}[hidden]{display:none}img{vertical-align:middle;max-width:100%}:focus{outline:0}a{text-decoration:none}
 /*Typography*/
@@ -19,26 +13,9 @@ h4,h5,h6{font-size:1rem;line-height:1.7rem}
 #aa-wp>.bd{flex:1 0 auto}
 .cont{margin:0 auto;padding-left:1.5rem;padding-right:1.5rem;width:100%}
 
-.mb0{margin-bottom: 0;}
-.mb{margin-bottom:.5rem;}
-.mb1{margin-bottom:1rem;}
-nav ul,[class*="List"]{margin:0;padding:0}
-nav li,[class*="List"] li{list-style-type:none}
-[class*="align"]{margin-bottom:1.25rem}
-.alignleft{margin-right:1.25rem}
-.alignright{margin-left:1.25rem}
-.tac{text-align:center}
-
-
-
-
-body{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
-/*Color*/
 body{color:#fff;background-color:#000}
 a{color:#fff}
 a:hover{color:#007AFF}
-
-
 
 
 /*post*/.TPost .Image figure{position: relative;background-color: #080F28;border-radius: 5px;margin-bottom: 0;}
@@ -47,115 +24,29 @@ a:hover{color:#007AFF}
 .TPost .Image figure:after{content: '';padding-top: 150%;width: 1px;display: block;border-radius: 5px;}
 .episodes .Image figure:after{padding-top: 56%;}
 .TPost .Image figure>img,.backdrop>.Image img{position: absolute;left: 0;top: 0;width: 100%;height: 100%;object-fit: cover;object-position: top;border-radius: 5px}
-.TPost:hover .Image figure>img{opacity: .5;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-.MovieListSldCn{margin:-6.75rem 0 1.5rem;position: relative;}
 .MovieListSldCn .TPostMv .Image,.MovieListSldCn .TPostMv .Image img,.backdrop>.Image,.backdrop>.Image img{position:absolute;left:0;bottom:0;width:100%;height:100%;object-fit:cover;object-position:50% 15%;top: 0;}
-.MovieListSldCn .TPMvCn>a{display:inline-block;vertical-align:top}
-.MovieListSldCn .Title{color: #fff;font-weight: 700;letter-spacing: -1px}
-.MovieListSldCn .Title:hover{transform: scale(1.02)}
+
+
 .MovieListSldCn .TPostMv .Image:after,.backdrop>.Image:after{background:linear-gradient(to bottom, rgba(8,15,40,0) 0%,rgba(0,0,0,1) 100%);content:'';position:absolute;left:0;bottom:0;right:0;height:100%;pointer-events:none}
-.MovieListSldCn .TPMvCn{padding:calc(5rem + 4%) 1.5rem 5rem;margin:0 auto;position:relative;z-index:2}
-.MovieListSldCn .TPost .Image figure{position: static;}
-.MovieListSldCn .TPost .Image figure:after,.MovieListSldCn .TPost .Image figure:before{display: none;}
-.MovieListSldCn .TPost:hover .Image figure>img{opacity: 1;}
-.Info{font-size: .875rem;padding-top: .5rem;}
-.Info>span{display: inline-block;vertical-align: baseline;margin-right: .5rem;}
-.Info .Vote{color: #EDB709;}
-.Info .Vote{font-size: 1.125rem;}
-.Info .Vote:after{content: '/5';font-size: .875rem;vertical-align: baseline}
-.Info>span.Qlty{margin-top: 0.3rem;}
+
 .Qlty,.TpTv{color: #1A1818;background-color: #EDB709;font-size: 0.65rem;font-weight: 700;height: 1.125rem;padding: 0 .3rem;line-height: 1rem;border-radius: 1rem;display: inline-block;vertical-align: top;}
 
-
-
-
-
-
-
-
-.VotesCn{position:relative;padding-left:50px;min-height:40px;margin-bottom:.5rem;padding-top:3px}
-.VotesCn .Prct{position:absolute;left:0;top:5px}
-.VotesCn .post-ratings{padding-top:25px;position:relative;font-size:10px;min-width:102px}
-.VotesCn .post-ratings img{position:absolute;left:0;top:7px}
-.VotesCn .post-ratings img+img{left:22px}
-.VotesCn .post-ratings img+img+img{left:44px}
-.VotesCn .post-ratings img+img+img+img{left:64px}
-.VotesCn .post-ratings img+img+img+img+img{left:86px}
 .backdrop>.Image{z-index: -1;}
-
-
-
-
-
-
 
 .movtv-info:after{clear: both;display: block;content: '';overflow: hidden;}
 .movtv-info.TPost .Image figure:before{display: none;}
 .movtv-info.TPost:hover .Image figure>img{opacity: 1;}
 .movtv-info footer{overflow: hidden;}
-.movtv-info .Description{clear: both;max-height: 100px;;margin-bottom: 1rem;}
+.movtv-info .Description{clear: both;margin-bottom: 1rem;}
 .movtv-info .Description p:last-child{margin-bottom: 0;}
-.movtv-info header .Title,.video>.Title{font-size: 2.5rem;color: #fff;font-weight: 700;margin-bottom: 0;line-height: 1.5rem;}
+.movtv-info header .Title,.video>.Title{font-size: 1.5rem;color: #fff;font-weight: 700;margin-bottom: 0;line-height: 1.5rem;}
 .movtv-info header .SubTitle,.video>.SubTitle{font-size: 1rem;margin-bottom: .5rem;line-height: 1.5rem;font-weight: 400;}
 .movtv-info .meta{font-size: .875rem;}
 .movtv-info .meta>span{margin-bottom: .5rem;}
 .movtv-info .meta>span.Qlty{vertical-align: top;margin-top: .2rem;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Pie*/.rect-auto,.percircle.gt50 .slice{clip:rect(auto,auto,auto,auto)}
-.pie,.percircle .bar,.gt50 .fill{position:absolute;border:2px solid transparent;width:40px;height:40px;clip:rect(0,20px,40px,0);border-radius:50%;transform:rotate(0deg)}
-.bar{backface-visibility:hidden}
-.pie-fill,.gt50 .bar:after,.gt50 .fill{transform:rotate(180deg)}
-.percircle{position:relative;font-size:40px;width:40px;height:40px;border-radius:50%}
-.percircle.animate>span,.percircle.animate:after{transition:transform .2s ease-in-out}
-.percircle.animate .bar{transition:transform .6s ease-in-out}
-.percircle>span{position:absolute;z-index:1;width:100%;top:0;height:40px;display:block;text-align:center;white-space:nowrap;font-size:12px;line-height:40px;font-weight:400;color: #EDB709;}
-.percircle>span:after{content:'%';}
-.perclock>span{font-size:40px}
-.percircle:after{position:absolute;top:0;left:0;display:block;content:" ";border-radius:40%;width:40px;height:40px}
-.percircle .slice{position:absolute;width:40px;height:40px;clip:rect(0,40px,40px,20px)}
-.percircle:hover{cursor:default}
-/*post-ratings*/img[src*="rating_"]{width:16px;height:16px;padding-left:18px!important;margin-left:0!important;background:url(../img/star.svg) no-repeat}
-img[src*="on.gif"],img[src*="over.gif"]{background:url(../img/star-on.svg) no-repeat}
-img[src*="half.gif"]{background:url(../img/star-hf.svg) no-repeat}
-.post-ratings-text,.post-ratings-loading{display:none!important}
-.pie,.percircle .bar,.gt50 .fill{border-color: #EDB709;}
-.percircle{box-shadow: inset 0 0 0 2px rgba(141, 160, 188, .5);}
-
-
-
-
-
-
-
+.backdrop>.Image img{opacity: .5;}
 
 
 
@@ -193,7 +84,14 @@ img[src*="half.gif"]{background:url(../img/star-hf.svg) no-repeat}
 	.lgtbx-lnk,.more-options{display: none;}
 	.TPlayerNv>li{width: 100%;margin-right: 0;}
 }
-
+@media (max-width:576px){
+	.mdl-hd .Title{font-size: 1.25rem;}
+	.mdl-hd .Title:before{width: 2.5rem;height: 2.5rem;line-height: 2.5rem;font-size: 1rem;}
+	.profile .left{margin-right: 1.5rem;}
+	.tvshow{padding-left: 0;}
+	.tvshow:before{display: none;}
+	.MovieListSld,.MovieListSld .owl-stage{overflow: hidden;}
+}
 @media (max-width:424px){
 	.activity-List>li{margin-left: 60px;}
 	.activity-List>li:before{left: -60px;width: 40px;height: 40px;font-size: 1rem;line-height: 40px;}
@@ -224,10 +122,9 @@ img[src*="half.gif"]{background:url(../img/star-hf.svg) no-repeat}
 	.cont{max-width:540px}
 	.dfxa{display:-webkit-flex;display:flex}
 	.MovieList.Rows>li,.Wdgt .MovieList.Rows>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
-
 }
 @media (min-width:768px){
-		.cont{max-width:540px}
+	.cont{max-width:540px}
 	.dfxa{display:-webkit-flex;display:flex}
 	.MovieList.Rows>li,.Wdgt .MovieList.Rows>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
 }
@@ -236,8 +133,71 @@ img[src*="half.gif"]{background:url(../img/star-hf.svg) no-repeat}
 	.dfxa{display:-webkit-flex;display:flex}
 	.MovieList.Rows>li,.Wdgt .MovieList.Rows>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
 }
+@media (min-width:1200px){	
+	.cont{max-width:540px}
+	.dfxa{display:-webkit-flex;display:flex}
+	.MovieList.Rows>li,.Wdgt .MovieList.Rows>li{-ms-flex: 0 0 33.33333333333333%;flex: 0 0 33.33333333333333%;max-width: 33.33333333333333%;}
+}
 
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx){
+	.country-select .flag{
+		background-image:url("../img/flags@2x.png")
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx){
+	.country-select .flag{
+		background-size:5630px 15px
+	}
+}
 
 
-</style>
+@media screen and (max-width: 1120px) {
+	.btn-spec{
+		margin-top: 15px; display: inline-block;
+	}
+	.aptr {
+		order: 3;
+			-webkit-box-ordinal-group: 3;
+			-moz-box-ordinal-group: 3;
+			-ms-flex-order: 3; 
+			-webkit-order: 3; 
+	}
+}
+
+
+.collapsible {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 9px;
+  width: 50%;
+  border: none;
+
+  outline: none;
+  font-size: 15px;
+  border: 1px solid red;
+    border-radius: 50px;
+}
+
+.active, .collapsible:hover {
+  background-color: #f00;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #2e2e2;
+   width: 50%;
+}
