@@ -201,3 +201,24 @@ only screen and (min-resolution: 2dppx){
   background-color: #2e2e2;
    width: 50%;
 }
+
+
+.btn {
+  padding: 10px 40px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #aa0404;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.btn:hover {background-color: #aa0404}
+
+.btn:active {
+  background-color: #aa0404;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
