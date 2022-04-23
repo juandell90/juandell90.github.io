@@ -1,0 +1,4313 @@
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<script src="https://archive.org/download/menu_20210420/scriptmenu1.js"></script>
+
+	
+
+			</head>
+
+
+
+<body style="background-color:black;">
+
+
+ 
+
+
+
+<div align='center'>
+<FONT SIZE=4> 
+
+<style>
+
+
+
+
+/*-----galeria-------*/
+.btn {
+
+   background: black;
+    padding: 2px 8px;  
+    font-size: 15px;
+
+    text-align: center;
+
+    border-radius: 50px;
+    color: white;
+}
+
+
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+header form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+header .search-bar {
+	background: #000;
+	    border: 1px solid rgb(255 255 255);
+	border-radius: 100px;
+	font-size: 16px;
+	height: 40px;
+	text-align: center;
+	width: 70%;
+	line-height: 40px;
+	padding: 0 20px;
+    color: white;
+}
+
+
+.grid {
+	position: relative;
+	opacity: 0;
+	transition: opacity 1s cubic-bezier(0.01, 0.86, 0.56, 0.04) 0.1s;
+	width: 100%;
+}
+
+.grid.loaded-images {
+	opacity: 1;
+}
+
+.grid .item {
+	position: absolute;
+	display: block;
+	margin: 10px;
+	padding: 0;
+	width: 200;
+    background-color: #fff;
+   
+    border-radius: 20px;
+}
+
+
+
+.grid .item-content {
+	position: relative;
+}
+
+.grid .item img {
+	border: 1px solid rgb(0 0 0 / 0%);
+	border-radius: 20px;
+	cursor: pointer;
+	vertical-align: top;
+	width: 100%;
+      
+        
+    
+ 
+
+}
+
+
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+
+	
+
+	header .search-bar {
+		width: 100%;
+	}
+
+	}
+
+@media screen and (min-width: 1281px) {
+	.container {
+		max-width: 1500px;
+	}
+
+	.grid .item {
+		width: calc(20% - 20px);
+	}
+
+	header .search-bar {
+		width: 50%;
+	}
+}
+
+/*-----galeria-------*/
+
+
+h3 {
+	text-align: center;
+    
+    
+}
+
+h4 {
+	text-align: center;
+    color: black;
+}
+
+h5 {
+	text-align: center;
+	padding-left: 1ch;
+	padding-right: 1ch;
+}
+
+h6 {
+	color: red;
+    font-size: 1.5rem;
+}
+
+
+#linkme {
+	width: 100%;
+	text-align: center;
+	padding:0;
+    color :black;
+    background-color: #fff;
+    HEIGHT: 220px;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+<br>
+
+
+ 
+
+
+		<header>
+
+			<form action="">
+				<input type="text" class="search-bar" id="search-bar" placeholder="Buscar">
+			</form>
+
+			<!-- Categorías -->
+
+			<div class="categories" id="categories">
+
+				<a href="#"><button  class="btn" class="active">TODAS</button></a>
+
+
+<a href="#"><button  class="btn">Acción</button> </a>
+<a href="#"><button  class="btn">Animación</button> </a>
+<a href="#"><button  class="btn">Aventura</button> </a>
+<a href="#"><button  class="btn">Bélica</button> </a>
+<a href="#"><button  class="btn">Biográfia</button> </a>
+<a href="#"><button  class="btn">Ciencia ficción</button> </a>
+<a href="#"><button  class="btn">Comedia</button> </a>
+<a href="#"><button  class="btn">Crimen</button> </a>
+<a href="#"><button  class="btn">Documental</button> </a>
+<a href="#"><button  class="btn">Drama</button> </a>
+<a href="#"><button  class="btn">Documental</button> </a>
+<a href="#"><button  class="btn">Familia</button> </a>
+<a href="#"><button  class="btn">Fantasía</button> </a>
+<a href="#"><button  class="btn">Historia</button> </a>
+<a href="#"><button  class="btn">Misterio</button> </a>
+<a href="#"><button  class="btn">Música</button> </a>
+<a href="#"><button  class="btn">Religion</button> </a>
+<a href="#"><button  class="btn">Suspense</button> </a>
+<a href="#"><button  class="btn">Terror</button> </a>
+<a href="#"><button  class="btn">Romance</button> </a>
+<a href="#"><button  class="btn">Thriller</button> </a>
+<a href="#"><button  class="btn">Western</button> </a>
+
+
+
+
+
+
+
+
+
+
+			</div><br>
+		
+        
+		
+		<section class="grid" id="grid">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     <div class="item" 
+data-categoria="aventura" 
+data-etiquetas="capitán Nova capitán Nova capitan Nova 2022">
+<div class="container">
+<img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/prINReSbCkoktcRbrIgmbY4f0tp.jpg">  <a class="popup-youtube" href="https://www.youtube.com/watch?v=pJnkKdJhhCM"><button class="btna">►</button></a></div> 
+<div id="linkme">
+<h4 id="mtitle">Capitán Nova</h4>
+<h6 id="artist">2022</h6>   
+Codigo 755675<br>
+
+
+</div></div> 
+ 
+ 
+ <div class="item" 
+data-categoria="comedia" 
+data-etiquetas="La burbuja la burbuja 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/edYk5TSowZIDv138bCpF5ls3XI5.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=ZrnAobYO0sE"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La burbuja</h4>
+<h6 id="artist">2022</h6>   
+<a href="https://pelisplus.esplay.io/player.html#62484e6f2a496c5acecbeeea"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 824459<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2ZZUjBPNjhEeTltSFplNWdLOXRveWF5RnZDQy8wbXpMOXdWZWp5YnNjSGpjcmViRlF1U1lMcGswcFhrT09DUDdiOFl5K296NHJCM09XNmQxenQ3d3Y1NFdBN2k4UFU1ZkpCMEJ3NVFwbGRsMDFTSjFxQUdwSkVEaXZDRXVoeXVMaHBoWWgxNi9MdmlwcDNqMkt5NlpTWm1YQXVONjJzK3F4MEtUWlk1SXFhK0JiSldDQ0xzSFhSYS90TitsZzArenNvUWx1SXo1MGYwaHZ1VW1TdzZQYkxkSWhESElrNkhzOElxYXpNY0UyNTFRPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 713311<br>
+
+
+				</div></div> 
+                
+   <div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Batalla estilo libre batalla estilo libre 2022">
+<div class="container">
+<img src="https://static.esplay.io/movie/cover/original/vdgUNCruHI6jX9TU4vvplgpDtL7.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=IVzAh9sOnZ4"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Batalla: estilo libre</h4>
+<h6 id="artist">2022</h6>   
+<a href="https://pelisplus.esplay.io/player.html#6248c73a2a496c5ace812347"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 492840<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2UySG9yOUxHa1p4QkRuNjRISXBlUk1zdWFUMnNyazkxSDI1N0xvZ2tVY0l2MFhMWXdZa0dYVVludWlscVpMZWtpVFB5ZTIrbFRXSThiZmdsRlhyclZLajlwQjJUUkdQeEgzZlE2Zi81eVlVbFRGTVFYR0JrUERsYXlpRkpzMmJhdnk4TXVXMGFJa3ZwcHZBY3JZOWJxZU1uR1dhd0tPRDdjanJjTVNGOVBlU3I1RXRWcjBsL0pQWFdrVS9nSldFTFpsazl2WWJzSEZ6bE1GRjJOeDVIcjhzRlRRSU1oNnZyQVpUSnRpOWNoWm1BPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 839350<br>
+
+
+				</div></div>               
+                
+  <div class="item" 
+data-categoria="drama" 
+data-etiquetas="Cabalgando a la gloria cabalgando a la gloria  2022">
+<div class="container">
+<img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/eByrTo3s4VQqKGlZwxEPymSfpeA.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=flf4LSZHW-Q"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Cabalgando a la gloria</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2VRWDhSVHFTdjd1NDdvMWx4UnlKWnprWExGbm5YVXFJbWd4MGgxQ0RPRkVTSGNRbDV1TWxGTjFpc0FwNTk3WG5WV0VwQlY3aXluYUtqUFZGQzRWajNvdHFlZTZBMXBwMDNkWktMVTRTM2NBSFAyOW9pbjk4d3ZDV0o4V2EyMTlReDlKbEhKNjBBMERQNUs0YS9zdnBGWnVkSlp3Y1ZxWGhxTk9nbEpWcysxOEd1WDlIcndRWDQ2ZC8wN3hoT1VCQkxHbHJ1Q2FZNzR6Mmo1bUkyNEx6eXFPbTZGU2FpTXZWTVlzSUNrNGlhMlFBPT0"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 101763<br>
+<a href="https://ok.ru/videoembed/4523515382379?autoplay=1"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 752964<br>
+
+				</div></div>  
+                
+     <div class="item" 
+data-categoria="drama" 
+data-etiquetas="Granizo granizo 2022">
+<div class="container">
+<img src="https://static.esplay.io/movie/cover/original/pnTp17HCwQ6EhsWfqzgwnUfhSym.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=-F2watcvQQs"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Granizo</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://pelisplus.esplay.io/player.html#6245bafb2a496c5aceeae36f"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 573592<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2Z3R0t2TWZzT1BHamJvODExUFpMaUpCTm9zV05PdnhuTnd2bzd0MTdwYXZkeWNFNEhHYjJwTit3MHVYTldyUlFCbUkwemZXUTZxZWhBMTdtWXZNM1J6dE02UmZhR3hBeHlvMHVER09RQ0U3eDF5MmtmVlJleGh0Y2Jhd0FCQWt1SEw0akluMU5NQ1NMaWozcU9NRStFeXdLZ29pRVplSi8yRElSSU1LR2RkRjlkcDR5YWVlQjFBZnlIaUtxcFppa1ozRjdCdzlFK2E0VTk4c0RLNE80MnUzYS9RU010NkFNRnNSK2kwSXhRNk1nPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 752964<br>
+
+				</div></div>                
+                
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Duro de cuidar duro de cuidar 2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/17Ik1kiam5zfLxJlCemBoB4VcUT.jpg">
+<a href="https://ok.ru/videoembed/2554308266731?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Duro de cuidar </h4>
+<h6 id="artist">2017</h6>            
+Codigo 393393 <br>
+
+</div></div>                  
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+ <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Godzilla vs kong godzilla vs kong king kong 2021">
+<div class="container">
+<img src="https://static.esplay.io/movie/cover/original/4aab7ad06bca11ebbc25b1f40778293b.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=RIKOJP9PHP0"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Godzilla vs. Kong</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://pelisplus.esplay.io/player.html#605fb7a10a37969d8463c836"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 8828<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2N6N0R1bGNUckd1Tkl6dEYvL2Rabk1Ob0Rwb1hqbTVCQWVjZ0lRc3RNVW01TS9Vaks3czRybVB4TE9KQTYzTFhEWDJrSC94UkZ6ZFVtOHlER2czdURnTGY5S2JIQjlxZG8xRnhEWnhiZXRtN0xtaEVkLzhlYjdIWlV5dXBqY2JQVExHZEhXVHFXcitCZVJlTEt1aGFIYndtVVkzaTB1a2xRbThvdk9rT2VkZmc1RkJGS0thQ2wxdWt3ZHZIT2djeFlmdlMybXREVW93dmE4ZFE2N1FGTDk3TVlNbmZ1Z0lkQzNZczBrZ3Z1U3RnPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 971181<br>
+
+				</div></div>                
+                
+ <div class="item" 
+data-categoria="animacion" 
+data-etiquetas="Luca luca 2021">
+<div class="container">
+<img src="https://static.esplay.io/movie/cover/original/pr06RihHOGE3waZQx5fs2WYUdwr.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=EJk_Z-OasXc"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Luca</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://pelisplus.esplay.io/player.html#60cf6fc5c004e7b172287104"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 454751<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2RuZFoweS9RdjJMNmJpTDZLeWoraHlBOWtFTGdJaktMY3hKN1Z6THlKN1BLMTVOTkI3b2tCV1diVUl4WEJvUE1RZWYxK0RPUnVQWnNpL1RlMXhrSGYzM25veDhGMFVLWGVDOWduZkUzU21QQmhRUkdtTTZXTDlsMFlJYmZBclEybXBBR1o3RU5BVmxzU01DRFB1TGoyQzhGamM3eE5BZjdBMnk0K2NCb1pGWUNqNmxJdWNzSk9LVnlWSmtEcXV3alZpZGF2V3EyUXlZUWNxYXRrc0FYbjlBVjk1TElDSEFac3RWdHVZY2syeE5BPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 796286<br>
+
+				</div></div>        
+                
+  <div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Cruella cruella 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/tNFBP5OTmKm7CTc5ptUwgmepd8G.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=oK13SZYZqmA"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Cruella</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://pelisplus.esplay.io/player.html#60b2a241c004e7b172f76928"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 177037<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2VYUWE3MDlicEhPYVBWVXhxS0h1SUVESDM4emROeTFuUnkyeThmU05LSmVqekxraE1uMGhqend4QUxsUGNZWkJzVDlGMUpBMXhnNnovdXI2U3ZrR0Q3ZTdqcmFDY0RMSWxyblQ1MkJYRmF6ODVXbWxON0NROUlpQS9RUTF3WlpRbWVwcWQ3eEVidWtiQmVjUDU2djE1NmJoWVhJKysrL21SejdFMmRSSG0zc0dOZVA4N0YwZ0c4b3ZTRk53OUVhenFIN1VjaERaUm92b05tYWNDTHU4TitHS3RlZjRkV1BHMHB2ZDJuVWIzU3VnPT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 513605<br>
+
+				</div></div>               
+                
+ <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Avengers 4 endgame avengers 4 endgame 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/br6krBFpaYmCSglLBWRuhui7tPc.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=-51-LXoTahA"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Avengers 4: Endgame</h4>
+<h6 id="artist">2019</h6>            
+<a href="https://pelisplus.esplay.io/player.html#5fab6f246dc51d7b5d867654"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 337820<br>
+<a href="https://apialfa.tomatomatela.com/ir/goto.php?h=bHJMRW1oTVhldDJJZnZnUE10V3NBQmx5b2ZqemljRFk1RmUybGphTUI2ZFhTWTNzZkUwOXAza0NTSktMWW9vQ1pWSXViY2JaOEdPazE4bjBVS2NMUXhlRWUwWWhxU0ZjdGNIT0dBWFI5U2NsWHNqMWZlL3lMV1Jma2kyY0RjVVhCYVRWZEZHL21GZTRyZ2tRY3NuMjYyVzI0bjNOTGEwVzZ0ZlNPL0doYUQvRTdkdVpSTEV4YVkxZFQ1UExuclFacUV0UXBxZys5ZWVua2d6NjhORFRBTk05MElFMjlZL0hrUk1QMTRXemdTVVN1K2JZdVJpMGFXWUx5ckdLMklveGhHNWF2SDkxYTE3UXRoUmR4YnNGVFdXUHlPdzVZRlprNG4wR1JOZ3FHMytpSWlraXZWcTc2UjJCdDhpR2ZIZTdYMFZzU3RORnBMcDd6M2d1R3FvMDR3PT0"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 182224<br>
+
+				</div></div>                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+ 
+ 
+ <div class="item" 
+data-categoria="animacion" 
+data-etiquetas="La era de hielo: Las aventuras de Buck la era de hielo las aventuras de buck 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/iDah4ZcDX3F316LcLlmNNAzsRqF.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=1ECN-CIBRGk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La era de hielo: Las aventuras de Buck</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/4030220601906?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 679293<br>
+<a href="https://pelisplus.esplay.io/player.html#61f4fb1bfd40f9efd6c3df59"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 176991<br>
+
+				</div></div>
+ 
+ 
+ 
+  <div class="item" 
+data-categoria="animacion" 
+data-etiquetas="Hotel transilvania 4 transformania hotel transilvania 4 transformania 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/pwSlzCAynIF6aEP7oxWddo7Kng2.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=xS-4wF89eT4"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Hotel Transilvania 4: Transformanía</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/4091087620793?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 446131<br>
+<a href="https://pelisplus.esplay.io/player.html#61e2e0bcfd40f9efd61c5b23"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 485998<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="The bunker game the bunker game El juego del bunker el juego del búnker bunker 2022">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/954443969658499112/The_Bunker_Game.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=fzBzi8YOENM"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El juego del búnker</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/3740759427658?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 495930<br>
+<a href="https://pelisplus.esplay.io/player.html#623482615a10b27921f17fbc"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 40376<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El proyecto adam el proyecto adam 2022">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/952257122190655528/El_Proyecto_Adam_2022.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=AxQXlXpiHBg"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El proyecto adam</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/3830922611372?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 717836<br>
+<a href="https://pelisplus.esplay.io/player.html#6237328a5a10b27921444528"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 979444<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="   " 
+data-etiquetas="Volviendose rojo volviendose rojo 2022">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/952245615335710730/Volviendose_Rojo.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=5IdjR-8MNSE"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Volviendose rojo</h4>
+<h6 id="artist">2022</h6>            
+<a href="https://ok.ru/videoembed/3831273949868?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 227787<br>
+<a href="https://pelisplus.esplay.io/player.html#6236320f5a10b279212cd95c"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 959867<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="animacion" 
+data-etiquetas="Agencia secreta de control magico agencia secreta de control magico 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/snCDylJCTmzyz4fmxkm5MsgjKyJ.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=b5ZbtIEot1s"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Agencia secreta de control magico</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/2873400363686?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 334968<br>
+<a href="https://sbfast.com/e/c9sqaqlyyxuw.html"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 247299<br>
+
+				</div></div>
+                
+                 <div class="item" a
+data-categoria="accion" 
+data-etiquetas="El ejército de los muertos el ejercito de los muertos 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/4h1Uc13QPjHTTUX0bikICWUxTSV.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=ikxpwm2-fTk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El ejército de los muertos</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/2156279302752?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 160475<br>
+<a href="https://pelisplus.esplay.io/player.html#60a8ca6fc004e7b172e7554f"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 141424<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="romance" 
+data-etiquetas="Allí me encontrarás allí me encontrarás alli me encontraras">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951532034587770931/Alli_me_encontraras_2021.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=E8MrhWwyLn4"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Allí me encontrarás</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3315106318953?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 907125<br>
+<a href="https://pelisplus.esplay.io/player.html#6228adde5a10b27921c51800"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 691042<br>
+
+				</div></div>
+ 
+ 
+ 
+  <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Asesinos sádicos asesinos sadicos asesinos sádicos butchers Butchers2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951261831836622918/Asesinos_Sadicos_2021.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=M2SgVBxMGRs"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Asesinos sádicos</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/2878188948073?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 349277<br>
+<a href="https://pelisplus.esplay.io/player.html#6085ac50cbe3b8075d39069f"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 634217<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Bajo Ataque bajo Ataque Overrun overrun 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951265833525583872/Bajo_Ataque_2021.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=as91xVQYjCk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">  Bajo Ataque </h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3307406297705?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 286461<br>
+<a href="https://pelisplus.esplay.io/player.html#612e1a8727e0614f06f3fa85"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 825292<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="   " 
+data-etiquetas="Al filo de la muerte al filo de la muerte Out of death out of Death 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951539508111896636/Al_Filo_De_La_Muerte.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=nT-9VCJbbps"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Al filo de la muerte</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3307406494313?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 33134<br>
+<a href="https://pelisplus.esplay.io/player.html#622a73835a10b279213dbe41"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 565842<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El día después de mañana el dia después de mañana 2004">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951256451161153536/El_dia_despues_de_manana_2004.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=uGU3KLfT81I"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El día después de mañana</h4>
+<h6 id="artist">2004</h6>            
+<a href="https://ok.ru/videoembed/2443460348512?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo885865<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad86836dc51d7b5d87d0d8"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 378562<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Spider Man sin camino a casa spider Man sin camino a casa 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/823957641784197151/953741350954745876/Spider-Man_Sin_camino_a_casa.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=aIONNnhkonQ"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Spider Man sin camino a casa</h4>
+<h6 id="artist">2021</h6>            
+
+<a href="https://pelisplus.esplay.io/player.html#61bb411a6b5a399d4c755959"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 70935<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Dos sinverguenzas dos sinverguenzas2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/954473909888102430/Dos_Sinverguenzas.webp">
+<a class="popup-youtube"class="popup-youtube" href="https://www.youtube.com/watch?v=sOQCOP81rqs"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Dos Sinvergüenzas </h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/2337538443881?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 902127<br>
+
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Venom carnage liberado venom carnage liberado habra matanza 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/954479044479553656/Venom_Carnage_Liberado.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=F4Ygcigj0Gk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Venom carnage liberado</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://pelisplus.esplay.io/player.html#615dab2a42abd6714a033dee"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 407774<br>
+
+
+				</div></div>
+ 
+ 
+ 
+  <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Halloween kills la noche aun no termina halloween kills la noche aun no termina 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/954482822410829884/Halloween_Kills_La_Noche_Aun_No_Termina1.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=QKePDtYoGeE"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Halloween kills la noche aun no termina</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3343116798587?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo    <br>
+<a href="https://ok.ru/videoembed/   "><button  class="btn">LATINO 2▶️</button></a><br>Codigo    <br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Aves de presa aves de presa 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4GCqF17I2ST5M8iSkwh1jwqvi7F.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=cqYOShqq4zY"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Aves de presa</h4>
+<h6 id="artist">2020</h6>            
+<a href="https://ok.ru/videoembed/2365886040672?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 394772<br>
+<a href="https://pelisplus.esplay.io/player.html#605c862a50ede53c44c1afcd"><button  class="btn">LATINO 2▶️</button></a><br>Codigo480053<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="It it Eso eso 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/9oERKIVyTWpHNum3STVsAGD4ojz.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=o1sQbtZpsic"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">It (Eso): Capítulo dos</h4>
+<h6 id="artist">2019</h6>            
+<a href="https://pelisplus.esplay.io/player.html#5fab702a6dc51d7b5d8677af"><button  class="btn">LATINO 1▶️</button></a><br>Codigo198390<br>
+
+
+				</div></div>
+                
+                
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="It it Eso eso 1990">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950466136640729108/it.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=8qW9lyAKg0s"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">It (Eso)</h4>
+<h6 id="artist">1990</h6>            
+<a href="https://ok.ru/videoembed/2242397997664?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo250836<br>
+
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Logan wolverine Logan wolverine 2017">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950461210854322196/Loga1n.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=atu1yOOXIz0"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Logan: wolverine</h4>
+<h6 id="artist">2017</h6>            
+<a href="https://ok.ru/videoembed/2242397473376?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 746549<br>
+<a href="https://pelisplus.esplay.io/player.html#5faba3906dc51d7b5d8695b4"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 774586<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Venganza a golpes venganza a golpe 2021">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/948793732516413470/Venganza_a_Golpes.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=y3bDNQL_zGA"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Venganza a golpes</h4>
+<h6 id="artist">2021</h6>            
+<a href="https://ok.ru/videoembed/3054211107482?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 14418<br>
+<a href="https://pelisplus.esplay.io/player.html#62177888dd56b3e59fbf2ed2"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 915214<br>
+
+				</div></div>
+                
+                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El señor de los anillos la comunidad del anillo el señor de los anillos la comunidad del anillo 2001">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9xtH1RmAzQ0rrMBNUMXstb2s3er.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=GuW21RLMndc"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Señor de los Anillos 1: La Comunidad del Anillo</h4>
+<h6 id="artist">2001</h6>            
+<a href="https://ok.ru/videoembed/3977141029389?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 414471<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad44e56dc51d7b5d87a373"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 268646<br>
+
+				</div></div>
+                
+                
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El señor de los anillos las dos torres el señor de los anillos las dos torres 2002">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qHEU9067PL8iIZULg7q58NvoWlS.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=GPAOgWeAU-E"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Señor de los Anillos 2: Las dos torres</h4>
+<h6 id="artist">2002</h6>            
+<a href="https://pelisplus.esplay.io/player.html#5fad44e56dc51d7b5d87a373"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 753891<br>
+<a href="https://ok.ru/videoembed/3589877467765?autoplay=1"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 809373<br>
+
+				</div></div>
+                
+                
+                                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="El señor de los anillos el retorno del rey 2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mWuFbQrXyLk2kMBKF9TUPtDwuPx.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=h-9RYiqyqjk"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Señor de los Anillos 3: El Retorno del Rey</h4>
+<h6 id="artist">2003</h6>            
+<a href="https://pelisplus.esplay.io/player.html#5fad2d326dc51d7b5d879a94"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 165830<br>
+<a href="https://ok.ru/videoembed/3310200359621?autoplay=1"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 660523<br>
+
+				</div></div>
+                
+                
+                                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Amor y monstruos amor y monstruos 2020">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/949889117938937866/AMOR_Y_MONSTRUOS.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=QCuzHub7jaI"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Amor y monstruos </h4>
+<h6 id="artist">2020</h6>            
+<a href="https://ok.ru/videoembed/2641545464533?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 529086<br>
+<a href="https://sbembed.com/e/jqf8nbvf655v.html"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 247934<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="accion" 
+data-etiquetas="Soldado universal soldado universal 1992">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bVzCLh3nDdEqOvdLQIxGQirRzfa.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=vQOBzODlz38"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Soldado universal</h4>
+<h6 id="artist">1992</h6>            
+<a href="https://ok.ru/videoembed/344304323203?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 640146   <br>
+
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park 1993 ">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/456FcvyTujRwzgoMoKKoheeCOlU.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=nFMqT3f-3XU"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic Park 1</h4>
+<h6 id="artist">1993</h6>            
+<a href="https://ok.ru/videoembed/2260902808160?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 675938<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad3b966dc51d7b5d879fba"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 103707<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950490068185923644/Jurassic_Park_2.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=KI4FMhFCU7c"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic Park II: El Mundo Perdido</h4>
+<h6 id="artist">1997</h6>            
+<a href="https://ok.ru/videoembed/2260902939232?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 116350<br>
+<a href="https://pelisplus.esplay.io/player.html#5fadbeb16dc51d7b5d880f60"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 548266<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950491765218095134/Jurassic_Park_III.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=qehG9dKVDG4"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic Park III</h4>
+<h6 id="artist">2001</h6>            
+<a href="https://ok.ru/videoembed/2260902742624?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 229146<br>
+<a href="https://sbfast.com/e/p1m060mxayxy.html"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 850170<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950495034149572719/Jurassic_World.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=nQwt1nlSQ3A"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic World: Mundo Jurásico</h4>
+<h6 id="artist">2015</h6>            
+<a href="https://ok.ru/videoembed/2260902873696?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 952962<br>
+<a href="https://pelisplus.esplay.io/player.html#5fabb6216dc51d7b5d869978"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 969391<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="ciencia ficcion" 
+data-etiquetas="Jurassic park jurassic park">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950497230773706774/Jurassic_World_El_Reino_Caido.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=ye8-GQNf8p0"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jurassic World: El Reino Caído</h4>
+<h6 id="artist">2018</h6>            
+<a href="https://ok.ru/videoembed/2260903004768?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 458115<br>
+<a href="https://pelisplus.esplay.io/player.html#5faba3766dc51d7b5d8695a4"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 605431<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Chucky el muñeco diabólico chucky el muñeco diabólico 1988">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950609387968430110/Chucky.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=sjiyV8mtXiU"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Chucky: el muñeco diabólico </h4>
+<h6 id="artist">1988</h6>            
+<a href="https://ok.ru/videoembed/2320009267808?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 538135<br>
+
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Chucky el muñeco diabólico chucky el muñeco diabólico 1990">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950611254727299132/Chucky_el_muneco_diabolico_2.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=xIRWyGHn0Ck"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Chucky: el muñeco diabólico 2</h4>
+<h6 id="artist">1990</h6>            
+<a href="https://ok.ru/videoembed/2320009202272?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 126031<br>
+<a href="https://pelisplus.esplay.io/player.html#5face7506dc51d7b5d878b5b"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 285273<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Chucky el muñeco diabólico chucky el muñeco diabólico 1991">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950615255430598656/Chucky_el_muneco_diabolico_3.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=PXhjlYbvUco"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Chucky: el muñeco diabólico 3</h4>
+<h6 id="artist">1991</h6>            
+<a href="https://ok.ru/videoembed/2320009333344?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 567325<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad36a36dc51d7b5d879dca"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 138552<br>
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="La novia de chucky la novia de Chucky 1998">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/mBodnkKUe1gPXOihAsIHTvFvLK4.jpg">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=acmd3l1rr0g"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La novia de Chucky</h4>
+<h6 id="artist">1998</h6>            
+<a href="https://ok.ru/videoembed/2320009923168?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 162622<br>
+<a href="https://pelisplus.esplay.io/player.html#5fad24076dc51d7b5d87982e"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 725728<br>
+
+				</div></div>
+                
+                                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="El hijo de chucky el hijo de chucky 2004">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950839476027002880/El_hijo_de_chucky.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=g4TZOoXC1E"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El hijo de Chucky</h4>
+<h6 id="artist">2004</h6>            
+<a href="https://ok.ru/videoembed/2320010316384?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 364672<br>
+
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="La maldición de chucky la maldición de chucky 2013">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950844184938553404/La_maldicion_de_Chucky.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=GgoO7GLQShw"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La maldición de Chucky </h4>
+<h6 id="artist">2013</h6>            
+<a href="https://ok.ru/videoembed/2320010119776?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 197718<br>
+
+
+				</div></div>
+                                 <div class="item" 
+data-categoria="terror" 
+data-etiquetas="Culto a chucky culto a chucky 2017">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/950865790175944784/Culto_a_Chucky.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=K2qtNIL_5VM"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Culto a Chucky </h4>
+<h6 id="artist">2017</h6>            
+<a href="https://ok.ru/videoembed/2320009988704?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 55536<br>
+<a href="https://pelisplus.esplay.io/player.html#60e317f8c004e7b17247bb10"><button  class="btn">LATINO 2▶️</button></a><br>Codigo 850261<br>
+
+				</div></div>
+           
+           
+                                            <div class="item" 
+data-categoria="terror" 
+data-etiquetas="El muñeco diabólico el muñeco diabólico Chucky chucky 2019">
+<div class="container">
+<img src="https://cdn.discordapp.com/attachments/827059486086004789/951243431110397963/El_muneco_diabolico.webp">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=3QkBwIb_6o0"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El muñeco diabólico</h4>
+<h6 id="artist">2019</h6>            
+<a href="https://ok.ru/videoembed/2320010054240?autoplay=1"><button  class="btn">LATINO 1▶️</button></a><br>Codigo 446429<br>
+
+
+				</div></div>
+                
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Pasajero 666 pasajero 666 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/im1sYcEskurUCIknzAcytaLoPzE.jpg">
+<a href="https://ok.ru/videoembed/3637945174740?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Pasajero 666 </h4>
+<h6 id="artist">2021</h6>            
+Codigo 688020 <br>
+
+</div></div>                 
+                
+<div class="item" 
+data-categoria="Animación" 
+data-etiquetas="Trollhunters el despertar de los titanes 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/zvUNFeTz0Sssb210wSiIiHRjA4W.jpg">
+<a href="https://ok.ru/videoembed/2326875343518?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Trollhunters: El despertar de los titanes </h4>
+<h6 id="artist">2021</h6>            
+Codigo 584159<br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="El traficante el traficante 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/o8n7TSUcZrIBFVCCwjhq2nIjsEA.jpg">
+<a href="https://ok.ru/videoembed/2327160162974?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El traficante </h4>
+<h6 id="artist">2021</h6>            
+Codigo 71744 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="La otra cara de la guerra la otra cara de la guerra 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/gsbBVbmJyKuSBlELnzYloyrPiyY.jpg">
+<a href="https://ok.ru/videoembed/2328561846942?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La otra cara de la guerra </h4>
+<h6 id="artist">2019</h6>            
+Codigo 223884 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Exorcismo en el séptimo día exorcismo en el séptimo día 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/yQCHNW14s8tJBUOiHFoNWKFvrdA.jpg">
+<a href="https://ok.ru/videoembed/2329672616606?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Exorcismo en el séptimo día </h4>
+<h6 id="artist">2021 </h6>            
+Codigo 29868 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Terminator terminator 1984">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/kbPqRWsGS1siVUeEFVtLKloTG0Y.jpg">
+<a href="https://ok.ru/videoembed/2331828882078?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Terminator </h4>
+<h6 id="artist">1984</h6>            
+Codigo 481537 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Cielo rojo sangre cielo rojo sangre 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/wBkdKValTGR64hvciuWX3O8fwUe.jpg">
+<a href="https://ok.ru/videoembed/2333050407582?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Cielo rojo sangre </h4>
+<h6 id="artist">2021</h6>            
+Codigo 74918 <br>
+
+</div></div>  
+
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Bartkowiak bartkowiak 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/kOVko9u2CSwpU8zGj14Pzei6Eco.jpg">
+<a href="https://ok.ru/videoembed/2342010686110?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Bartkowiak </h4>
+<h6 id="artist">2021</h6>            
+Codigo 482504 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="drama" 
+data-etiquetas="Un destello en la niebla un destello en la niebla 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/6EXF4IpBB7BiOYmmoFZTpwv08Wi.jpg">
+<a href="https://ok.ru/videoembed/2342714804894?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Un destello en la niebla </h4>
+<h6 id="artist">2021</h6>            
+Codigo 245608 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Navy seals navy seals 1990">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8SGNGtWDOTbbT9XsMTgfoVHGb2s.jpg">
+<a href="https://ok.ru/videoembed/3178691037876?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Navy Seals </h4>
+<h6 id="artist">1990</h6>            
+Codigo 900707 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="misterio" 
+data-etiquetas="Medianoche en el switchgrass medianoche en el switchgrass 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/lmTEYi3TszbIHUJjqHkRM3L4wbd.jpg">
+<a href="https://ok.ru/videoembed/2296649026272?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Medianoche en el Switchgrass </h4>
+<h6 id="artist">2021</h6>            
+Codigo 70130 <br>
+
+</div></div>  
+
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Soy venganza represalia soy venganza represalia 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/A8EzVnKAB5kbOZOQ9UQwTxvpoj4.jpg">
+<a href="https://ok.ru/videoembed/2428346174110?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Soy Venganza: Represalia </h4>
+<h6 id="artist">2020</h6>            
+Codigo 442931 <br>
+
+</div></div>
+
+
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="El cuartito el cuartito 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ymFYvg9qxfbPRQo9Jil7jHwZUua.jpg">
+<a href="https://ok.ru/videoembed/2428346108574?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El cuartito </h4>
+<h6 id="artist">2021</h6>            
+Codigo 464211 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="No respires 2 no respires 2 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/o0kJOePRfC59exAb7e3wrCTSMbK.jpg">
+<a href="https://ok.ru/videoembed/2421341227678?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">No respires 2 </h4>
+<h6 id="artist">2021</h6>            
+Codigo 911388 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Presencias inexplicables presencias inexplicables 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/4TWFTtdrDjPJHuhwU3UFttbKgyw.jpg">
+<a href="https://ok.ru/videoembed/2419427904158?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Presencias inexplicables </h4>
+<h6 id="artist">2020</h6>            
+Codigo 771259 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="drama" 
+data-etiquetas="Mujeres a coro military wives talentos inesperados mujeres a coro military wives talentos inesperados 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/w0JjQapThYpw7v0sildTCfgYlTo.jpg">
+<a href="https://ok.ru/videoembed/2419241126558?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Mujeres a coro </h4>
+<h6 id="artist">2019</h6>            
+Codigo 966419 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Más allá de la fiesta más allá de la fiesta mas alla de la fiesta 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/9qxQMR5aQXSXkGvgyKnI4otEC3v.jpg">
+<a href="https://ok.ru/videoembed/2419240995486?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Más allá de la fiesta </h4>
+<h6 id="artist">2021</h6>            
+Codigo 272037<br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="En el limite del mundo en el limite del mundo 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/A1PrC0mVUcMNF1165I6yw2djuG3.jpg">
+<a href="https://ok.ru/videoembed/2417698802334?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">En el limite del mundo </h4>
+<h6 id="artist">2021 </h6>            
+Codigo 98479<br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Clowndoll clowndoll 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/rJGxWQRIl16wRwjQZIFHvf0nSzO.jpg">
+<a href="https://ok.ru/videoembed/2416003844766?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">ClownDoll </h4>
+<h6 id="artist">2020</h6>            
+Codigo 771221 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="historia" 
+data-etiquetas="Doce huérfanos doce huérfanos doce huerfanos 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/70vyk5XzrHRPH9VfbEQxh9FIvE3.jpg">
+<a href="https://ok.ru/videoembed/2415568489118?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Doce huérfanos </h4>
+<h6 id="artist">2021</h6>            
+Codigo 187521 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="drama" 
+data-etiquetas="La verdad la verdad 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/gVDRZXcNJFRvNCU9YjD58HcTtBT.jpg">
+<a href="https://ok.ru/videoembed/2412848286366?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La verdad </h4>
+<h6 id="artist">2019</h6>            
+Codigo 517383 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="La fortaleza la fortaleza 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/6N0ZR1ETOOzvwmrDezbzbbiydS1.jpg">
+<a href="https://ok.ru/videoembed/3153915611753?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La fortaleza </h4>
+<h6 id="artist">2021</h6>            
+Codigo 296721 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Cacería jurásica cacería jurásica caceria jurasica 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/qhWkxLGzc5J7j3neP0I3XYTdMWT.jpg">
+<a href="https://ok.ru/videoembed/2571866606185?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Cacería jurásica </h4>
+<h6 id="artist">2021</h6>            
+Codigo  <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="historia" 
+data-etiquetas="La disputa la disputa 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/uMMcBauzPqcMPKXUdoqB2O0dkAm.jpg ">
+<a href="https://ok.ru/videoembed/3154341988969?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La disputa </h4>
+<h6 id="artist">2021</h6>            
+Codigo 271954 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Heredero heredero 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/rnZUG1B9c9GFSkRrDiKBz779Mna.jpg">
+<a href="https://ok.ru/videoembed/3153915546217?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Heredero </h4>
+<h6 id="artist">2021</h6>            
+Codigo 779729 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="Held rehenes held rehenes 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/wZiJ6Y6m6mNX6Nopi7eWxoZ5hFJ.jpg">
+<a href="https://ok.ru/videoembed/3153915677289?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Held: Rehenes </h4>
+<h6 id="artist">2020</h6>            
+Codigo 587782 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="La serpiente verde la serpiente verde 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/6n3SB0zI5mVCJC0df6NPCPsgQ4d.jpg">
+<a href="https://ok.ru/videoembed/2878189210217?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La serpiente verde </h4>
+<h6 id="artist">2021</h6>            
+Codigo 315044 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Quédate conmigo Doraemon 2 quedate conmigo doraemon 2 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/pGtjmJpYUO556JIJHl0TFVeb5wd.jpg">
+<a href="https://ok.ru/videoembed/2861093030505?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Quédate conmigo, Doraemon 2 </h4>
+<h6 id="artist">2020</h6>            
+Codigo 894515 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Garota da moto Garota da moto 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/sYoWjGSW4XQRWwFDHf3kdMqtCLr.jpg">
+<a href="https://ok.ru/videoembed/2849503709801?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Garota da moto </h4>
+<h6 id="artist">2021</h6>            
+Codigo 226705 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Detonados detonados 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/KvhqUA8EtywXYCHb9up4cnG5en.jpg">
+<a href="https://ok.ru/videoembed/3028370852564?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Detonados </h4>
+<h6 id="artist"> 2020</h6>            
+Codigo 669759 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Rehen rebelde rehen rebelde 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/fOEigzmB1YEZueJKGZtMMlOh6ZK.jpg">
+<a href="https://ok.ru/videoembed/2391334849182?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Rehen rebelde </h4>
+<h6 id="artist">2021</h6>            
+Codigo 753443 <br>
+
+</div></div> 
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="El sastre de la mafia el sastre de la mafia 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/uoMyXY1ReK5I1kkMMQfqod7YhXh.jpg">
+<a href="https://ok.ru/videoembed/3667336039124?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El sastre de la mafia </h4>
+<h6 id="artist">2022</h6>            
+Codigo 440930 <br>
+
+</div></div> 
+
+
+ <div class="item" 
+data-categoria="crimen" 
+data-etiquetas="Zona de choque zona de choque 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/4N4ZaszcJC3A9SkmTURdQChZBHU.jpg">
+<a href="https://ok.ru/videoembed/3669424147156?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Zona de choque 2020</h4>
+<h6 id="artist"> </h6>            
+Codigo 212607 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Corre y dispara corre y dispara 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/u0lDOmGmHZBLGXMDGaUA3005nt6.jpg">
+<a href="https://ok.ru/videoembed/3669423491796?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Corre y dispara </h4>
+<h6 id="artist">2022</h6>            
+Codigo 444194 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Jack in the box eL despertar jack in the box eL despertar 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/xm6N21UjaUSK9LF7kfDSaGJU7fx.jpg">
+<a href="https://ok.ru/videoembed/3659828103892?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Jack in the box: EL despertar </h4>
+<h6 id="artist">2022</h6>            
+Codigo 737538 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="The old ways Las formas antiguas the old ways las formas antiguas 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/dIX8IbrwsBx2MSrnGdbhEdYmFbH.jpg">
+<a href="https://ok.ru/videoembed/2404071901854?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Las Formas Antiguas </h4>
+<h6 id="artist">2020</h6>            
+Codigo 470712 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="drama" 
+data-etiquetas="Mi primer beso mi primer beso 1991">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/AcPNsqaSJQsaI2qb5kKOrkUfV5m.jpg">
+<a href="https://ok.ru/videoembed/2397984983710?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Mi primer beso </h4>
+<h6 id="artist">1991</h6>            
+Codigo 626042 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Puños de la venganza puños de la venganza 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/tzf4ZnyLqDu01FcdqeIpPE6V2dm.jpg">
+<a href="https://ok.ru/videoembed/2389851441822?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Puños de la Venganza </h4>
+<h6 id="artist">2021</h6>            
+Codigo 197781 <br>
+
+</div></div> 
+
+
+<div class="item" 
+data-categoria="documental" 
+data-etiquetas="Memorias de un asesino Las cintas de nilsen memorias de un asesino las cintas de nilsen">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/gmzGgmGW0M6SeyEDmmnhjTvY6rO.jpg">
+<a href="https://ok.ru/videoembed/2387815369374?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Memorias de un asesino: Las cintas de nilsen </h4>
+<h6 id="artist">2021</h6>            
+Codigo 893290 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="romance" 
+data-etiquetas="Diarios de un intercambio diarios de un intercambio 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/kdmXZ1As7T8ifUVNQ8ah3HrS0Lo.jpg">
+<a href="https://ok.ru/videoembed/2387107121822?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Diarios de un intercambio </h4>
+<h6 id="artist">2021</h6>            
+Codigo 352486 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="La isla negra la isla negra 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/q8SizJUoMVvU3yHuEwkE4LlXg7b.jpg">
+<a href="https://ok.ru/videoembed/2386983651998?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La isla negra </h4>
+<h6 id="artist">2021</h6>            
+Codigo 829299 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="No le digas a nadie no le digas a nadie 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/2lla8pP0wNlDAFgV83nZpYMWkeT.jpg">
+<a href="https://ok.ru/videoembed/2374336449182?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">No le digas a nadie </h4>
+<h6 id="artist">2020</h6>            
+Codigo 898877 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Amityville 3-D amityville 3D 1989">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/gYvFL6REedBvjTSzVAhyk5imJgq.jpg">
+<a href="https://ok.ru/videoembed/2994749180549?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Amityville 3-D </h4>
+<h6 id="artist">1989</h6>            
+Codigo 239088 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Terror en amityville la morada del miedo terror en amityville la morada del miedo 2005">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/Io6R7kDqO8nkj7VE0DSbbVNWuK.jpg">
+<a href="https://ok.ru/videoembed/224296241795?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Terror en amityville La morada del miedo </h4>
+<h6 id="artist">2005</h6>            
+Codigo 64452 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Cowboys & aliens cowboys & aliens 2011">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/5MrKD5qkFA9sWxP0V2Y793koZYG.jpg">
+<a href="https://ok.ru/videoembed/35293956739?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Cowboys & aliens </h4>
+<h6 id="artist">2011</h6>            
+Codigo 102910 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="La caída del halcón negro la caída del halcón negro la caida del halcon negro 2001">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/18fO1Cdcr8fLvhhAIxxNuKlOmlZ.jpg">
+<a href="https://ok.ru/videoembed/1150072392253?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La caída del halcón negro </h4>
+<h6 id="artist">2001</h6>            
+Codigo 770294 <br>
+
+</div></div> 
+<div class="item" 
+data-categoria="historia" 
+data-etiquetas="Orgullo y pasión orgullo y pasión 1957">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/feezkMiP95Q3pchtP9rInQu0axj.jpg">
+<a href="https://ok.ru/videoembed/1340117027389?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Orgullo y pasión </h4>
+<h6 id="artist">1957</h6>            
+Codigo 46159 <br>
+
+</div></div> 
+
+
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="Karate kid 4 la nueva aventura karate kid 4 la nueva aventura 1994">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/wI3gCi9w1cuUJCiwhviAy46we9Q.jpg">
+<a href="https://ok.ru/videoembed/1593114364477?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Karate Kid 4: La nueva aventura </h4>
+<h6 id="artist">1994</h6>            
+Codigo 135330 <br>
+
+</div></div> 
+
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Lo mejor de lo mejor 4 lo mejor de lo mejor 4 1998">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8DZsEUG1dKIihJLoTroMp647xVI.jpg">
+<a href="https://ok.ru/videoembed/1505048136253?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Lo mejor de lo mejor 4 </h4>
+<h6 id="artist">1998</h6>            
+Codigo 253720 <br>
+
+</div></div> 
+
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Lo mejor de lo mejor 3 lo mejor de lo mejor 3 1995 ">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ynMnizF7mCmjDe4fXuZog6Vu8i5.jpg">
+<a href="https://ok.ru/videoembed/1505031359037?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Lo mejor de lo mejor 3 </h4>
+<h6 id="artist">1995</h6>            
+Codigo 465151 <br>
+
+</div></div> 
+
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Lo mejor de lo mejor 2 lo mejor de lo mejor 2 1993">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/yPLXmEqLywg1DDkShVuTyhmnuYS.jpg">
+<a href="https://ok.ru/videoembed/1493373422141?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Lo mejor de lo mejor 2 </h4>
+<h6 id="artist">1993</h6>            
+Codigo 555877 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Lo mejor de lo mejor lo mejor de lo mejor 1989">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/xA105F7IqQDtyDhLR3yuJz7XX1o.jpg">
+<a href="https://ok.ru/videoembed/1488659089981?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Lo mejor de lo mejor </h4>
+<h6 id="artist">1989</h6>            
+Codigo 669691 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Kickboxer 4 kickboxer 4 el agresor  1994">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/s2Vvho3OKMs7m4oSTaUiwQ2A3vH.jpg">
+<a href="https://ok.ru/videoembed/1406281845309?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Kickboxer 4 El agresor </h4>
+<h6 id="artist">1994</h6>            
+Codigo 742748 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="Los 800 los 800 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8kwsdVNBTZyNQ8s4LFqR10fOvk1.jpg">
+<a href="https://ok.ru/videoembed/3016596064911?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Los 800 </h4>
+<h6 id="artist">2020</h6>            
+Codigo 880546 <br>
+
+</div></div> 
+
+
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Duro de matar 3 la venganza duro de matar 3 la venganza 1995">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/3fzTLRDNLBhK48NIZIWUmOjIIjl.jpg">
+<a href="https://ok.ru/videoembed/1355255646952?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Duro de matar 3: La venganza </h4>
+<h6 id="artist">1995</h6>            
+Codigo 175781 <br>
+
+</div></div> 
+
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Duro de matar 2 duro de matar 2 1990">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/w68lbifIrGLAtmwJlOMpfPeRkBe.jpg">
+<a href="https://ok.ru/videoembed/1354384476904?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Duro de matar 2 </h4>
+<h6 id="artist">1990</h6>            
+Codigo 3406 <br>
+
+</div></div> 
+
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Duro de matar duro de matar 1988">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/3HzjVfymzQ9ooKvPHq4P7XWcw00.jpg">
+<a href="https://ok.ru/videoembed/3493705484940?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Duro de matar </h4>
+<h6 id="artist">1988</h6>            
+Codigo 888192 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Duro de matar duro de matar 1995">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/zWHpCti0TWpU9g3HkmIShIjnYhW.jpg">
+<a href="https://ok.ru/videoembed/3379875482324?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Duro de matar </h4>
+<h6 id="artist">1995</h6>            
+Codigo 739403 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="El rey escorpión 1 el rey escorpion 1 2002">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/cKDxu4JjyFkvHXgAdAsg3pr6bAC.jpg">
+<a href="https://ok.ru/videoembed/2759999294031?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El rey escorpión 1 </h4>
+<h6 id="artist">2002</h6>            
+Codigo 495866 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="El rey escorpión 5 el libro de las almas el rey escorpión 5 el libro de las almas 2018">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/4fZL6ONUz0o8nvnHpeA8zj3nEvs.jpg">
+<a href="https://ok.ru/videoembed/2791727041264?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Rey escorpión 5: el libro de las almas </h4>
+<h6 id="artist">2018</h6>            
+Codigo 543880 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Ip man ip man 2008">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/6BNa7SL9qrs3iaoMtdXIYqF58s3.jpg">
+<a href="https://ok.ru/videoembed/2038529198735?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Ip man </h4>
+<h6 id="artist">2008</h6>            
+Codigo 833138 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Ip man 2 la leyenda del gran maestro ip man 2 la leyenda del gran maestro 2010">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/yB5v6wRhIoZxlDvCFFCQhUNezDY.jpg">
+<a href="https://ok.ru/videoembed/3341379832560?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Ip Man 2: la leyenda del gran maestro </h4>
+<h6 id="artist">2010</h6>            
+Codigo 651234 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Ip man 3 ip man 3 2015">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/1wBnEGU0OXtgtDvTtgvYEODwcwi.jpg">
+<a href="https://ok.ru/videoembed/3341376162544?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Ip Man 3 </h4>
+<h6 id="artist">2015</h6>            
+Codigo 412521 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Ip man 4 ip man 4 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/j1rbZPqBiZX3NLWU5q1TH13v6BL.jpg">
+<a href="https://ok.ru/videoembed/3341372033776?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Ip Man 4 </h4>
+<h6 id="artist">2019</h6>            
+Codigo 648351 <br>
+
+</div></div> 
+
+
+
+
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="Operación causa justa operación causa justa operacion causa justa 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/tGylKfbeRqQWc6dwXCssId8kWgf.jpg">
+<a href="https://ok.ru/videoembed/2776146971215?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Operación causa justa </h4>
+<h6 id="artist">2019</h6>            
+Codigo 175980 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="El abuelo espía el abuelo espía 2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/qpKIZITtS9IselXnATtGUR6RJnP.jpg">
+<a href="https://ok.ru/videoembed/1182599350931?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El abuelo espía </h4>
+<h6 id="artist">2017</h6>            
+Codigo 497389 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Sobre la ley sobre la ley 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/1eMCttakCh5UZd5RNQSNGWcrVNE.jpg">
+<a href="https://ok.ru/videoembed/3638078606036?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Sobre la ley </h4>
+<h6 id="artist">2019</h6>            
+Codigo 410786 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="1942 La gran ofensiva 1942 la gran ofensiva 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/sgUaucXoVmNdI2SyeJyPCxm0Psr.jpg">
+<a href="https://ok.ru/videoembed/3634990025428?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">1942: La Gran Ofensiva </h4>
+<h6 id="artist">2019</h6>            
+Codigo 861309 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="El legado de las mentiras el legado de las mentiras 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/schKxGNCt2O67EsnIuJZU7ZKKyW.jpg">
+<a href="https://ok.ru/videoembed/3635509267156?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El legado de las mentiras </h4>
+<h6 id="artist">2020</h6>            
+Codigo 528268 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="Skin trade trafico humano skin trade trafico humano 2014">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/dfXB4ZKQRINdrY3xXMyLUJrXQai.jpg">
+<a href="https://ok.ru/videoembed/2876890548948?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Skin Trade - Trafico humano </h4>
+<h6 id="artist">2014</h6>            
+Codigo 142308 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Juega conmigo juega conmigo 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/iM5kNvZzcMSmWv7CFTxnTu5zfoa.jpg">
+<a href="https://ok.ru/videoembed/2881647151828?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Juega conmigo </h4>
+<h6 id="artist">2021</h6>            
+Codigo 815131<br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="Meteler meteler wolfpack unidad de combate Wolfpack unidad de combate 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/trkE2XHv99p2NqtwtRlH0Gm2NU.jpg">
+<a href="https://ok.ru/videoembed/2876889959124?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Wolfpack unidad de combate </h4>
+<h6 id="artist">2019</h6>            
+Codigo 996935 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="La llegada del diablo la llegada del diablo 2018">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/tEiu83QxMMWWD8gWUtXR4piF1Iw.jpg">
+<a href="https://ok.ru/videoembed/2886505990868?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La llegada del diablo </h4>
+<h6 id="artist">2018</h6>            
+Codigo 593960 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="El poder del talismán el poder del talismán el poder del talisman 2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/rtcPMBd8LYDQ3DVUZD13nFNTbun.jpg">
+<a href="https://ok.ru/videoembed/3791758625460?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El poder del talismán </h4>
+<h6 id="artist">2003</h6>            
+Codigo 746451 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Alerta en lo profundo 2 alerta en lo profundo 2 2018">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hTfSYIf4abjcv5hgz53m5QH6oFC.jpg">
+<a href="https://ok.ru/videoembed/4021131545268?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Alerta en lo profundo 2 </h4>
+<h6 id="artist">2018</h6>            
+Codigo 553682 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Alerta en lo profundo alerta en lo profundo 1999">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/xNa8pcnF1oQUav6h3Sh6jEClmD0.jpg">
+<a href="https://ok.ru/videoembed/4021049559732?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Alerta en lo profundo </h4>
+<h6 id="artist">1999</h6>            
+Codigo 707461 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Se busca se busca 2008">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/iLuui1ZNcmZJBeDprCnJPXGFn24.jpg">
+<a href="https://ok.ru/videoembed/3944382794420?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Se busca 2008</h4>
+<h6 id="artist"> </h6>            
+Codigo 416777 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="El plan maestro el plan maestro 2016">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/uY5YS0ugriBkg4MdRVXyzEfFp08.jpg">
+<a href="https://ok.ru/videoembed/3863668787892?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El plan maestro </h4>
+<h6 id="artist">2016</h6>            
+Codigo 967121 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="Hannibal el origen del mal hannibal el origen del mal 2007">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/AfIIQ5lMbqpCa3UQCwHVieLRpyE.jpg">
+<a href="https://ok.ru/videoembed/3863197387444?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Hannibal: El origen del mal </h4>
+<h6 id="artist">2007</h6>            
+Codigo 654318 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="El tesoro del amazonas el tesoro del amazonas 2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/uunvzFKAiGlBinZE9e1SwgXs7m.jpg">
+<a href="https://ok.ru/videoembed/3852469340852?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El tesoro del Amazonas </h4>
+<h6 id="artist">2003</h6>            
+Codigo 717034 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Armados y peligrosos armados y peligrosos 2013">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/yx9s0lFDJbLW9eYxfoTyivcFxLF.jpg">
+<a href="https://ok.ru/videoembed/3845271915188?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Armados y peligrosos </h4>
+<h6 id="artist">2013</h6>            
+Codigo 429558 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Temporada para matar temporada para matar 2013">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/o55HXx21PqRcOgAaOWFz4tGMrZh.jpg">
+<a href="https://ok.ru/videoembed/3833539922612?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Temporada para matar </h4>
+<h6 id="artist">2013</h6>            
+Codigo 614124 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="Celular celular 2004">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/xY2Hp6h60D1572x2NeGnQH7T7fl.jpg">
+<a href="https://ok.ru/videoembed/3833467964084?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Celular  </h4>
+<h6 id="artist">2004</h6>            
+Codigo 799306 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="suspense" 
+data-etiquetas="Sin escape sin escape 2015">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/63yl9mlRWsiO5VJstYarsnFAMvy.jpg">
+<a href="https://ok.ru/videoembed/3787200793268?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Sin escape </h4>
+<h6 id="artist">2015</h6>            
+Codigo 113540 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Ejecución extrema ejecución extrema 2013 ">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/drtVrcMQS6e3P7GZBq2hRY2WyXh.jpg">
+<a href="https://ok.ru/videoembed/3833079663284?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Ejecución extrema </h4>
+<h6 id="artist">2013</h6>            
+Codigo 942586 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Hitman agente 47 hitman agente 47 2015">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/iuUxXng5JNmRPxxFEd3MWFmNsSG.jpg">
+<a href="https://ok.ru/videoembed/3786712943284?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Hitman: Agente 47 </h4>
+<h6 id="artist">2015</h6>            
+Codigo 207347 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="El código del miedo el código del miedo el codigo del miedo 2012">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/aUq2SkZNCkDcSrPnnryyKrPPiYr.jpg ">
+<a href="https://ok.ru/videoembed/3782034590388?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El código del miedo </h4>
+<h6 id="artist">2012</h6>            
+Codigo 864782 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="Último turno ultimo turno 2012">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/pdloPaAvNgku4TNfHx5lrV3zKig.jpg">
+<a href="https://ok.ru/videoembed/3768330947252?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Último turno </h4>
+<h6 id="artist">2012</h6>            
+Codigo 619792 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="El castigador el castigador 2004">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/bD0VrkWxs0tmJueFy0maRjWS7dW.jpg">
+<a href="https://ok.ru/videoembed/3761565928116?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El castigador </h4>
+<h6 id="artist">2004</h6>            
+Codigo 438493 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="El castigador zona de guerra el castigador zona de guerra 2008 ">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8N4CsboxJXxxXzvcI01vaXlUmbd.jpg">
+<a href="https://ok.ru/videoembed/3763315935924?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Castigador: Zona de guerra </h4>
+<h6 id="artist">2008</h6>            
+Codigo 373184 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="drama" 
+data-etiquetas="El ultimo samurái el ultimo samurái 2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/DfwutbQodAsYxdqJu7Cme5jifC.jpg">
+<a href="https://ok.ru/videoembed/3761108486836?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Último Samurái </h4>
+<h6 id="artist">2003</h6>            
+Codigo 634275 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="Justicia urbana justicia urbana 2007">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ruzxtGAP2MM9dhjrLcUQQKwG93v.jpg">
+<a href="https://ok.ru/videoembed/3756704926388?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Justicia urbana </h4>
+<h6 id="artist">2007</h6>            
+Codigo 336147 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="El justiciero implacable el justiciero implacable contacto directo Contacto directo direct contact 2009">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ApzqGRprNbNF81WoR7aeRDlW7xv.jpg">
+<a href="https://ok.ru/videoembed/3665306847924?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Justiciero Implacable  </h4>
+<h6 id="artist">2009</h6>            
+Codigo contacto directo <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="Van helsing van helsing 2004">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/fwIE2f5PlobhnW6ounxHZBgN9NA.jpg">
+<a href="https://ok.ru/videoembed/3619833186996?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Van Helsing </h4>
+<h6 id="artist">2004</h6>            
+Codigo 975639 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Contrareloj contrareloj 2012">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/9UDl3jgTsITaaIJw8nlo9TdW7if.jpg">
+<a href="https://ok.ru/videoembed/3525334928052?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Contrareloj </h4>
+<h6 id="artist">2012</h6>            
+Codigo 923611 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Guerra de los mundos 2  guerra de los mundos 2  2008">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/93Yf9asXNLK3DobnV6AQFtDxA1e.jpg">
+<a href="https://ok.ru/videoembed/3077231282868?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Guerra de los mundos 2  </h4>
+<h6 id="artist">2008</h6>            
+Codigo 359535 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria=" " 
+data-etiquetas=" ">
+<div class="container">
+<img src=" ">
+<a href="https://ok.ru/videoembed/ ?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle"> </h4>
+<h6 id="artist"> </h6>            
+Codigo  <br>
+
+</div></div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Trollhunters el despertar de los titanes trollhunters el despertar de los titanes 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/zvUNFeTz0Sssb210wSiIiHRjA4W.jpg">
+<a href="https://ok.ru/videoembed/2326875343518?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Trollhunters: El despertar de los titanes </h4>
+<h6 id="artist">2021</h6>            
+Codigo 584159 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Monster hunter leyendas del gremio monster hunter leyendas del gremio 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/78FhiPAQCO3MnA3fxFzqTd3vU1U.jpg">
+<a href="https://ok.ru/videoembed/ ?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Monster Hunter: Leyendas del gremio </h4>
+<h6 id="artist">2021</h6>            
+Codigo 550517 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="La abuela la abuela 2022">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/cdzUKycvzn0X6mQMxDZP9el81lz.jpg">
+<a href="https://ok.ru/videoembed/3574192278133?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La abuela </h4>
+<h6 id="artist">2022</h6>            
+Codigo 426728 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Un rescate de huevitos un rescate de huevitos 2021">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ewrIYKTLaqerwznGzNhmqr0huTs.jpg">
+<a href="https://ok.ru/videoembed/2389053803166?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Un rescate de huevitos </h4>
+<h6 id="artist">2021</h6>            
+Codigo 104427 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="western" 
+data-etiquetas="Hostile hostiles  2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/6FxhTzubzDdFE6ZyzbxgTwIyx7l.jpg">
+<a href="https://ok.ru/videoembed/1289788656201?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Hostiles  </h4>
+<h6 id="artist">2017</h6>            
+Codigo 698975 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El demonio neón el demonio neón 2016">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ab8GizztL1Cjf4ydf8JjXWZHnqH.jpg">
+<a href="https://ok.ru/videoembed/1654506785414?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El demonio neón </h4>
+<h6 id="artist">2016</h6>            
+Codigo 590357 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Aplicacion siniestra aplicacion siniestra 2016">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/nj41nDNmpRNQSaHithu8VmOGUDG.jpg">
+<a href="https://ok.ru/videoembed/1655029107334?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Aplicacion siniestra </h4>
+<h6 id="artist">2016</h6>            
+Codigo 833260 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="western" 
+data-etiquetas="Los siete magníficos los siete magníficos 2016">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/v6fvtfBKs83iVT9EZDcRPWLXCRU.jpg">
+<a href="https://ok.ru/videoembed/Western?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Los siete magníficos </h4>
+<h6 id="artist">2016</h6>            
+Codigo 551442 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Hitman hitman 2007">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/7HciU0IfNaAeFLIIaXJE9FHm8rx.jpg">
+<a href="https://ok.ru/videoembed/2695901547042?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Hitman </h4>
+<h6 id="artist">2007</h6>            
+Codigo 584714<br>
+
+</div></div>
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Sueño lúcido sueño lucido 2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/jFEa1TCyQB0WfQax1UC8sD4DFvk.jpg">
+<a href="https://ok.ru/videoembed/2731358489122?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Sueño lúcido </h4>
+<h6 id="artist">2017</h6>            
+Codigo 517359 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Quisiera ser grande quisiera ser grande 1988">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ri6DEF9rul9Z0nOkPdTWHilZgJd.jpg">
+<a href="https://ok.ru/videoembed/2734955366946?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Quisiera ser grande </h4>
+<h6 id="artist">1988</h6>            
+Codigo 479145 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="Rescate en el barrio chino rescate en el barrio chino 1986">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8SIzQ2MVXaDyGVbbOn24DlV9t1C.jpg">
+<a href="https://ok.ru/videoembed/2735003535906?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Rescate en el barrio chino </h4>
+<h6 id="artist">1986</h6>            
+Codigo 773730 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="crimen" 
+data-etiquetas="Justicia roja justicia roja 1997">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/xsIbKOO1CacqTagyJmEGGf4kOnn.jpg">
+<a href="https://ok.ru/videoembed/2765722487330?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Justicia roja </h4>
+<h6 id="artist">1997</h6>            
+Codigo 565753 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="romance" 
+data-etiquetas="Bajo la misma estrella bajo la misma estrella 2014">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/wWtK2Kg4afUaQ2LVzQKsdcvJnLa.jpg">
+<a href="https://ok.ru/videoembed/2797790693922?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Bajo la misma estrella </h4>
+<h6 id="artist">2014</h6>            
+Codigo 336137 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Proyecto géminis proyecto géminis 2019">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/vElHpr8KMlj3loE6L9ZGiqELa7T.jpg">
+<a href="https://ok.ru/videoembed/2824607173154?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Proyecto géminis </h4>
+<h6 id="artist">2019</h6>            
+Codigo 709992 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Volver al futuro 2 volver al futuro 2 1989">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/dD9UL43dn1LTInOV5MtSyxXGbE6.jpg">
+<a href="https://ok.ru/videoembed/568484825681?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Volver al futuro 2 </h4>
+<h6 id="artist">1989</h6>            
+Codigo 387468 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Volver al futuro 3 volver al futuro 3 1990">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/c7hdQRuEXbPQnnrGoLEWCwabSgy.jpg">
+<a href="https://ok.ru/videoembed/ ?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Volver al futuro 3 </h4>
+<h6 id="artist">1990</h6>            
+Codigo 155705 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Asesinos asesinos 1995">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/56CjAhLlMwtcITYbS61ql3DbmkW.jpg">
+<a href="https://ok.ru/videoembed/598357183057?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Asesinos </h4>
+<h6 id="artist">1995</h6>            
+Codigo 178153 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="Hasta el último hombre hsta el último hombre 2016">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/m3jj8IJ7uP5p4MqMzgtGW5l4ECd.jpg">
+<a href="https://ok.ru/videoembed/2392447191752?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Hasta el último hombre </h4>
+<h6 id="artist">2016</h6>            
+Codigo 457160 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="drama" 
+data-etiquetas="90 minutos en el cielo 2015">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/1Bi9eVHTu2OW24aqNZjLgGUYT3k.jpg">
+<a href="https://ok.ru/videoembed/2876476820168?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">90 minutos en el cielo </h4>
+<h6 id="artist">2015</h6>            
+Codigo 783517 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="G.I. Joe : The Movie 1973">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/qOWEFVip6WrVt5EdtDIe2ylu23t.jpg">
+<a href="https://ok.ru/videoembed/3319923084025?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">G.I. Joe : The Movie </h4>
+<h6 id="artist">1973</h6>            
+Codigo 366173 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Godzilla el devorador de planetas godzilla el devorador de planetas 2018">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/sm5DUZ9tTd2zfA5tDNDArJxvXUh.jpg">
+<a href="https://ok.ru/videoembed/1057839123075?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Godzilla: El devorador de planetas </h4>
+<h6 id="artist">2018</h6>            
+Codigo 206060 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Superman 4 en busca de la paz superman 4 en busca de la paz 1987">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/b5ux5N1eyjrfn3Iq93Dy2yENTuF.jpg">
+<a href="https://ok.ru/videoembed/2395712326225?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Superman 4: En busca de la paz </h4>
+<h6 id="artist">1987</h6>            
+Codigo 556626 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Superman 3 superman 3 1983">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/3p8GERtXULjbL4PrzCsrEJ1FTXJ.jpg">
+<a href="https://ok.ru/videoembed/2395382155857?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Superman 3 </h4>
+<h6 id="artist">1983</h6>            
+Codigo 659205 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Superman 2 superman 2 1980">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ajREYcVJYEmmduaBf019XVFeP9O.jpg">
+<a href="https://ok.ru/videoembed/2395381828177?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Superman 2 </h4>
+<h6 id="artist">1980</h6>            
+Codigo 551237 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Tom and jerry  the gene deitch collection Tom and jerry 2015">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/2M9DUoubGEEE1hsrp5AkC9wKDPU.jpg">
+<a href="https://ok.ru/videoembed/2979463039537?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Tom and Jerry collection</h4>
+<h6 id="artist">2015</h6>            
+Codigo  <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Bienvenidos a monster high bienvenidos a monster high 2016">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/15tmuCgthNVs9MTf24P6OB0cESP.jpg">
+<a href="https://ok.ru/videoembed/1839066909338?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Bienvenidos a monster high </h4>
+<h6 id="artist">2016 </h6>            
+Codigo 86279 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="misterio" 
+data-etiquetas="Destino final 3 destino final 3 2016">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/3PEVkIBOii1fxQxaQ0iKODGnBUp.jpg">
+<a href="https://ok.ru/videoembed/4039680199219?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Destino Final 3 </h4>
+<h6 id="artist">2016</h6>            
+Codigo 679646 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Pumpkinhead 2 la revancha pumpkinhead 2 la revancha 1993">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/2SV5w3xTlMP4ALxckGqdxCFKH8h.jpg">
+<a href="https://ok.ru/videoembed/ ?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Pumpkinhead 2: La revancha </h4>
+<h6 id="artist">1993</h6>            
+Codigo 280181 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Pumpkinhead 1 Pacto de sangre pumpkinhead 1 pacto de sangre 1988">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/39syYAlfnNzPfhHHW8pqUcv43Vb.jpg">
+<a href="https://ok.ru/videoembed/1234303322755?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Pumpkinhead 1 Pacto de sangre </h4>
+<h6 id="artist">1988</h6>            
+Codigo 211494 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="La perfeccion la perfeccion 2018">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hkXie4mkqAocng89nrYEcLBkhxw.jpg">
+<a href="https://ok.ru/videoembed/1237112261251?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La perfeccion </h4>
+<h6 id="artist">2018</h6>            
+Codigo 107245 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Cuentos de la oscuridad cuentos de la oscuridad 1990">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/4dNq6y4QIrzTePoN9h6N1cCsmxP.jpg">
+<a href="https://ok.ru/videoembed/1244796488323?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Cuentos de la oscuridad </h4>
+<h6 id="artist">1990</h6>            
+Codigo 799362 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="El escuadrón anti-monstruos el escuadrón anti-monstruos 1987">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/zSU1WuADhf12DKpMso4tbEmbF9x.jpg">
+<a href="https://ok.ru/videoembed/1239640246937?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El escuadrón anti-monstruos </h4>
+<h6 id="artist">1987</h6>            
+Codigo 342322<br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Amityville 2 la posesión amityville 2 la posesión 1982">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/b2C13Joh5uAd3EMZOiJCvMIW75H.jpg">
+<a href="https://ok.ru/videoembed/videoembed?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Amityville 2: La Posesión </h4>
+<h6 id="artist">1982</h6>            
+Codigo 403029 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Hiena salvaje 2 - dos contra cielo y tierra hiena salvaje 2 - dos contra cielo y tierra 1983">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8JQH2yBLQkpA3TS8aIymeQqFt6n.jpg">
+<a href="https://ok.ru/videoembed/ ?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Hiena salvaje 2 - dos contra cielo y tierra </h4>
+<h6 id="artist">1983</h6>            
+Codigo 147562 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Locos por las nueces 2 locos por las nueces 2 2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/zHEA1SxWhIzaqa82FY2GtbJE39p.jpg">
+<a href="https://ok.ru/videoembed/ ?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Locos por las nueces 2 </h4>
+<h6 id="artist">2017</h6>            
+Codigo 400939 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="Castillo de arena castillo de arena 2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/3dB9oHI6NkaCO1WWBdEA0XzghSg.jpg">
+<a href="https://ok.ru/videoembed/830697114215?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Castillo de arena </h4>
+<h6 id="artist">2017</h6>            
+Codigo 668134 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="música" 
+data-etiquetas="Whiplash música y obsesión whiplash música y obsesión 2014">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/oPxnRhyAIzJKGUEdSiwTJQBa3NM.jpg">
+<a href="https://ok.ru/videoembed/667964345029?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Whiplash Música y obsesión </h4>
+<h6 id="artist">2014</h6>            
+Codigo 517754 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="bélica" 
+data-etiquetas="Alma de Héroe alma de héroe alma de heroe">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/Am3avSjCB9y7fmqwFY8qIatPpYi.jpg">
+<a href="https://ok.ru/videoembed/2084821273322?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Alma de Héroe </h4>
+<h6 id="artist">2019</h6>            
+Codigo 524814 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="King Kong king kong 2005">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/tSfZ6LoZgnz8BOrSQVo24vqv4nW.jpg">
+<a href="https://ok.ru/videoembed/2978713504389?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">King Kong </h4>
+<h6 id="artist">2005</h6>            
+Codigo 650870 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Y dónde están las rubias y dónde están las rubias y donde estan las rubias 2004">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/9oXAJaR58sukn59HmFZzDCy79E5.jpg">
+<a href="https://ok.ru/videoembed/1780601784912?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Y dónde están las rubias? </h4>
+<h6 id="artist">2004 </h6>            
+Codigo 241846 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="El Implacable el Implacable 2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/vGvoEnL1uqFSMBMZUuZTfXhUrth.jpg">
+<a href="https://ok.ru/videoembed/2681843747362 ?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Implacable </h4>
+<h6 id="artist">2017</h6>            
+Codigo 447411 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="El mariachi el mariachi 1992">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/aKmDrnJRs1ikWVD0tvyZ8FOFiNg.jpg">
+<a href="https://ok.ru/videoembed/2681474648610?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Mariachi </h4>
+<h6 id="artist">1992</h6>            
+Codigo 514910 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="fantasía" 
+data-etiquetas="El joven manos de tijera el joven manos de tijera 1990">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/2U0rM1ZEXsRQjLSMEZvJAYzyXie.jpg">
+<a href="https://ok.ru/videoembed/2681468553762?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El joven manos de tijera </h4>
+<h6 id="artist">1990</h6>            
+Codigo 125280 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Punto de quiebre punto de quiebre 1991">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/eGSfqknufcsXmM2Rb59H9SiNd4T.jpg">
+<a href="https://ok.ru/videoembed/2683027393058?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Punto de Quiebre </h4>
+<h6 id="artist">1991</h6>            
+Codigo 253019 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="Revenant el renacido revenant el renacido 2015">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/k3Jh7J5GGMx1lmr7qmynRxOvOK5.jpg">
+<a href="https://ok.ru/videoembed/2683029228066?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Revenant: El renacido </h4>
+<h6 id="artist">2015</h6>            
+Codigo 643578 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Sunshine alerta solar sunshine alerta solar 2007">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8kX6xmEwz0RpEJkeWjXTkxbOCAp.jpg">
+<a href="https://ok.ru/videoembed/1421097306755?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Sunshine: Alerta solar </h4>
+<h6 id="artist">2007</h6>            
+Codigo 887145 <br>
+
+</div></div> 
+
+
+
+<div class="item" 
+data-categoria="aventura" 
+data-etiquetas="Everest everest 2015">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/2jKOu2bjpLP6NXJcm7Ep14bDGtA.jpg">
+<a href="https://ok.ru/videoembed/2687568644642?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Everest </h4>
+<h6 id="artist">2015</h6>            
+Codigo 181726 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Freddy vs Jason freddy vs jason 2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/3dok227cCuKIMp6SyvA9TuPKm8i.jpg">
+<a href="https://ok.ru/videoembed/2688740559394?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Freddy vs. Jason </h4>
+<h6 id="artist">2003</h6>            
+Codigo 557962 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Furia ciega furia ciega 1989">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hhINAR3ddMFaPyfWx6xsr3YmoIK.jpg">
+<a href="https://ok.ru/videoembed/2688977668642?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Furia ciega </h4>
+<h6 id="artist">1989</h6>            
+Codigo 786320 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Mayhem myhem 2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/fF5ULrCAQ8TULXyFGlPlQ2s3Jie.jpg">
+<a href="https://ok.ru/videoembed/3236257794621?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Mayhem </h4>
+<h6 id="artist">2017</h6>            
+Codigo 630964 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Operación dragón operación dragón operacion dragon 1973">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ssZnHf4cPRJGpQGv9unW8B76nrb.jpg">
+<a href="https://ok.ru/videoembed/1708993088134?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Operación Dragón </h4>
+<h6 id="artist">1973</h6>            
+Codigo 551191 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="El juego de la muerte el juego de la muerte 1978">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/c6jgLHaQpdIPH1rC94KkjAqgE7O.jpg">
+<a href="https://ok.ru/videoembed/1708909464198?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El juego de la muerte </h4>
+<h6 id="artist">1978</h6>            
+Codigo 27947 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="documental" 
+data-etiquetas="Yo soy bruce lee yo soy bruce lee yo soy Bruce Lee 2012">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/bvHjKTLFIHOHzl0arxzu2fYtLfR.jpg">
+<a href="https://ok.ru/videoembed/1708625037958?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Yo soy Bruce Lee </h4>
+<h6 id="artist">2012</h6>            
+Codigo 4154 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="El gran jefe el gran jefe 1971">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/v3q2wz9RmHwOL0IcpILJ5KokPxo.jpg">
+<a href="https://ok.ru/videoembed/1708625037958?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El gran jefe </h4>
+<h6 id="artist">1971</h6>            
+Codigo 593580 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Furia oriental - de la China con furor furia oriental - de la china con furor 1972">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/fGpZ0jq21Xwwxi0mrTUkIUii2Xn.jpg">
+<a href="https://ok.ru/videoembed/1708624906886?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Furia oriental - De la china con furor </h4>
+<h6 id="artist">1972</h6>            
+Codigo 55588 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="El furor del dragón el furor del dragón 1972">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/6FmG7gKOCemGp9yE5LdNKZlXhy4.jpg">
+<a href="https://ok.ru/videoembed/1708624841350?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El furor del dragón </h4>
+<h6 id="artist">1972</h6>            
+Codigo 462856 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Bruce lee la maldición del dragón bruce lee la maldición del dragón bruce lee la maldicion del dragon 1993">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hNBIJdHOtvlkaUBYki95UfcCYDL.jpg">
+<a href="https://ok.ru/videoembed/1708624775814?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Bruce Lee: La maldición del dragón  </h4>
+<h6 id="artist">1993</h6>            
+Codigo 58521 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Dragón la historia de bruce lee dragón la historia de bruce lee dragon la historia de bruce lee 1993">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hnSEhcF6U8a4V7zt9HGlQud93JG.jpg">
+<a href="https://ok.ru/videoembed/1708624710278?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Dragón: La historia de Bruce Lee </h4>
+<h6 id="artist">1993</h6>            
+Codigo 481322 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Halo la caida de Reach halo la caida de Reach 2015">
+<div class="container">
+<img src=" https://www.themoviedb.org/t/p/w220_and_h330_face/1tRo2jnMiS4boXMKOqhOf0M0ntZ.jpg">
+<a href="https://ok.ru/videoembed/722598824645?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Halo La caida de Reach </h4>
+<h6 id="artist">2015</h6>            
+Codigo 763894 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Posesión Infernal posesión infernal posesion infernal 2013">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/y8MW6lsIzFsc5u53sO9JeestH0B.jpg">
+<a href="https://ok.ru/videoembed/1655341845126?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Posesión Infernal </h4>
+<h6 id="artist">2013</h6>            
+Codigo 183322 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Legado de valor legado de valor 1986">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/o1YX2vWKfujfdDK8dOCWtb942me.jpg">
+<a href="https://ok.ru/videoembed/1655473441414?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Legado de Valor </h4>
+<h6 id="artist">1986</h6>            
+Codigo 114990 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="drama" 
+data-etiquetas="Y tu mamá también y tu mamá también u tu mama tambien 2016">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hvdqoH6DMZjes6MXImW8J49l01Q.jpg">
+<a href="https://ok.ru/videoembed/1655509224070?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Y tu mamá también </h4>
+<h6 id="artist">2016</h6>            
+Codigo 758258 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Masacre en el barrio japonés masacre en el barrio japonés 1991">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/wMCwGfjm0Z4YR0UCrjTvFt3TVo6.jpg">
+<a href="https://ok.ru/videoembed/1655705897606?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Masacre en el Barrio Japonés </h4>
+<h6 id="artist">1991</h6>            
+Codigo 964342 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Danny La bestia danny la bestia danny el perro 2005">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/pZozZWG1cRZj69HDYzIXAmSf5Wi.jpg">
+<a href="https://ok.ru/videoembed/1656686316166?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Danny: La Bestia - el perro</h4>
+<h6 id="artist">2005</h6>            
+Codigo 969739 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Halloween halloween  2018">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/v95lURdIFz4A6nqD7pcwv4IWj8H.jpg">
+<a href="https://ok.ru/videoembed/1656686447238?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Halloween  </h4>
+<h6 id="artist">2018</h6>            
+Codigo 363032 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Siete deseos siete deseos 2017">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/AeLxpqOb0fgRI82o3tox2dbaJw1.jpg">
+<a href="https://ok.ru/videoembed/1656686709382?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Siete deseos </h4>
+<h6 id="artist">2017</h6>            
+Codigo 436260 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Rascacielos rescate en las alturas rascacielos rescate en las alturas 2018">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/iZewx4w2Fh8lBuKoOlJqfPC5uWs.jpg">
+<a href="https://ok.ru/videoembed/1656686840454?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Rascacielos: rescate en las alturas </h4>
+<h6 id="artist">2018</h6>            
+Codigo 648552 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="El cártel de los sapos el cártel de los sapos el cartel de los sapos 2011">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/cSvzG2B2uafu5BoP5nt0OvrVrQG.jpg">
+<a href="https://ok.ru/videoembed/1657536711302?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El cártel de los sapos </h4>
+<h6 id="artist">2011</h6>            
+Codigo 794603 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Águila negra aguila negra  1988">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/z0AIPL8rMI55yMW263c9ilc7rXT.jpg">
+<a href="https://ok.ru/videoembed/1657622301318?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Águila Negra </h4>
+<h6 id="artist">1988</h6>            
+Codigo 969055 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="La máscara 2 la mascara 2005">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/6ABy1EUjcJKci9mQzrDppLWB24q.jpg">
+<a href="https://ok.ru/videoembed/1657939036806?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La Máscara 2 </h4>
+<h6 id="artist">2005</h6>            
+Codigo 782485 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="En el infierno - salvaje en el infierno  2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/f2zEJI9O3TRZyG1xy6d6r6ke4H6.jpg">
+<a href="https://ok.ru/videoembed/1657939167878?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">En el infierno - salvaje </h4>
+<h6 id="artist">2003</h6>            
+Codigo 363640 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Decisión crítica decision crítica 1996">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/nbVrvCi8UPTPjdnX3Lm7C4pmXj1.jpg">
+<a href="https://ok.ru/videoembed/1657939233414?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Decisión Crítica  </h4>
+<h6 id="artist">1996</h6>            
+Codigo 968223 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Marcado para la muerte marcado para la muerte 1990">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/rr2v1wh62cL3YKrMtbHjnUShjSA.jpg">
+<a href="https://ok.ru/videoembed/1657939430022?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Marcado para la muerte </h4>
+<h6 id="artist">1990</h6>            
+Codigo 160839 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Muerte súbita muerte subita 1995">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/m2eFjyjdYdMXKSakjP4iqh3eCRU.jpg">
+<a href="https://ok.ru/videoembed/1657939495558?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Muerte súbita </h4>
+<h6 id="artist">1995</h6>            
+Codigo 483665 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="La casa de los 1000 cadáveres la casa de los 1000 cadáveres 2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/rO7biLmJtJoTbDv5wzEwZGOD375.jpg">
+<a href="https://ok.ru/videoembed/1657939626630?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La casa de los 1000 cadáveres </h4>
+<h6 id="artist">2003</h6>            
+Codigo 111741 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Scary movie 4 scary movie 2006">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/iSybaw6TeJKKmHIh8UonOEsv4Bh.jpg">
+<a href="https://ok.ru/videoembed/1657939823238?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Scary Movie 4 </h4>
+<h6 id="artist">2006</h6>            
+Codigo 877493 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="drama" 
+data-etiquetas="Infidelidad infidelidad 2002">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/9UeN5JUCvJU3SuA4a9CrCVzgTr2.jpg">
+<a href="https://ok.ru/videoembed/2353188440734?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Infidelidad </h4>
+<h6 id="artist">2002</h6>            
+Codigo 563223 <br>
+
+</div></div>  
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Retroceder nunca rendirse jamas retroceder nunca rendirse jamas 1986">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/sMSPeec7sDXl0JBvCtJtVThbIP.jpg">
+<a href="https://ok.ru/videoembed/1657939888774?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Retroceder Nunca Rendirse Jamas </h4>
+<h6 id="artist">1986</h6>            
+Codigo 953236 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Furia de venganza - rapid fire furia de venganza 1992">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/d0A0QigLr1j8UKjXFpd0PTYv080.jpg">
+<a href="https://ok.ru/videoembed/1657939954310?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Furia de Venganza - Rapid fire </h4>
+<h6 id="artist">1992</h6>            
+Codigo 830600 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="Scream 4  scream 2011">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/sr7WNBgjX1UH9yw4Qq4o6GLAyVf.jpg">
+<a href="https://ok.ru/videoembed/1657940413062?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Scream 4 </h4>
+<h6 id="artist">2011</h6>            
+Codigo 453465 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="fantasía" 
+data-etiquetas="Gretel y hansel: un siniestro cuento de hadas gretel y hansel 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/rtKLgZw67197OdPQGlryj4pAKW8.jpg">
+<a href="https://ok.ru/videoembed/1665085213318?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Gretel y Hansel: Un siniestro cuento de hadas </h4>
+<h6 id="artist">2020</h6>            
+Codigo 898125 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Starship troopers 1 starship troopers 1997">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/cUwurMiUYIr4UU93uWY7Pd7ziuA.jpg">
+<a href="https://ok.ru/videoembed/1665087310470?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Starship Troopers 1 </h4>
+<h6 id="artist">1997</h6>            
+Codigo 107196 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Starship troopers: invasión starship troopers: invasión 2012">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/xJJY16XSazUgDvbWEXQ1ulLiz8q.jpg">
+<a href="https://ok.ru/videoembed/1666410416774?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Starship Troopers: Invasión </h4>
+<h6 id="artist">2012</h6>            
+Codigo 809953 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="Ricos de amor ricos de amor 2020">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/u8kRdW12mhOakR9WqVnarQbqGNH.jpg">
+<a href="https://ok.ru/videoembed/1666411399814?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Ricos de amor  </h4>
+<h6 id="artist">2020</h6>            
+Codigo 212658 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="comedia" 
+data-etiquetas="El día de la marmota el dia de la marmota 1993">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/92QeqRsWNcJ3ehNzxg14q4p6lv8.jpg">
+<a href="https://ok.ru/videoembed/1666493450886?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El día de la marmota  </h4>
+<h6 id="artist">1993 </h6>            
+Codigo 139600 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="documental" 
+data-etiquetas="X sicario profesionall 2019 popeye x sicario profesional 2019 popeye">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/vzHl67j8GPn2Z0SSr8DGeL4BWLd.jpg">
+<a href="https://ok.ru/videoembed/2382440958498?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">X sicario profesionall popeye</h4>
+<h6 id="artist">2019</h6>            
+Codigo 239692 <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El duende maldito 1 el duende maldito 1993">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/mIpzSHNX9lQlCKnh1cQwIXDFX5d.jpg">
+<a href="https://ok.ru/videoembed/1782789704231?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El duende maldito 1 </h4>
+<h6 id="artist">1993</h6>            
+Codigo  <br>
+
+</div></div>
+
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El duende maldito 2 el duende maldito 1994">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/fnCLZ3rpy3enYSHrzcBxnx3fozK.jpg">
+<a href="https://ok.ru/videoembed/1917118843526?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El duende maldito 2</h4>
+<h6 id="artist">1994</h6>            
+Codigo 130675 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El duende maldito 3 el duende maldito 1995">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/z9NT2smK66pYOjBtmZuKFFTZ478.jpg">
+<a href="https://ok.ru/videoembed/1782789769767?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El duende maldito 3 </h4>
+<h6 id="artist">1995</h6>            
+Codigo 983189 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El duende maldito 4: En el espacio el duende maldito 1996">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8uMaa4VnNN2TS42tGYu04we7GOM.jpg">
+<a href="https://ok.ru/videoembed/1164478908989?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El duende maldito 4: En el espacio </h4>
+<h6 id="artist">1996</h6>            
+Codigo 601145 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El duende maldito 5: La maldición el duende maldito 2000">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/lCRwtuxnJWkZ04gwtfYF9h1GUkl.jpg">
+<a href="https://ok.ru/videoembed/345515756163?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El duende maldito 5: La maldición </h4>
+<h6 id="artist">2000</h6>            
+Codigo 186587 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El duende maldito 6: De vuelta al vecindario el duende maldito 2003">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/uBXtcz92oigWaWnFDyS8j5tMAc1.jpg">
+<a href="https://ok.ru/videoembed/1782790556199?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El duende maldito 6: De vuelta al vecindario </h4>
+<h6 id="artist">2003</h6>            
+Codigo 766155 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El duende maldito 7: El origen el duende maldito 2014">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/yyZ7folrZTqEJFD7wUuGf84CmPK.jpg">
+<a href="https://ok.ru/videoembed/1917181495942?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El duende maldito 7: El origen</h4>
+<h6 id="artist">2014</h6>            
+Codigo 984979 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="terror" 
+data-etiquetas="El duende maldito regresa el duende maldito regresa 2018">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/7kToQsV04Jel1ob7VJ471LDz7wD.jpg">
+<a href="https://ok.ru/videoembed/1917186411142?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El duende maldito regresa </h4>
+<h6 id="artist">2018</h6>            
+Codigo 343597 <br>
+
+</div></div>
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="Blue submarine No. 6 blue submarine 1998">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/7sw3ou88XsMWhxalSvWUYl7tMzq.jpg">
+<a href="https://ok.ru/videoembed/2324358236767?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Blue Submarine No. 6 </h4>
+<h6 id="artist">1998</h6>            
+Codigo 557249 <br>
+
+</div></div>
+                
+        
+<div class="item" 
+data-categoria="familia" 
+data-etiquetas="Paulie paulie 1998">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/qSlXm6ksYgSxBAtReXr4dF6QOJh.jpg">
+<a href="https://ok.ru/videoembed/2818329873036?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Paulie </h4>
+<h6 id="artist">1998</h6>            
+Codigo 714756 <br>
+
+</div></div>  
+           
+            
+ <div class="item" 
+data-categoria="aventura" 
+data-etiquetas="Top gun top gun 1986">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/W8QUPhiBOCdj2urJDzc2D9xdQb.jpg">
+<a href="https://ok.ru/videoembed/3671870409428?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Top Gun </h4>
+<h6 id="artist">1986</h6>            
+Codigo 161188 <br>
+
+</div></div>   
+
+<div class="item" 
+data-categoria="ciencia ficción" 
+data-etiquetas="Robocop 3 robocop 3 1993">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/3ZALehMaDh53qi0n3zPu0yG8eAG.jpg">
+<a href="https://ok.ru/videoembed/3364257991408?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Robocop 3 </h4>
+<h6 id="artist">1993</h6>            
+Codigo 349378 <br>
+
+</div></div> 
+        
+<div class="item" 
+data-categoria="fantasía" 
+data-etiquetas="Sonámbulos sonámbulos sonambulos 1992">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/iiwplv5pET2HgMog6otunohIiSr.jpg">
+<a href="https://ok.ru/videoembed/2879276124884?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Sonámbulos </h4>
+<h6 id="artist">1992</h6>            
+Codigo 785007 <br>
+
+</div></div>  
+
+
+ <div class="item" 
+data-categoria="animación" 
+data-etiquetas="Patlabor la policía móvil patlabor la policía móvil 1989">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/thyXBdKRc3OG6PRZ0PkgM99jk3y.jpg">
+<a href="https://ok.ru/videoembed/1404784937603?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Patlabor La policía móvil </h4>
+<h6 id="artist">1989</h6>            
+Codigo 456260 <br>
+
+</div></div>  
+
+
+ <div class="item" 
+data-categoria="animación" 
+data-etiquetas="Street fighter 2 street fighter 2 1994">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/8Ug9iLUuE0zdd6PVZ11ddCCeDOP.jpg ">
+<a href="https://ok.ru/videoembed/1419051862659?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Street Fighter II </h4>
+<h6 id="artist">1994</h6>            
+Codigo 457985 <br>
+
+</div></div>               
+           
+ <div class="item" 
+data-categoria="misterio" 
+data-etiquetas="Los expedientes secretos x combate al futuro los expedientes secretos x combate al futuro 1998 ">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/daPMuyrb35YIpxbqcF66uiCt70W.jpg">
+<a href="https://ok.ru/videoembed/1422379125379?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Los expedientes secretos X: Combate al futuro </h4>
+<h6 id="artist">1998</h6>            
+Codigo 45354 <br>
+
+</div></div>               
+           
+<div class="item" 
+data-categoria="animación" 
+data-etiquetas="La tumba de las luciérnagas la tumba de las luciérnagas la tumba de las luciernagas 1988">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/ufXfPXN5Yr4tS1oawcXdTr3oXw4.jpg">
+<a href="https://ok.ru/videoembed/371315378920?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">La tumba de las luciérnagas </h4>
+<h6 id="artist">1988</h6>            
+Codigo 336779 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Operación cacería operación cacería operacion caceria 1993">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/5s6C3L1zTfbWYgI6lvNXDQxXB4z.jpg">
+<a href="https://ok.ru/videoembed/3866677217972?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">Operación cacería </h4>
+<h6 id="artist">1993</h6>            
+Codigo 330907 <br>
+
+</div></div> 
+
+<div class="item" 
+data-categoria="acción" 
+data-etiquetas="Para o mi mamá dispara para o mi mamá dispara para o mi mama dispara 1992">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/hLfguMfGmu9cQ4aPPaDOo1Yr5AE.jpg">
+<a href="https://ok.ru/videoembed/3828894272180?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">¡Para! O mi mamá dispara </h4>
+<h6 id="artist">1992</h6>            
+Codigo 953712 <br>
+
+</div></div> 
+
+
+ <div class="item" 
+data-categoria="acción" 
+data-etiquetas="El Castigador el castigador 1989">
+<div class="container">
+<img src="https://www.themoviedb.org/t/p/w220_and_h330_face/94uI2GcM1Za0dJVUSSuyI8gvQgX.jpg">
+<a href="https://ok.ru/videoembed/ ?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle">El Castigador </h4>
+<h6 id="artist">1989</h6>            
+Codigo 88449 <br>
+
+</div></div> 
+
+            
+ <div class="item" 
+data-categoria=" " 
+data-etiquetas=" ">
+<div class="container">
+<img src=" ">
+<a href="https://ok.ru/videoembed/3763387763380?autoplay=1"><button class="btna">►</button></a></div>
+<div id="linkme">
+<h4 id="mtitle"> </h4>
+<h6 id="artist"> </h6>            
+Codigo  <br>
+
+</div></div> 
+           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+			
+		
+			
+		</section>
+
+	
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+
+
+  <script>
+  /* Inicializar Muuri */
+const grid = new Muuri('.grid', {
+	layout: {
+		rounding: false
+	}
+});
+
+/* Transición al Cargar la Imágenes*/
+window.addEventListener('load', () => {
+	grid.refreshItems().layout();
+	document.getElementById('grid').classList.add('loaded-images');
+
+	/* Listener de los Enlaces para Filtrar por Categoría */
+	const enlaces = document.querySelectorAll('#categories');
+	enlaces.forEach( (elemento) => {
+		elemento.addEventListener('click', (evento) => {
+			evento.preventDefault();
+			enlaces.forEach((enlace) => enlace.classList.remove('active'));
+			event.target.classList.add('active');
+
+			/* Identificar la categoria del enlace que fué cliqueado */
+			const categoria = evento.target.innerHTML.toLowerCase();
+			categoria === 'todas' ? grid.filter('[data-categoria]') : grid.filter(`[data-categoria="${categoria}"]`);
+		});
+	} );
+
+	/* Listener para la Barra de Búsqueda */
+	document.querySelector('#search-bar').addEventListener('input', (evento) => {
+		const busqueda = evento.target.value;
+		grid.filter( (item) => item.getElement().dataset.etiquetas.includes(busqueda) );
+	});
+
+
+
+});
+  
+ </script>
+
+
+   <style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btna {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+     background-color: #ab0404db;
+    color: #f7f7f7;
+  font-size: 16px;
+  padding: 4px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+      border-radius: 50px;
+}
+
+.container .btna:hover {
+  background-color: black;
+}
+</style>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+</head>
+<body>
+
+
+<script>
+$(function() {
+    $('.popup-youtube, .popup-vimeo').magnificPopup({
+        disableOn: 100,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+});
+</script>
+
+
+<style>
+/* Magnific Popup CSS */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8; }
+
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden; }
+
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+ 
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  box-sizing: border-box; }
+
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.mfp-align-top .mfp-container:before {
+  display: none; }
+
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045; }
+
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  width: 100%;
+  cursor: auto; }
+
+.mfp-ajax-cur {
+  cursor: progress; }
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out; }
+
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+.mfp-auto-cursor .mfp-content {
+  cursor: auto; }
+
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+.mfp-loading.mfp-figure {
+  display: none; }
+
+.mfp-hide {
+  display: none !important; }
+
+.mfp-preloader {
+  color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044; }
+  .mfp-preloader a {
+    color: #CCC; }
+    .mfp-preloader a:hover {
+      color: #FFF; }
+
+.mfp-s-ready .mfp-preloader {
+  display: none; }
+
+.mfp-s-error .mfp-content {
+  display: none; }
+
+button.mfp-close,
+button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  box-shadow: none;
+  touch-action: manipulation; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.65;
+  padding: 0 0 18px 10px;
+  color: #FFF;
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Baskerville, monospace; }
+  .mfp-close:hover,
+  .mfp-close:focus {
+    opacity: 1; }
+  .mfp-close:active {
+    top: 1px; }
+
+.mfp-close-btn-in .mfp-close {
+  color: #333; }
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  color: #FFF;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%; }
+
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #CCC;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap; }
+
+.mfp-arrow {
+  position: absolute;
+  opacity: 0.65;
+  margin: 0;
+  top: 50%;
+  margin-top: -55px;
+  padding: 0;
+  width: 90px;
+  height: 110px;
+  -webkit-tap-highlight-color: transparent; }
+  .mfp-arrow:active {
+    margin-top: -54px; }
+  .mfp-arrow:hover,
+  .mfp-arrow:focus {
+    opacity: 1; }
+  .mfp-arrow:before,
+  .mfp-arrow:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 35px;
+    margin-left: 35px;
+    border: medium inset transparent; }
+  .mfp-arrow:after {
+    border-top-width: 13px;
+    border-bottom-width: 13px;
+    top: 8px; }
+  .mfp-arrow:before {
+    border-top-width: 21px;
+    border-bottom-width: 21px;
+    opacity: 0.7; }
+
+.mfp-arrow-left {
+  left: 0; }
+  .mfp-arrow-left:after {
+    border-right: 17px solid #FFF;
+    margin-left: 31px; }
+  .mfp-arrow-left:before {
+    margin-left: 25px;
+    border-right: 27px solid #3F3F3F; }
+
+.mfp-arrow-right {
+  right: 0; }
+  .mfp-arrow-right:after {
+    border-left: 17px solid #FFF;
+    margin-left: 39px; }
+  .mfp-arrow-right:before {
+    border-left: 27px solid #3F3F3F; }
+
+.mfp-iframe-holder {
+  padding-top: 250px;
+  padding-bottom: 40px; }
+  .mfp-iframe-holder .mfp-content {
+    line-height: 0;
+    width: 100%;
+    max-width: 900px; }
+  .mfp-iframe-holder .mfp-close {
+    top: -40px; }
+
+.mfp-iframe-scaler {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%; }
+  .mfp-iframe-scaler iframe {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: #000; }
+
+/* Main image in popup */
+img.mfp-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto; }
+
+/* The shadow behind the image */
+.mfp-figure {
+  line-height: 0; }
+  .mfp-figure:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 40px;
+    bottom: 40px;
+    display: block;
+    right: 0;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: #444; }
+  .mfp-figure small {
+    color: #BDBDBD;
+    display: block;
+    font-size: 12px;
+    line-height: 14px; }
+  .mfp-figure figure {
+    margin: 0; }
+
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto; }
+
+.mfp-title {
+  text-align: left;
+  line-height: 18px;
+  color: #F3F3F3;
+  word-wrap: break-word;
+  padding-right: 36px; }
+
+.mfp-image-holder .mfp-content {
+  max-width: 100%; }
+
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer; }
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+       * Remove all paddings around the image on small screen
+       */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0; }
+  .mfp-img-mobile img.mfp-img {
+    padding: 0; }
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0; }
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px; }
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    margin: 0;
+    top: auto;
+    padding: 3px 5px;
+    position: fixed;
+    box-sizing: border-box; }
+    .mfp-img-mobile .mfp-bottom-bar:empty {
+      padding: 0; }
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px; }
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    padding: 0; } }
+
+@media all and (max-width: 900px) {
+  .mfp-arrow {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75); }
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    transform-origin: 0; }
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%; }
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px; } }
+</style>
+
