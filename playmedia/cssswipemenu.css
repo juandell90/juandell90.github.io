@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navigation {
+  position: fixed;
+  top: 0;
+  background-color: #1667F3;
+  height: 100%;
+  width: 30%;
+}
+
+#navigation a {
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: #fff;
+  background: url(https://s26.postimg.org/fi10zsufd/hammer.png) top no-repeat;
+}
