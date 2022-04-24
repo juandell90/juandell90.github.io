@@ -10,6 +10,7 @@
   background-color: #1667F3;
   height: 100%;
   width: 30%;
+  z-index:100;
 }
 
 #navigation a {
