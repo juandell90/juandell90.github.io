@@ -153,7 +153,7 @@ button:hover, a.btn:hover
 .aa-tbs a.on:before{background-color:var(--primary);width:100%}
 
 
-.video-options li .btn{text-align:center;line-height:2rem;padding:1rem;border-radius:.2rem;color:rgb(0 0 0);background-color:#b0b0b0;width: 120}
+.video-options li .btn{text-align:center;line-height:2rem;padding:1rem;border-radius:.2rem;color:rgb(0 0 0);background-color:#b0b0b0;width: 120;}
 
 .video-options li .btn.on,.video-options li .btn:hover{background-color:#868ca0} 
 
