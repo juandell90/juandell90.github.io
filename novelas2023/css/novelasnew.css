@@ -1,15 +1,6 @@
 
 
 
-
-.mh-head.mh-align-right .mh-text{text-align:right}.mh-head.mh-btns-left{padding-left:50px}.mh-head.mh-btns-left-2{padding-left:90px}.mh-head.mh-btns-left-3{padding-left:130px}.mh-head.mh-btns-right{padding-right:50px}.mh-head.mh-btns-right-2{padding-right:90px}.mh-head.mh-btns-right-3{padding-right:130px}.mh-head .mh-btns-left,.mh-head .mh-btns-right{display:block;width:40px;position:absolute;top:0;bottom:0}.mh-head .mh-btns-left{left:10px}
-
-.mh-head .mh-btns-right{right:10px}.mh-head.mh-btns-left-2 .mh-btns-left,.mh-head.mh-btns-right-2 .mh-btns-right{width:80px}.mh-head.mh-btns-left-3 .mh-btns-left,.mh-head.mh-btns-right-3 .mh-btns-right{width:120px}
-
-
-
-.mh-head .mh-btns-left>*,.mh-head .mh-btns-right>*{text-align:center;font-size:18px;line-height:20px;width:40px;display:block;padding:10px 0;position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.mh-head .mh-btns-left>:nth-child(1),.mh-head .mh-btns-right>:nth-child(1){left:0}.mh-head .mh-btns-left>:nth-child(2),.mh-head .mh-btns-right>:nth-child(2){left:40px}
-  
   
 
 .accordian h3 {
@@ -28,8 +19,8 @@ color:white;
 
 
 .accordian ul {
-	    margin: 0;
-    padding: 0;
+	    margin: 2px;
+    padding: 25px 10px 0 10px;
   
 }
 
@@ -114,7 +105,7 @@ button, a.btn
   background-repeat: no-repeat;
   background-size: auto 70%;
   background-position: 92% center;
-  box-shadow: 0 0.2rem 0 #ff0000;
+ 
   
 } 
 
@@ -144,7 +135,7 @@ button:hover, a.btn:hover
 .aa-tbs{margin: 0px 0px -45% 0px;padding:0px 0px 0px 0px;list-style:none;white-space:nowrap}
 .aa-tbsx{margin:0 0 var(--size);padding:0px 0px 180px 0px;list-style:none;white-space:nowrap}
 
-.aa-tbs a{display:block;line-height:2rem;font-size:var(--f-size);color:var(--text);white-space:nowrap;position:relative;margin-bottom:var(--size);border: 1px solid red;}
+.aa-tbs a{display:block;line-height:2rem;font-size:var(--f-size);color:var(--text);white-space:nowrap;position:relative;margin-bottom:var(--size);border: 1px solid #b621fe ;}
 
 .aa-tbs a:before{height:3px;content:'';position:absolute;left:0;right:0;bottom:calc(-1 * var(--size));width:0;margin:auto;-webkit-transition:.2s;transition:.2s}
 
@@ -153,12 +144,10 @@ button:hover, a.btn:hover
 .aa-tbs a.on:before{background-color:var(--primary);width:100%}
 
 
-.video-options li .btn{text-align:center;line-height:2rem;padding:1rem;border-radius:.2rem;color:rgb(0 0 0);background-color:#b0b0b0;width: 120;}
+.video-options li .btn{text-align:center;line-height:2rem;padding:1rem;border-radius:.2rem;color:white;background:linear-gradient(71deg, #1fd1f9 0%, #b621fe 74%);width: 120;}
 
 .video-options li .btn.on,.video-options li .btn:hover{background-color:#868ca0} 
 
-
-.visto input[type="checkbox"]{ width: 50px; height: 20px; -webkit-appearance:none; background: #c6c6c6; border-radius: 50px; outline: none; transition: .5s; box-shadow: inset 0 0 5px rgba(0,0,0,.3); position: relative; } .visto input[type="checkbox"]:checked{ background; background: #ff0000;; } .visto input[type="checkbox"]:checked ~  h2 > span{ display: none; } .visto h2 span{ } .visto input[type="checkbox"]::before{ content: ''; width: 20px; height: 20px; border-radius: 50px; background: #868ca0; position: absolute; top: 0; left: 0; transform: scale(1.1); box-shadow: 0 2px 6px rgba(0,0,0,.2); transition: .4s; } .visto input:checked[type="checkbox"]::before{ left: 30px; } .visto h2{ font-size: 10px; font-weight: 600; color: white; }
 
   
 #aa-options{ color:red;}
@@ -198,33 +187,6 @@ a:hover{color:#007AFF}
 }
 
 
-.collapsible {
-  background-color: #000;
-  color: white; 
-  cursor: pointer;
-  padding: 9px;
-  width: 50%;
-  border: none;
-
-  outline: none;
-  font-size: 15px;
-  border: 1px solid red;
-    border-radius: 50px;
-}
-
-.active, .collapsible:hover {
-  background-color: #f00;
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #2e2e2;
-   width: 100%;
-}
-
 
 .btn {
   padding: 10px 40px;
@@ -245,7 +207,7 @@ a:hover{color:#007AFF}
   background-color: #aa0404;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-	
+	}
 	
 	html,
 body {
