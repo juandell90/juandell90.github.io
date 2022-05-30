@@ -180,7 +180,7 @@ html {
 body {
 	font-family: Helvetica;
 	background: black;
-	overflow: auto;
+	overflow: scroll;
 	font-size:12px;
 }
 
