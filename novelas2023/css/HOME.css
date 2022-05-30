@@ -365,6 +365,56 @@ background: linear-gradient(71deg, #1fd1f9 0%, #b621fe 74%);
 
 
 
+body * {
+    font-family: 'Montserrat', sans-serif;
+ text-decoration: none;
+}
+#approveModal {
+    width: 100%;
+    text-align: center;
+        background: linear-gradient(315deg, #11868c 0%, #b621fe 74%);
+    min-height: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    animation: animatetop 1s forwards;
+    position: fixed;
+    right: 0;
+    display: block;
+        border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+  font-size: 20px;
+      z-index: 1000;
+}
+
+@keyframes animatetop{
+    from{bottom:-400px;opacity:0} 
+    to{bottom:0;opacity:1}
+  }
+
+  #approveModal button {
+    padding: 10px 15px;
+    border: none;
+       background: linear-gradient(315deg, #06f3ff 0%, #b621fe 74%);
+    font-weight: 100;
+    color: #fff;
+    margin-left: 35px;
+  }
+
+  #approveModal button:hover {
+    background-color: #dbdadae1;
+    color: white;
+    
+}
+
+#approveModal.ModalDisappearing {
+    animation: animatebottom 4s forwards;
+  }
+  
+  @keyframes animatebottom {
+    from{bottom:0;opacity:0} 
+    to{bottom:-400px;opacity:1}
+  }
 
 
 
