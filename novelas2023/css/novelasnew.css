@@ -114,11 +114,44 @@ button:hover, a.btn:hover
   background-color: crimson;
   color: white;
   background-image: url('');
-  box-shadow: 0 0.3rem 0 #ff0000;
+  box-shadow: rgb(157 0 255) 0px 0.3rem 0px;
   transform: translateY(-0.2rem);
 }
 
 
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: transparent;
+  
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: transparent;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
 
 
 
