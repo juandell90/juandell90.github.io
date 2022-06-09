@@ -1,3 +1,6 @@
+ .loaded #loader-wrapper {
+        visibility: hidden;
+    }
 
 
 #loader-wrapper {
