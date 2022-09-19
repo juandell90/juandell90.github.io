@@ -438,6 +438,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: sans-serif;
+	TEXT-ALIGN: -WEBKIT-CENTER;
 }
 
 ul,
@@ -488,10 +489,11 @@ li {
   color: #fff;
   position: absolute;
   top: 10px;
-  left: 1;
+  left: 0px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   border-radius: 4px;
+	
 }
 .tgl-flip + .tgl-btn:after {
   content: attr(data-tg-on);
