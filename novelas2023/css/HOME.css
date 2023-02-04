@@ -230,6 +230,7 @@ containerx {
 }
 .btna {
 font-size: 16px;
+	display: inline;
 }
 
 .containerx .btnz:hover {
@@ -254,6 +255,7 @@ button {
 background: linear-gradient(71deg, #1fd1f9 0%, #b621fe 74%);
     color: #fff;
     border-radius: 20px;
+	display: inline !important;
 }
 
 h1 {
