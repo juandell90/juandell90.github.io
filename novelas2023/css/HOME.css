@@ -423,8 +423,19 @@ background: linear-gradient(71deg, #1fd1f9 0%, #b621fe 74%);
 body * {
     font-family: 'Montserrat', sans-serif;
  text-decoration: none;
+display: block;
+}
 
-}	
+    style {
+    display: none !important;
+}
+    
+    script {
+    display: none !important;
+}
+
+
+
 
 #approveModal {
     width: 100%;
