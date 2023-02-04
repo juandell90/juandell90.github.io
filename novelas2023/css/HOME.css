@@ -434,7 +434,9 @@ display: block;
     display: none !important;
 }
 
-
+title {
+    display: none;
+}
 
 
 #approveModal {
