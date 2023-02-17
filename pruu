@@ -1,0 +1,511 @@
+<style type='text/css'>
+/* Animation */
+@keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes rubberBand{from{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,0.75,1)}40%{transform:scale3d(0.75,1.25,1)}50%{transform:scale3d(1.15,0.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}to{transform:scale3d(1,1,1)}}
+/* Say Hi to Adblock */
+#arlinablock{background:rgba(0,0,0,0.65);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;animation:fadeInDown 1s}
+#arlinablock .header{margin:0 0 15px 0}
+#arlinablock .inner{    background: linear-gradient(71deg, #1fd1f9 0%, #b621fe 74%);color:#fff;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;font-size: 20px;width:600px;padding:40px;border-radius:20px;margin:7% auto 2% auto;animation:rubberBand 1s}
+#arlinablock button{padding:10px 20px;border:0;background:rgba(0,0,0,0.15);color:#fff;margin:20px 5px;cursor:pointer;transition:all .3s}
+#arlinablock button:hover{background:rgba(0,0,0,0.35);color:#fff;outline:none}
+#arlinablock button.active,#arlinablock button:hover.active{background:#fff;color:#222;outline:none}
+#arlinablock .fixblock{background:#fff;text-align:left;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px}
+#arlinablock .fixblock div{display:none}
+#arlinablock .fixblock div.active{display:block}
+#arlinablock ol{margin-left:20px}
+.header{background:#000;;display:flex;align-items:center;justify-content:space-between;padding:1em;border-radius: 20px;font-size:20px;color:#fff;}
+@media(max-width:768px){#arlinablock .inner{width:calc(100% - 50px);margin:10px auto;padding:15px}}
+h20 {
+color: #ffffff;
+font-weight: normal;
+text-align: center;
+font-family: cursive;
+font-size: 30px;
+ 
+}
+</style>
+<script type='text/javascript'>
+//<![CDATA[
+// Say Hi to Adblock
+function downloadJSAtOnload(){var e=document.createElement("script");e.src="https://juandell90.github.io/adbl/bloqueador.js",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
+//]]>
+</script>
+
+<meta name="referrer" content="never" /><div align='center'><link rel="stylesheet" href="https://juandell90.github.io/novelas2023/css/novelasnew.css">
+<div align='center'><meta name="referrer" content="never" />
+<div class="backdrop"><article class="TPost movtv-info cont"><div class="Image"><figure>
+
+<img src="https://cdn.discordapp.com/attachments/978168201357713482/978864093698068570/002.webp" ></figure></div>
+<div class="subscribe" onclick="subscribeRadio()">
+<span class="secondary-span-color">Añadir a Favoritos ❤️</span></div>
+<script type="text/javascript" src="https://juandell90.github.io/NEWAPP/fav1.js"></script>
+<script type="text/javascript" src="https://juandell90.github.io/NEWAPP/fav2.js"></script>
+<script>
+    var radioName=" Destino 2013";
+    var radioArtWorkUrl="https://cdn.discordapp.com/attachments/978168201357713482/978864093698068570/002.webp";
+    var radioSlugId="0002";
+    var radioUrl="go:002";
+    var subscribeString="Añadir a Favoritos❤️";
+    var subscribedString="Remover de Favoritos";    
+    var stringNumberOfSubscribedRadios="esNumberOfSubscribedRadios";
+    var stringRadioSlugIdList="esRadioSlugIdList";
+    var stringNumberOfSubscribedPodcasts="esNumberOfSubscribedPodcasts";
+    var stringPodcastSlugIdList="esPodcastSlugIdList";;</script>
+
+<header><h1 class="Title">
+Destino
+</h1><h2 class="SubTitle">
+2013
+</h2></header><footer><p class="meta"> <span>
+105 capitulos
+</span> <span></span> <span class="Qlty">HD</span></p></footer><div class="Description"><p>
+
+La historia de dos mujeres que se volvieron rivales por amor, sin saber que el lazo de sangre que las une ha marcado su destino por siempre. Valeria es una mujer que ha sido siempre feliz en su vida y rodeada de gente buena, pero todo se derrumba y se da cuenta que todo lo que ella asumía, no era verdad, pues su madre Socorro le confiesa antes de morir que no es su verdadera madre
+
+</p></div></article><div class="Image"><figure class="Objf"><img src="https://3.bp.blogspot.com/-VTn6Cv8mhmI/VKPi7rbNj9I/AAAAAAAAH5I/HkHNiwk-oMA/s1600/telenovela_destino1.jpg"></figure></div>
+
+
+
+<!DOCTYPE html>
+<html dir='ltr' lang='es' prefix='og: http://ogp.me/ns#' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' >
+<meta name="referrer" content="never" />
+<style>
+  
+    
+    .temp{    margin: 1rem 0;
+    padding: 1rem;
+    background: #1d252b;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2.8px 2.8px 2.2px rgb(0 0 0 / 1%), 6.7px 6.7px 5.3px rgb(0 0 0 / 2%), 12.5px 12.5px 10px rgb(0 0 0 / 3%), 22.3px 22.3px 17.9px rgb(0 0 0 / 2%), 41.8px 41.8px 33.4px rgb(0 0 0 / 2%), 100px 100px 80px rgb(0 0 0 / 7%);
+    justify-content: space-evenly;
+    flex-direction: column;}
+    
+    
+    .poster-number{display:flex;align-items:center}
+    .poster-number img{
+    max-width: 130px;
+    height: 180px;
+    margin-right: 20px;
+    aspect-ratio: 5 / 2.8;
+}}.card-info h4{margin-bottom:10px}.card-info p{opacity:.7;margin-top:5px}.play i{display:flex;justify-items:center;justify-content:center;padding:1rem;background:#151c21;border-radius:100px;width:50px;height:50px;color:#5797be}.not-banner input{display:none}.not-banner input:checked+label{background:#5797be}.not-banner label{display:block;padding:1rem;border-radius:7px;background:#1d252b;font-size:20px;text-align:center;cursor:pointer;box-shadow:2.8px 2.8px 2.2px rgba(0,0,0,.012),6.7px 6.7px 5.3px rgba(0,0,0,.022),12.5px 12.5px 10px rgba(0,0,0,.027),22.3px 22.3px 17.9px rgba(0,0,0,.024),41.8px 41.8px 33.4px rgba(0,0,0,.015),100px 100px 80px rgba(0,0,0,.07)}
+</style>
+<style>
+    .temps{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;}
+    
+.poster-number{align-items:flex-start}.card-info h4{margin-bottom:0;font-size:22px}.card-info p{margin-top:10px}.poster-number img{max-width:130px;margin-right:20px;aspect-ratio:5 / 2.8}
+
+#lightbox-content{margin:0 auto;width:100%;border-radius:5px;position:relative;overflow:hidden;padding-top:56.25%}.responsive-iframe{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%}
+</style>
+</head>
+
+<body id="body">                    
+<div id="lightbox">
+            <div id="lightbox-content">
+                <iframe class="responsive-iframe" id="video-adicionado" width="100%" height="100%" sandbox="allow-same-origin allow-scripts" scrolling="no" style="  border-radius:5px;" src="https://www.youtube.com/embed/HWBKY11m7PY " frameborder="0" allowfullscreen=""></iframe>
+            </div>
+        </div>
+
+    <div class="sinopsis" style="text-align: center;">
+    <h1></h1>
+    <h1 id="title">Capítulo 1</h1>
+    </div>
+    
+    <ul class="temps" id="temps">
+    
+            
+
+
+            <li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065133747?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 1</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0021" type="checkbox" type="checkbox" store="0021"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0021"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069196979?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 2</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0022" type="checkbox" type="checkbox" store="0022"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0022"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065526963?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 3</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0023" type="checkbox" type="checkbox" store="0023"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0023"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068017331?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 4</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0024" type="checkbox" type="checkbox" store="0024"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0024"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068934835?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 5</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0025" type="checkbox" type="checkbox" store="0025"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0025"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065789107?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 6</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0026" type="checkbox" type="checkbox" store="0026"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0026"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764271585971?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 7</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0027" type="checkbox" type="checkbox" store="0027"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0027"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764272110259?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 8</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0028" type="checkbox" type="checkbox" store="0028"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0028"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067624115?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 9</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="0029" type="checkbox" type="checkbox" store="0029"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="0029"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066837683?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 10</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00210" type="checkbox" type="checkbox" store="00210"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00210"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067361971?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 11</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00211" type="checkbox" type="checkbox" store="00211"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00211"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764273683123?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 12</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00212" type="checkbox" type="checkbox" store="00212"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00212"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065330355?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 13</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00213" type="checkbox" type="checkbox" store="00213"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00213"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764273617587?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 14</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00214" type="checkbox" type="checkbox" store="00214"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00214"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764273486515?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 15</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00215" type="checkbox" type="checkbox" store="00215"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00215"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764931009203?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 16</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00216" type="checkbox" type="checkbox" store="00216"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00216"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764273552051?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 17</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00217" type="checkbox" type="checkbox" store="00217"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00217"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066641075?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 18</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00218" type="checkbox" type="checkbox" store="00218"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00218"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066313395?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 19</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00219" type="checkbox" type="checkbox" store="00219"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00219"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764277811891?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 20</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00220" type="checkbox" type="checkbox" store="00220"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00220"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069393587?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 21</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00221" type="checkbox" type="checkbox" store="00221"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00221"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764277877427?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 22</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00222" type="checkbox" type="checkbox" store="00222"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00222"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764930943667?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 23</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00223" type="checkbox" type="checkbox" store="00223"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00223"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065461427?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 24</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00224" type="checkbox" type="checkbox" store="00224"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00224"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066247859?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 25</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00225" type="checkbox" type="checkbox" store="00225"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00225"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066706611?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 26</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00226" type="checkbox" type="checkbox" store="00226"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00226"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066575539?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 27</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00227" type="checkbox" type="checkbox" store="00227"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00227"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065985715?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 28</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00228" type="checkbox" type="checkbox" store="00228"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00228"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764277942963?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 29</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00229" type="checkbox" type="checkbox" store="00229"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00229"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764278991539?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 30</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00230" type="checkbox" type="checkbox" store="00230"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00230"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764279057075?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 31</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00231" type="checkbox" type="checkbox" store="00231"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00231"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764930878131?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 32</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00232" type="checkbox" type="checkbox" store="00232"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00232"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764279122611?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 33</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00233" type="checkbox" type="checkbox" store="00233"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00233"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065723571?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 34</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00234" type="checkbox" type="checkbox" store="00234"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00234"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067427507?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 35</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00235" type="checkbox" type="checkbox" store="00235"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00235"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067755187?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 36</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00236" type="checkbox" type="checkbox" store="00236"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00236"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068869299?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 37</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00237" type="checkbox" type="checkbox" store="00237"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00237"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066772147?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 38</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00238" type="checkbox" type="checkbox" store="00238"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00238"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069131443?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 39</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00239" type="checkbox" type="checkbox" store="00239"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00239"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068345011?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 40</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00240" type="checkbox" type="checkbox" store="00240"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00240"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764281809587?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 41</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00241" type="checkbox" type="checkbox" store="00241"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00241"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764281875123?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 42</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00242" type="checkbox" type="checkbox" store="00242"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00242"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764281940659?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 43</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00243" type="checkbox" type="checkbox" store="00243"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00243"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065592499?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 44</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00244" type="checkbox" type="checkbox" store="00244"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00244"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065658035?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 45</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00245" type="checkbox" type="checkbox" store="00245"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00245"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764930812595?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 46</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00246" type="checkbox" type="checkbox" store="00246"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00246"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067886259?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 47</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00247" type="checkbox" type="checkbox" store="00247"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00247"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764282006195?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 48</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00248" type="checkbox" type="checkbox" store="00248"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00248"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069590195?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 49</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00249" type="checkbox" type="checkbox" store="00249"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00249"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068738227?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 50</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00250" type="checkbox" type="checkbox" store="00250"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00250"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069459123?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 51</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00251" type="checkbox" type="checkbox" store="00251"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00251"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066444467?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 52</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00252" type="checkbox" type="checkbox" store="00252"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00252"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069262515?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 53</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00253" type="checkbox" type="checkbox" store="00253"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00253"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764282923699?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 54</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00254" type="checkbox" type="checkbox" store="00254"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00254"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764283054771?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 55</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00255" type="checkbox" type="checkbox" store="00255"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00255"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068672691?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 56</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00256" type="checkbox" type="checkbox" store="00256"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00256"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764282989235?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 57</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00257" type="checkbox" type="checkbox" store="00257"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00257"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065395891?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 58</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00258" type="checkbox" type="checkbox" store="00258"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00258"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068148403?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 59</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00259" type="checkbox" type="checkbox" store="00259"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00259"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066182323?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 60</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00260" type="checkbox" type="checkbox" store="00260"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00260"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067820723?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 61</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00261" type="checkbox" type="checkbox" store="00261"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00261"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068410547?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 62</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00262" type="checkbox" type="checkbox" store="00262"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00262"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764284037811?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 63</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00263" type="checkbox" type="checkbox" store="00263"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00263"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764283972275?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 64</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00264" type="checkbox" type="checkbox" store="00264"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00264"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764284103347?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 65</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00265" type="checkbox" type="checkbox" store="00265"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00265"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764284168883?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 66</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00266" type="checkbox" type="checkbox" store="00266"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00266"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764284234419?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 67</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00267" type="checkbox" type="checkbox" store="00267"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00267"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067165363?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 68</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00268" type="checkbox" type="checkbox" store="00268"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00268"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067099827?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 69</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00269" type="checkbox" type="checkbox" store="00269"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00269"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066903219?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 70</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00270" type="checkbox" type="checkbox" store="00270"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00270"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067034291?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 71</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00271" type="checkbox" type="checkbox" store="00271"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00271"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066510003?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 72</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00272" type="checkbox" type="checkbox" store="00272"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00272"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068082867?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 73</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00273" type="checkbox" type="checkbox" store="00273"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00273"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068279475?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 74</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00274" type="checkbox" type="checkbox" store="00274"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00274"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066378931?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 75</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00275" type="checkbox" type="checkbox" store="00275"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00275"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066051251?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 76</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00276" type="checkbox" type="checkbox" store="00276"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00276"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068541619?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 77</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00277" type="checkbox" type="checkbox" store="00277"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00277"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764286003891?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 78</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00278" type="checkbox" type="checkbox" store="00278"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00278"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764285938355?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 79</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00279" type="checkbox" type="checkbox" store="00279"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00279"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065854643?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 80</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00280" type="checkbox" type="checkbox" store="00280"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00280"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764288363187?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 81</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00281" type="checkbox" type="checkbox" store="00281"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00281"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065068211?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 82</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00282" type="checkbox" type="checkbox" store="00282"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00282"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065264819?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 83</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00283" type="checkbox" type="checkbox" store="00283"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00283"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069000371?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 84</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00284" type="checkbox" type="checkbox" store="00284"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00284"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068607155?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 85</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00285" type="checkbox" type="checkbox" store="00285"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00285"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067951795?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 86</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00286" type="checkbox" type="checkbox" store="00286"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00286"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067296435?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 87</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00287" type="checkbox" type="checkbox" store="00287"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00287"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764288297651?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 88</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00288" type="checkbox" type="checkbox" store="00288"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00288"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764288428723?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 89</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00289" type="checkbox" type="checkbox" store="00289"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00289"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764288232115?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 90</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00290" type="checkbox" type="checkbox" store="00290"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00290"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764288494259?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 91</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00291" type="checkbox" type="checkbox" store="00291"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00291"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764288559795?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 92</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00292" type="checkbox" type="checkbox" store="00292"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00292"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764288625331?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 93</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00293" type="checkbox" type="checkbox" store="00293"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00293"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068213939?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 94</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00294" type="checkbox" type="checkbox" store="00294"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00294"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069524659?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 95</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00295" type="checkbox" type="checkbox" store="00295"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00295"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764290132659?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 96</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00296" type="checkbox" type="checkbox" store="00296"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00296"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067558579?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 97</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00297" type="checkbox" type="checkbox" store="00297"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00297"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067230899?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 98</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00298" type="checkbox" type="checkbox" store="00298"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00298"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763069328051?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 99</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="00299" type="checkbox" type="checkbox" store="00299"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="00299"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763066116787?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 100</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="002100" type="checkbox" type="checkbox" store="002100"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="002100"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763067493043?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 101</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="002101" type="checkbox" type="checkbox" store="002101"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="002101"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764290853555?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 102</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="002102" type="checkbox" type="checkbox" store="002102"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="002102"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2764290919091?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 103</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="002103" type="checkbox" type="checkbox" store="002103"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="002103"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763065199283?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 104</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="002104" type="checkbox" type="checkbox" store="002104"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="002104"></li>
+<li><a href="javascript:void(0);" data-video="https://ok.ru/videoembed/2763068803763?autoplay=1 " class="temp"> <div class="poster-number"> <div class="card-info"><h4>Capítulo 105</h4><p></p> </div></div></a> <input class="tgl tgl-flip" id="002105" type="checkbox" type="checkbox" store="002105"><label class="tgl-btn" data-tg-off="No visto" data-tg-on="Visto" for="002105"></li>
+            
+            
+      
+            
+            
+    </ul>
+    
+    
+
+            
+    <script>
+        let keyName = "002";
+        const fs_BotoesLightbox = document.querySelectorAll(".temp");
+        if (fs_BotoesLightbox) {
+            for (var i = 0; i < fs_BotoesLightbox.length; i++) {
+                fs_BotoesLightbox[i].onclick = function(fs_VideoAtual) {
+                    fs_VideoAtual.preventDefault();
+                    const fs_VideoLightbox = fs_VideoAtual.currentTarget.getAttribute('data-video');
+                    const fs_UrlVideo = "" + fs_VideoLightbox;
+                    const fs_ContentVideo = document.querySelector("#lightbox-content");
+
+                    localStorage.setItem(keyName + '-enlace', fs_UrlVideo);
+                    localStorage.setItem(keyName + '-title', fs_VideoAtual.currentTarget.parentElement.querySelector('h4').innerText);
+
+
+                    fs_ContentVideo.innerHTML = '<iframe class="responsive-iframe" id="video-adicionado" width="100%" height="100%" sandbox="allow-same-origin allow-scripts" scrolling="no" style="  border-radius:5px;" src="' + fs_UrlVideo + '" frameborder="0" allowfullscreen></iframe>';
+
+                    document.location.reload();
+                }
+            }
+        }
+
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+
+        let elIframe = document.querySelector('#lightbox-content iframe'),
+            title = document.getElementById('title');
+        if (localStorage.getItem(keyName + '-enlace') != null) {
+            elIframe.setAttribute('src', localStorage.getItem(keyName + '-enlace'))
+        }
+        if (localStorage.getItem(keyName + '-title') != null) {
+            title.innerText = localStorage.getItem(keyName + '-title')
+        }
+    </script>
+
+<style>
+html,
+body {
+  
+  min-height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+ul,
+li {
+     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tg-list {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.tg-list-item {
+  margin: 0 2em;
+}
+
+h2 {
+  color: #fff;
+}
+
+h4 {
+  color: #999;
+}
+
+.tgl {
+  display: none;
+}
+.tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+.tgl::-moz-selection, .tgl:after::-moz-selection, .tgl:before::-moz-selection, .tgl *::-moz-selection, .tgl *:after::-moz-selection, .tgl *:before::-moz-selection, .tgl + .tgl-btn::-moz-selection {
+  background: none;
+}
+.tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl + .tgl-btn::selection {
+  background: none;
+}
+.tgl + .tgl-btn {
+  outline: 0;
+  display: block;
+  width: 4em;
+  height: 2em;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+.tgl + .tgl-btn:after {
+  left: 0;
+}
+.tgl + .tgl-btn:before {
+  display: none;
+}
+.tgl:checked + .tgl-btn:after {
+  left: 50%;
+}
+
+
+
+.tgl-ios + .tgl-btn {
+  background: #fbfbfb;
+  border-radius: 2em;
+  padding: 2px;
+  transition: all 0.4s ease;
+  border: 1px solid #e8eae9;
+}
+.tgl-ios + .tgl-btn:after {
+  border-radius: 2em;
+  background: #fbfbfb;
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+}
+.tgl-ios + .tgl-btn:hover:after {
+  will-change: padding;
+}
+.tgl-ios + .tgl-btn:active {
+  box-shadow: inset 0 0 0 2em #e8eae9;
+}
+.tgl-ios + .tgl-btn:active:after {
+  padding-right: 0.8em;
+}
+.tgl-ios:checked + .tgl-btn {
+  background: #86d993;
+}
+.tgl-ios:checked + .tgl-btn:active {
+  box-shadow: none;
+}
+.tgl-ios:checked + .tgl-btn:active:after {
+  margin-left: -0.8em;
+}
+
+.tgl-skewed + .tgl-btn {
+  overflow: hidden;
+  transform: skew(-10deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: all 0.2s ease;
+  font-family: sans-serif;
+  background: #888;
+}
+.tgl-skewed + .tgl-btn:after, .tgl-skewed + .tgl-btn:before {
+  transform: skew(10deg);
+  display: inline-block;
+  transition: all 0.2s ease;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  line-height: 2em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.tgl-skewed + .tgl-btn:after {
+  left: 100%;
+  content: attr(data-tg-on);
+}
+.tgl-skewed + .tgl-btn:before {
+  left: 0;
+  content: attr(data-tg-off);
+}
+.tgl-skewed + .tgl-btn:active {
+  background: #888;
+}
+.tgl-skewed + .tgl-btn:active:before {
+  left: -10%;
+}
+.tgl-skewed:checked + .tgl-btn {
+  background: #86d993;
+}
+.tgl-skewed:checked + .tgl-btn:before {
+  left: -100%;
+}
+.tgl-skewed:checked + .tgl-btn:after {
+  left: 0;
+}
+.tgl-skewed:checked + .tgl-btn:active:after {
+  left: 10%;
+}
+
+.tgl-flat + .tgl-btn {
+  padding: 2px;
+  transition: all 0.2s ease;
+  background: #fff;
+  border: 4px solid #f2f2f2;
+  border-radius: 2em;
+}
+.tgl-flat + .tgl-btn:after {
+  transition: all 0.2s ease;
+  background: #f2f2f2;
+  content: "";
+  border-radius: 1em;
+}
+.tgl-flat:checked + .tgl-btn {
+  border: 4px solid #7FC6A6;
+}
+.tgl-flat:checked + .tgl-btn:after {
+  left: 50%;
+  background: #7FC6A6;
+}
+
+.tgl-flip + .tgl-btn {
+  padding: 2px;
+  transition: all 0.2s ease;
+  font-family: sans-serif;
+  perspective: 100px;
+}
+.tgl-flip + .tgl-btn:after, .tgl-flip + .tgl-btn:before {
+  display: inline-block;
+  transition: all 0.4s ease;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  line-height: 2em;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 4px;
+}
+.tgl-flip + .tgl-btn:after {
+  content: attr(data-tg-on);
+  background: #02C66F;
+  transform: rotateY(-180deg);
+}
+.tgl-flip + .tgl-btn:before {
+  background: #FF3A19;
+  content: attr(data-tg-off);
+}
+.tgl-flip + .tgl-btn:active:before {
+  transform: rotateY(-20deg);
+}
+.tgl-flip:checked + .tgl-btn:before {
+  transform: rotateY(180deg);
+}
+.tgl-flip:checked + .tgl-btn:after {
+  transform: rotateY(0);
+  left: 0;
+  background: #7FC6A6;
+}
+.tgl-flip:checked + .tgl-btn:active:after {
+  transform: rotateY(20deg);
+}
+
+
+</style>
+
+
+<script>var boxes = document.querySelectorAll("input[type='checkbox']"); for (var i = 0; i < boxes.length; i++) {     var box = boxes[i];     if (box.hasAttribute("store")) {         setupBox(box);     } } function setupBox(box) {     var storageId = box.getAttribute("store");     var oldVal    = localStorage.getItem(storageId);     box.checked = oldVal === "true" ? true : false;      box.addEventListener("change", function() {         localStorage.setItem(storageId, this.checked);      }); }
+</script>
+
+
