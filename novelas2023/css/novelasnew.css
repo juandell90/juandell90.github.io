@@ -39,7 +39,9 @@
 
 
 
-
+ul, li {
+        color: transparent !important
+}
 
 
 
