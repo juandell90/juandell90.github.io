@@ -3,7 +3,16 @@
 <input type = "text" id = "search" placeholder = "Buscar por nombre o año" autofocus /></div>
 <meta name="referrer" content="never" />
 <style>
-    *{margin:0;padding:0;box-sizing:border-box;color:#fff;list-style:none;text-decoration:none;user-select:none}body{min-height:100vh;background:#11191f;font-family:'Roboto',sans-serif}.info{text-align:center}.banner h1{display:block}.banner span{font-size:20px;display:inline-block;background:#1d252b;padding:.4rem .7rem;margin-top:10px;border-radius:5px}.banner span i{color:rgb(255,234,0)}.not-banner{padding:1rem 2rem}.tags{text-align:center}.sinopsis{margin-top:2rem}.sinopsis p{opacity:.6}.temps{margin:2rem 0}
+     *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+    text-align: center;
+    }body{min-height:100vh;background:#11191f;font-family:'Roboto',sans-serif}.info{text-align:center}.banner h1{display:block}.banner span{font-size:20px;display:inline-block;background:#1d252b;padding:.4rem .7rem;margin-top:10px;border-radius:5px}.banner span i{color:rgb(255,234,0)}.not-banner{padding:1rem 2rem}.tags{text-align:center}.sinopsis{margin-top:2rem}.sinopsis p{opacity:.6}.temps{margin:2rem 0}
     
     .temp{    margin: 1rem 0;
     padding: 1rem;
@@ -51,7 +60,23 @@
     
     
 
-<section>
+<section><br>
+	
+	<div class="subscribe" onclick="subscribeRadio()">
+<span class="secondary-span-color">Añadir a Favoritos ❤️</span></div>
+<script type="text/javascript" src="https://juandell90.github.io/NEWAPP/fav1.js"></script>
+<script type="text/javascript" src="https://juandell90.github.io/NEWAPP/fav2.js"></script>
+<script>
+    var radioName="Café con Aroma de Mujer";
+    var radioArtWorkUrl="https://cdn.discordapp.com/attachments/978168201357713482/981053337279549460/005.webp";
+    var radioSlugId="0005";
+    var radioUrl="go:005";
+    var subscribeString="Añadir a Favoritos ❤️";
+    var subscribedString="Remover de Favoritos";    
+    var stringNumberOfSubscribedRadios="esNumberOfSubscribedRadios";
+    var stringRadioSlugIdList="esRadioSlugIdList";
+    var stringNumberOfSubscribedPodcasts="esNumberOfSubscribedPodcasts";
+    var stringPodcastSlugIdList="esPodcastSlugIdList";;</script>
     
     <ul class="temps" id="temps">
     
