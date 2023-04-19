@@ -1,19 +1,28 @@
-
+<label for = "search"></label>
+<div class="navbar">
+<input type = "text" id = "search" placeholder = "Buscar por nombre o año" autofocus /></div>
 <meta name="referrer" content="never" />
 <style>
-    *{margin:0;padding:0;box-sizing:border-box;color:#fff;list-style:none;text-decoration:none;user-select:none}body{min-height:100vh;background:#11191f;font-family:'Roboto',sans-serif}.info{text-align:center}.banner h1{display:block}.banner span{font-size:20px;display:inline-block;background:#1d252b;padding:.4rem .7rem;margin-top:10px;border-radius:5px}.banner span i{color:rgb(255,234,0)}.not-banner{padding:1rem 2rem}.tags{text-align:center}.sinopsis{margin-top:2rem}.sinopsis p{opacity:.6}.temps{margin:2rem 0}
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+    text-align: center;
+    }body{min-height:100vh;background:#11191f;font-family:'Roboto',sans-serif}.info{text-align:center}.banner h1{display:block}.banner span{font-size:20px;display:inline-block;background:#1d252b;padding:.4rem .7rem;margin-top:10px;border-radius:5px}.banner span i{color:rgb(255,234,0)}.not-banner{padding:1rem 2rem}.tags{text-align:center}.sinopsis{margin-top:2rem}.sinopsis p{opacity:.6}.temps{margin:2rem 0}
     
     .temp{    margin: 1rem 0;
     padding: 1rem;
-    background: #a3a3a3;
+    background: #1d252b;
     display: flex;
     align-items: center;
     border-radius: 10px;
     box-shadow: 2.8px 2.8px 2.2px rgb(0 0 0 / 1%), 6.7px 6.7px 5.3px rgb(0 0 0 / 2%), 12.5px 12.5px 10px rgb(0 0 0 / 3%), 22.3px 22.3px 17.9px rgb(0 0 0 / 2%), 41.8px 41.8px 33.4px rgb(0 0 0 / 2%), 100px 100px 80px rgb(0 0 0 / 7%);
     justify-content: space-evenly;
-    flex-direction: column;
-    width: 100px
-    }
+    flex-direction: column;}
     
     
     .poster-number{display:flex;align-items:center}
@@ -39,26 +48,50 @@
 <body id="body">                    
 <div id="lightbox">
             <div id="lightbox-content">
-                <iframe class="responsive-iframe" id="video-adicionado" width="100%" height="100%" sandbox="allow-same-origin allow-scripts" scrolling="no" style="  border-radius:5px;" src="https://www.youtube.com/embed/HWBKY11m7PY" frameborder="0" allowfullscreen=""></iframe>
+                <iframe class="responsive-iframe" id="video-adicionado" width="100%" height="100%" sandbox="allow-same-origin allow-scripts" scrolling="no" style="  border-radius:5px;" src="https://www.youtube.com/embed/ " frameborder="0" allowfullscreen=""></iframe>
             </div>
         </div>
 
     <div class="sinopsis" style="text-align: center;">
-    <h1>Destino 2013</h1>
-    <h1 id="title">Capítulo 1</h1>
+    <h1>Rafael Orozco El Idolo</h1>
+    <h1 id="title">Capítulos</h1>
     </div>
     
     
     
-<label for = "search"></label>
-<div class="navbar">
-<input type = "text" id = "search" placeholder = "Buscar por nombre o año" autofocus /></div>
-<section>
+
+<section> <br>     
+
+<div class="subscribe" onclick="subscribeRadio()">
+<span class="secondary-span-color">Añadir a Favoritos ❤️</span></div>
+<script type="text/javascript" src="https://juandell90.github.io/NEWAPP/fav1.js"></script>
+<script type="text/javascript" src="https://juandell90.github.io/NEWAPP/fav2.js"></script>
+<script>
+    var radioName=" ";
+    var radioArtWorkUrl=" ";
+    var radioSlugId="0011";
+    var radioUrl="go:011";
+    var subscribeString="Añadir a Favoritos ❤️";
+    var subscribedString="Remover de Favoritos";    
+    var stringNumberOfSubscribedRadios="esNumberOfSubscribedRadios";
+    var stringRadioSlugIdList="esRadioSlugIdList";
+    var stringNumberOfSubscribedPodcasts="esNumberOfSubscribedPodcasts";
+    var stringPodcastSlugIdList="esPodcastSlugIdList";;</script>
+    
+    
+    
+    
     
     <ul class="temps" id="temps">
     
             
+                                                                                      
       
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+      
+
+            
+            
       
             
             
@@ -68,7 +101,7 @@
 
             
     <script>
-        let keyName = "   ";
+        let keyName = "    ";
         const fs_BotoesLightbox = document.querySelectorAll(".temp");
         if (fs_BotoesLightbox) {
             for (var i = 0; i < fs_BotoesLightbox.length; i++) {
@@ -140,7 +173,7 @@ h2 {
 }
 
 h4 {
-  color: #000;
+  color: #999;
 }
 
 .tgl {
@@ -398,6 +431,7 @@ input {
     margin: 10px;
     border: 1px solid #000;
     border-radius: 100px;
+        display: none;
 }
 
 
