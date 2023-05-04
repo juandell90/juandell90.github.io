@@ -1,1 +1,802 @@
+<label for = "search"></label>
+<div class="navbar">
+<input type = "text" id = "search" placeholder = "Buscar por nombre o año" autofocus /></div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+button {
+   z-index: 1;
+    left: 38%;
+    top: 0;
+    width: 100px;
+    height: 44px;
+    position: absolute;
+    top: 60px;
+    background: #d96fd6;
+    color: white;
+    border-radius: 20px;
+}
+/* Modal Content */
+.modal-content {
+position: relative;
+    background-color: #000000;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #000;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border-radius: 20px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #7331af;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+</style>
+</head>
+<body>
+ <style type="text/css"> 
+iframe { 
+margin:0; 
+padding:0; 
+height:100%; 
+} 
+iframe { 
+ 
+width:100%; 
+border:none; } 
+
+</style>
+ </head>
+ <body>
+
+  </body>
+ </html>
+
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Favoritos</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>Favoritos</h2>
+    </div>
+    <div class="modal-body">
+     <div id="top_menu_search" style="display: none;">
+    <div class="search-row" align="center">
+        
+        <form id='search_form' class="mdc-textfield"  action="/busca" method="get">
+            <input id="top_menu_search_box" type="text" name="q" class="primary-span-color" placeholder="Buscar radio o podcast">
+        </form>
+       
+    </div>
+</div>
+
+<div id="search_opacity_overlay" class="overlay" style="display: none;"></div>
+
+
+
+        </div>
+        <h1 class="mdc-typography--display1 primary-span-color">Mi Lista</h1>
+        <nav id="search_tab_bar" class="mdc-tab-bar">
+            <div id="bt_account_radios" class="mdc-tab mdc-tab--active secondary-span-color" onclick="showUserRadios();">
+                <span>Telenovelas</span>
+            </div>
+            
+        </nav>
+        <div class="content-column" style="width: 100% !important;float: none !important;">
+            <div id="radio_column"></div>
+            <div id="podcast_column"></div>
+        </div>
+    </div>
+      
+    </div>
+   
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+
+  <link rel='stylesheet' href='https://www.littlesnippets.net/css/codepen-result.css'>
+  <style>
+  
+  @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.area{
+   
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+   
+    
+   
+}
+
+.circles{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(228 0 255 / 68%);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 75%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+  @import url(https://fonts.googleapis.com/css?family=Lato:400,600,700);
+.snip1527 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    margin: 1px;
+    /* max-width: 267px; */
+    /* min-width: 268px; */
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 175px;
+    height: 380px;
+    border-radius: 20px;
+    bottom: -110px;
+    display: -webkit-inline-box;
+}
+
+.snip1527 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.snip1527 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.snip1527 figcaption {
+  padding: 35px 13px 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  height: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.snip1527 figcaption:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #700877;
+  content: '';
+  background: -moz-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  background: -webkit-linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  background: linear-gradient(90deg, #700877 0%, #ff2759 100%, #ff2759 100%);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.snip1527 .date {
+background-color: #fff;
+    border-radius: 20px;
+    color: #700877;
+    font-size: 18px;
+    font-weight: 700;
+    /* min-height: 36px; */
+    min-width: 89px;
+    padding: 10px 0;
+    position: absolute;
+    right: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    top: -25px;
+    display: block !important;
+}
+
+.snip1527 .date span {
+  display: block;
+  line-height: 14px;
+}
+
+.snip1527 .date .month {
+  font-size: 11px;
+}
+
+.snip1527 h3,
+.snip1527 p {
+  margin: 0;
+  padding: 0;
+}
+
+.snip1527 h3 {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  margin-bottom: 5px;
+}
+
+.snip1527 p {
+  font-size: 0.8em;
+  line-height: 1.6em;
+  margin-bottom: 0px;
+}
+
+.snip1527 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.snip1527:hover img,
+.snip1527.hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+h2 {
+ 
+  font-weight: normal;
+text-align: center;
+  font-family: Arial;
+ 
+}
+
+h3 {
+  
+  font-weight: normal;
+ font: 12px;
+  font-family: Arial;
+ text-align: center;
+}
+
+h4 {
+  color: #b621fe;
+  font-weight: normal;
+ font: 19px;
+  font-family: Arial;
+ text-align: center;
+}
+
+
+input {
+    top: 0;
+    left: 0;
+    position: inherit;
+    width: 95%;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-bottom: none;
+    outline: 1px solid #000000;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16;
+    margin: 10px;
+        border: 2px solid #b621fe;
+    border-radius: 100px;
+    position: absolute;
+        z-index: 100;
+}
+}
+
+
+li {
+    display: contents;
+    text-align: -webkit-match-parent;
+}
+
+.del {
+   display: none;
+}
+  </style>
+<div align='center'>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/978864093698068570/002.webp" /></div> <figcaption> <div class="date"><span class="day">105</span><span class="month">CAPITULOS</span></div> <h3>Destino </h3> <h2>2013</h2> <p></p> </figcaption><span class="del">Destino 2013</span> <a href="go:002"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/978873507909865492/003.webp" /></div> <figcaption> <div class="date"><span class="day">121</span><span class="month">CAPITULOS</span></div> <h3>Quererlo todo  </h3> <h2>2020</h2> <p></p> </figcaption><span class="del">Quererlo todo  2020</span> <a href="go:003"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/981045306089177128/004.webp" /></div> <figcaption> <div class="date"><span class="day">84</span><span class="month">CAPITULOS</span></div> <h3>Buscando a Frida  </h3> <h2>2021</h2> <p></p> </figcaption><span class="del">Buscando a Frida  2021</span> <a href="go:004"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/981053337279549460/005.webp" /></div> <figcaption> <div class="date"><span class="day">86</span><span class="month">CAPITULOS</span></div> <h3>Cafe con aroma de mujer </h3> <h2>2021</h2> <p></p> </figcaption><span class="del">Cafe con aroma de mujer 2021</span> <a href="go:005"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/981056570643337246/006.webp" /></div> <figcaption> <div class="date"><span class="day">106</span><span class="month">CAPITULOS</span></div> <h3>Para volver amar  </h3> <h2>2010</h2> <p></p> </figcaption><span class="del">Para volver amar  2010</span> <a href="go:006"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982138016929828895/wqqwd.webp" /></div> <figcaption> <div class="date"><span class="day">76</span><span class="month">CAPITULOS</span></div> <h3>Te acuerdas de mi  </h3> <h2>2021</h2> <p></p> </figcaption><span class="del">Te acuerdas de mi  2021</span> <a href="go:007"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/1026582367139274762/008.webp" /></div> <figcaption> <div class="date"><span class="day">90</span><span class="month">CAPITULOS</span></div> <h3>Todo Por Mi Hija - KIzim  </h3> <h2>2018</h2> <p></p> </figcaption><span class="del">Todo Por Mi Hija - KIzim  2018</span> <a href="go:008"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982153650761777152/cielo_rojo.webp" /></div> <figcaption> <div class="date"><span class="day">165</span><span class="month">CAPITULOS</span></div> <h3>Cielo Rojo   </h3> <h2>2011</h2> <p></p> </figcaption><span class="del">Cielo Rojo   2011</span> <a href="go:009"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982156516146688010/imperio_de_mentiras.webp" /></div> <figcaption> <div class="date"><span class="day">91</span><span class="month">CAPITULOS</span></div> <h3>Imperio de mentiras  </h3> <h2>2020</h2> <p></p> </figcaption><span class="del">Imperio de mentiras  2020</span> <a href="go:010"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982163236541575248/el_idolo.webp" /></div> <figcaption> <div class="date"><span class="day">90</span><span class="month">CAPITULOS</span></div> <h3>Rafael Orozco, el idolo </h3> <h2>2012</h2> <p></p> </figcaption><span class="del">Rafael Orozco, el idolo 2012</span> <a href="go:011"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982533527809720341/un_bandido_honrado.webp" /></div> <figcaption> <div class="date"><span class="day">63</span><span class="month">CAPITULOS</span></div> <h3>Un bandido honrado  </h3> <h2>2019</h2> <p></p> </figcaption><span class="del">Un bandido honrado  2019</span> <a href="go:012"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982520467288100874/Amar_de_Nuevo.webp" /></div> <figcaption> <div class="date"><span class="day">76</span><span class="month">CAPITULOS</span></div> <h3>Amar de Nuevo  </h3> <h2>2011</h2> <p></p> </figcaption><span class="del">Amar de Nuevo  2011</span> <a href="go:013"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982539092904513546/la_venganza_de_analia.webp" /></div> <figcaption> <div class="date"><span class="day">56</span><span class="month">CAPITULOS</span></div> <h3>La venganza de analia   </h3> <h2>2020</h2> <p></p> </figcaption><span class="del">La venganza de analia   2020</span> <a href="go:014"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982850965172547655/LOS_ANGELES_DE_ESTELA.webp" /></div> <figcaption> <div class="date"><span class="day">121</span><span class="month">CAPITULOS</span></div> <h3>Los angeles de Estela </h3> <h2>2009</h2> <p></p> </figcaption><span class="del">Los angeles de Estela 2009</span> <a href="go:015"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982856867061567488/016.webp" /></div> <figcaption> <div class="date"><span class="day">102</span><span class="month">CAPITULOS</span></div> <h3>Mentir para vivir  </h3> <h2>2013</h2> <p></p> </figcaption><span class="del">Mentir para vivir  2013</span> <a href="go:016"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982860847590285322/017.webp" /></div> <figcaption> <div class="date"><span class="day">119</span><span class="month">CAPITULOS</span></div> <h3>Amarte asi frijolito  </h3> <h2>2005</h2> <p></p> </figcaption><span class="del">Amarte asi frijolito  2005</span> <a href="go:017"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982872545579663360/018.webp" /></div> <figcaption> <div class="date"><span class="day">63</span><span class="month">CAPITULOS</span></div> <h3>Amar y Vivir  </h3> <h2>2020</h2> <p></p> </figcaption><span class="del">Amar y Vivir  2020</span> <a href="go:018"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982876389311127572/19.webp" /></div> <figcaption> <div class="date"><span class="day">152</span><span class="month">CAPITULOS</span></div> <h3>Por siempre mi amor  </h3> <h2>2013</h2> <p></p> </figcaption><span class="del">Por siempre mi amor  2013</span> <a href="go:019"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/982878559255298058/20.webp" /></div> <figcaption> <div class="date"><span class="day">95</span><span class="month">CAPITULOS</span></div> <h3>Amor real  </h3> <h2>2003</h2> <p></p> </figcaption><span class="del">Amor real  2003</span> <a href="go:020"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983198862963511398/21.webp" /></div> <figcaption> <div class="date"><span class="day">107</span><span class="month">CAPITULOS</span></div> <h3>Libre para amarte  </h3> <h2>2013</h2> <p></p> </figcaption><span class="del">Libre para amarte  2013</span> <a href="go:021"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112677029191740/22.webp" /></div> <figcaption> <div class="date"><span class="day">71</span><span class="month">CAPITULOS</span></div> <h3>Corazon que miente  </h3> <h2>2016</h2> <p></p> </figcaption><span class="del">Corazon que miente  2016</span> <a href="go:022"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112677310226472/23.webp" /></div> <figcaption> <div class="date"><span class="day">156</span><span class="month">CAPITULOS</span></div> <h3>Montecristo   </h3> <h2>2006</h2> <p></p> </figcaption><span class="del">Montecristo   2006</span> <a href="go:023"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112677599621131/24.webp" /></div> <figcaption> <div class="date"><span class="day">143</span><span class="month">CAPITULOS</span></div> <h3>El cuerpo del deseo  </h3> <h2>2005</h2> <p></p> </figcaption><span class="del">El cuerpo del deseo  2005</span> <a href="go:024"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112677847089152/25.webp" /></div> <figcaption> <div class="date"><span class="day">101</span><span class="month">CAPITULOS</span></div> <h3>El Autentico Rodrigo Leal  </h3> <h2>2003</h2> <p></p> </figcaption><span class="del">El Autentico Rodrigo Leal  2003</span> <a href="go:025"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112678329438268/26.webp" /></div> <figcaption> <div class="date"><span class="day">229</span><span class="month">CAPITULOS</span></div> <h3>Dos mujeres  un camino  </h3> <h2>1993</h2> <p></p> </figcaption><span class="del">Dos mujeres  un camino  1993</span> <a href="go:026"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112678644019250/27.webp" /></div> <figcaption> <div class="date"><span class="day">122</span><span class="month">CAPITULOS</span></div> <h3>Dora, la celadora  </h3> <h2>2004</h2> <p></p> </figcaption><span class="del">Dora, la celadora  2004</span> <a href="go:027"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112679000539136/28.webp" /></div> <figcaption> <div class="date"><span class="day">100</span><span class="month">CAPITULOS</span></div> <h3>El Diario De Daniela  </h3> <h2>1998</h2> <p></p> </figcaption><span class="del">El Diario De Daniela  1998</span> <a href="go:028"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112679281524836/29.webp" /></div> <figcaption> <div class="date"><span class="day">70</span><span class="month">CAPITULOS</span></div> <h3>En tierras salvajes    </h3> <h2>2017</h2> <p></p> </figcaption><span class="del">En tierras salvajes    2017</span> <a href="go:029"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112679491260436/30.webp" /></div> <figcaption> <div class="date"><span class="day">num caps</span><span class="month">CAPITULOS</span></div> <h3>Hercai amor y venganza  </h3> <h2>2019</h2> <p></p> </figcaption><span class="del">Hercai amor y venganza  2019</span> <a href="go:030"></a> </figure>                                                                                                                                                                                                                                                                                           
+<figure class="snip1527"> <div class="image"><img data-src="https://cdn.discordapp.com/attachments/978168201357713482/983112679734513664/31.webp" /></div> <figcaption> <div class="date"><span class="day">80</span><span class="month">CAPITULOS</span></div> <h3>Cadenas de Amargura  </h3> <h2>1991</h2> <p></p> </figcaption><span class="del">Cadenas de Amargura  1991</span> <a href="go:031"></a> </figure>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'>
+  </script>
+  <script>
+  /* Demo purposes only */
+$(".hover").mouseleave(
+  function() {
+    $(this).removeClass("hover");
+  }
+);
+  </script>
+
+<script>
+        /**
+ * @author: Alexis López Espinoza
+ */
+// script para el buscador
+var search = document.getElementById("search"),
+    food = document.getElementsByTagName("span"),
+    forEach = Array.prototype.forEach;
+
+search.addEventListener("keyup", function(e){
+    var choice = this.value;
+  
+    forEach.call(food, function(f){
+        if (f.innerHTML.toLowerCase().search(choice.toLowerCase()) == -1)
+            f.parentNode.style.display = "none";        
+        else
+            f.parentNode.style.display = "block";        
+    });
+}, false);
+// script para el buscador
+</script>
+
+<script>
+if(!!window.IntersectionObserver){
+	let observer = new IntersectionObserver((entries, observer) => { 
+		entries.forEach(entry => {
+		if(entry.isIntersecting){
+			console.log(entry);
+			entry.target.src = entry.target.dataset.src;
+			observer.unobserve(entry.target);
+		}
+		});
+	}, {rootMargin: "0px 0px -0px 0px"});
+	document.querySelectorAll('img').forEach(img => { observer.observe(img) });
+}
+
+else document.querySelector('#warning').style.display = 'block';
+
+</script>
+</body>
+</html>
+
+
+
+        
+
+        
+
+        <!-- CSS VARIABLES -->
+        <style type="text/css">
+            :root {
+                --mdc-theme-primary: #455A64;
+                --mdc-theme-accent: #CFD8DC;
+                --mdc-theme-background: #000;
+                --mdc-theme-text-primary-on-primary: #ffffff;
+                --mdc-theme-text-secondary-on-primary: #cccccc;
+                --mdc-theme-text-primary-on-accent: #000000;
+                --mdc-theme-text-secondary-on-accent: #000000;
+                --mdc-theme-text-primary-on-background: #ff0000;
+                --mdc-theme-text-secondary-on-background: #cccccc;
+                --hyperlink-main-color: #dc322f;
+                
+            }
+            
+            
+            
+            .mobile-bottom-installer{position:fixed;bottom:0;left:0;width:100%;height:56px;z-index:31;padding-bottom:10px}.mobile-bottom-installer-font{padding-top:17px;font-weight:700;color:#55596b;font-family:helvetica,arial,verdana,sans-serif}.mobile-bottom-installer-rectangle{border-radius:5px;padding:0 5px;width:260px;height:50px;background:#ffce00}.mobile-bottom-installer-image{padding-top:5px;padding-left:5px}.mobile-bottom-installer-close{padding-top:10px;padding:10px 10px}.app-installer-top{position:fixed;top:0;left:0;width:100%;height:auto;z-index:500;background:#000}.app-installer-top-font{line-height:35px;font-size:16px;font-weight:700;color:#fff;font-family:helvetica,arial,verdana,sans-serif}.app-installer-top-radio-title{position:absolute;font-size:18px;font-weight:700;color:#000;font-family:helvetica,arial,verdana,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:50%;left:30%;top:10px}.app-installer-top-radio-image{position:absolute;left:calc(55% - 30px);top:35px}#top_menu_nav{margin:0 auto;position:fixed;list-style-type:none;overflow:hidden;display:flex;background-color:var(--mdc-theme-primary);text-transform:uppercase;top:0;left:0;width:100%;height:67px;z-index:31}#top_menu_nav a{float:left;display:block;color:#fff;text-align:center;padding:14px 16px;text-decoration:none;vertical-align:middle;width:25%;border-bottom:3px solid transparent}#top_menu_nav div{float:left;display:block;color:#fff;text-align:center;padding:14px 16px;text-decoration:none;vertical-align:middle;width:25%;border-bottom:3px solid transparent}#top_menu_nav #top_menu_search_tab_div:hover,#top_menu_nav a:hover{border-bottom:3px solid rgba(232,236,241,.7)}#top_menu_nav #top_menu_search_tab_div.active,#top_menu_nav a.active{border-bottom:3px solid var(--mdc-theme-text-primary-on-primary);opacity:1}nav img,nav svg{margin-top:7px;vertical-align:-webkit-baseline-middle}nav span{font-family:Roboto,sans-serif;color:var(--mdc-theme-text-primary-on-primary);-webkit-font-smoothing:antialiased;font-weight:500;letter-spacing:.04em;line-height:1.5rem;text-transform:inherit;display:table-cell}#top_menu_nav .mdc-tab{min-width:40px;padding:0;color:rgba(0,0,0,.3)}#top_menu .inactive{padding:0;opacity:.7}#top_menu_nav .tab-icon-text{display:block;margin:0 auto;font-size:2.8vw;padding-top:0;color:#fff}.main-content{margin-top:65px}@media screen and (min-width:838px){.main-content{display:flex}}#top_menu_search{background-color:var(--mdc-theme-primary);height:67px;position:fixed;top:0;left:0;width:100%;z-index:33;box-shadow:0 0 5px #000;display:block}#top_menu_search input[type=text]{width:100%;box-sizing:border-box;border:2px solid #ccc;border-radius:4px;font-size:16px;background-color:var(--mdc-theme-secondary);background-position:10px 10px;background-repeat:no-repeat;padding:12px 10px 6px 10px}#top_menu_search input[type=text]:focus{color:#fff}.overlay{position:fixed;top:0;left:0;background-color:#000;opacity:.5;min-width:100%;min-height:100%;z-index:32}.search-row{display:flex;align-items:center;justify-content:center;height:67px}.search-row:after{content:"";display:table;clear:both}.search-row form{width:calc(100% - 160px);max-width:900px}.search-row svg{padding:10px 20px}#top_menu_alongator{height:67px;border-bottom:1px solid #000;width:100%;margin:0 auto;position:fixed;list-style-type:none;overflow:hidden;background-color:var(--mdc-theme-primary);top:0;left:0;z-index:5}@media only screen and (min-width:480px){#top_menu_nav .tab-icon-text{font-size:.8rem}}@media only screen and (min-width:640px){#top_menu_nav .tab-icon-text{font-size:.8rem}}@media only screen and (max-width:1024px) and (min-width:800px){#top_menu_nav .tab-icon-text{font-size:.9rem}}@media screen and (min-width:1024px){#top_menu_nav .tab-icon-text{font-size:1rem}#top_menu_search input[type=text]{max-width:1366px}}@media screen and (min-width:1398px){#top_menu_nav{vertical-align:middle;position:fixed;left:50%;top:0;margin-left:-698px;width:1396px}#top_menu_nav a,#top_menu_nav div{max-width:349px}#top_menu_search{vertical-align:middle;position:absolute;left:50%;top:0;margin-left:-698px;width:1396px}}.primary-span-color{color:var(--mdc-theme-text-primary-on-background,rgba(0,0,0,.54))}.secondary-span-color{color:var(--mdc-theme-text-secondary-on-background,rgba(0,0,0,.54))}#search_tab_bar{text-align:center;text-transform:uppercase;vertical-align:middle;position:relative;margin:auto;width:300px;margin-bottom:30px}li{list-style-type:none}th.min{width:1%!important;white-space:nowrap}.small-margin-top-bottom{margin-top:10px;margin-bottom:10px}.big-margin-top-small-bottom{margin-top:50px;margin-bottom:5px}.breadcrumbs{display:block;margin:0;font-size:.9em;line-height:2;margin-bottom:10px;margin-top:10px}.breadcrumbs ul{padding:0;margin:0}.breadcrumbs li{list-style:none;display:inline;color:var(--mdc-theme-text-secondary-on-background)}.breadcrumbs li:after{content:" > ";margin-right:10px;margin-left:10px}.breadcrumbs li:last-child:after{content:""}
+            
+            
+            .breadcrumbs a{color:var(--mdc-theme-text-secondary-on-background);text-decoration:none}.breadcrumbs a:hover{color:var(--mdc-theme-text-primary-on-background)}#taboola-below-article-thumbnails,#taboola-side-bar-thumbnails,#taboola-sidebar-widget{margin:5px;max-width:500px;margin-left:auto;margin-right:auto}#taboola-below-article-thumbnails span,#taboola-side-bar-thumbnails span,#taboola-sidebar-widget span{color:#fff}#taboola-below-article-thumbnails .branding,#taboola-side-bar-thumbnails .branding,#taboola-sidebar-widget .branding{color:#999}h1{text-align:center;margin-bottom:5px;padding-top:10px;margin-top:0;font-weight:400}html{height:100%}body{background-color:var(--mdc-theme-background)}*{font-family:Roboto,sans-serif}a{color:#fff}.material-icons.md-18{font-size:18px;width:18px;height:18px;min-width:18px;min-height:18px;max-width:18px;max-height:18px}.material-icons.md-24{font-size:24px;width:24px;height:24px;min-width:24px;min-height:24px;max-width:24px;max-height:24px}.material-icons.md-36{font-size:36px;width:36px;height:36px;min-width:36px;min-height:36px;max-width:36px;max-height:36px}.material-icons.md-48{font-size:48px;width:48px;height:48px;min-width:48px;min-height:48px;max-width:48px;max-height:48px}.material-icons.md-light{color:rgba(255,255,255,1);fill:rgba(255,255,255,1)}.material-icons.md-light.md-inactive{color:rgba(255,255,255,.3);fill:rgba(255,255,255,.3)}.content-column{width:calc(100% - 360px);float:right;display:block}.main-content{min-height:100%;overflow:hidden;padding-bottom:15px}.filter-button{margin-bottom:8px;width:100%}.filter-button:hover{background-color:var(--mdc-theme-accent);color:var(--mdc-theme-text-secondary-on-accent)}.radio-filter-button{margin-bottom:8px;width:100%;height:45px}.radio-filter-button:hover{background-color:var(--mdc-theme-accent);color:var(--mdc-theme-text-secondary-on-accent)}.page-button{margin-bottom:8px;min-width:0;width:40px}.filter-button-mobile{display:none}.page-button:hover{background-color:var(--mdc-theme-accent);color:var(--mdc-theme-text-secondary-on-accent)}.mdc-simple-menu{max-height:none}.mdc-list-item{padding-top:5px;padding-bottom:5px}.mdc-list-item:hover{background-color:var(--mdc-theme-primary);transition:all .2s ease-in-out}.mdc-grid-tile{--mdc-grid-list-tile-width:150px}.mdc-grid-list--with-icon-align-start .mdc-grid-tile__secondary{background-color:rgba(0,0,0,.5)}.mdc-grid-list--with-icon-align-start .mdc-grid-tile__icon{left:5px}.mdc-grid-tile__secondary:hover{cursor:pointer}.radios-play-button:hover{cursor:pointer}.mdc-grid-list .mdc-grid-tile__primary img:hover{cursor:pointer}#podcast_column h3,#radio_column h3{text-align:center}.mdc-grid-tile__title{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.mdc-list-divider{border-bottom:1px solid var(--mdc-theme-primary)}[id^=player_icon_].material-icons{background:rgba(255,255,255,.8);color:#000;fill:#000;border-radius:10%}.header-menu-button:hover{cursor:pointer}
+            .filter-menu-mobile{display:none}.ad-top-banner{text-align:center;width:100%;z-index:6;max-height:112px;padding-top:5px;padding-bottom:10px}.ad-top-banner>*{display:inline-block}.ad-fixed-banner{position:fixed;bottom:0;left:0;width:100%;max-height:100px;text-align:center;border-top:1px solid #262626;background-color:rgba(192,192,192,.5)}.ad-test{max-width:100%}.close-ad-button{position:absolute;top:-12px;background-color:#fff;border-radius:50%;z-index:6}.close-ad-button:hover{cursor:pointer}@media screen and (max-width:837px){.mdc-grid-tile{--mdc-grid-list-tile-width:24%}.content-column{width:100%;display:block}.filter-button-mobile{margin:0 auto;margin-bottom:5px;display:block}.filter-menu-mobile{display:block}}@media screen and (max-width:480px){.mdc-grid-tile{--mdc-grid-list-tile-width:32%}}#body_centered_ad{text-align:center;margin-top:5px}#body_centered_ad>*{display:inline-block}
+            
+            .filter-column{display:block;text-align:center}.btn-play-pause{border:2px solid #1c3139}@media screen and (max-width:837px){#body_centered_ad{display:none}}@media screen and (min-width:838px){.filter-column{width:350px}}
+            
+.mdc-grid-list .mdc-grid-tile__primary{padding-bottom:calc(100% / 0.5)}
+
+.mdc-grid-list .mdc-grid-tile{margin:2px 0;padding:0 2px}
+            
+.mdc-grid-list .mdc-grid-tile__secondary{left:2px;width:calc(100% - -53px)}
+
+.mdc-grid-list .mdc-grid-list__tiles{margin:2px auto}.mdc-grid-list__tiles{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row wrap;flex-flow:row wrap;margin:0}@media screen and (max-width:837px){.mdc-gridf-list__tiles{padding:0}.mdc-grid-list .mdc-grid-list__tiles{padding:0}}.mdc-grid-list--tile-gutter-1 .mdc-grid-tile{margin:.5px 0;padding:0 .5px}.mdc-grid-list--tile-gutter-1 .mdc-grid-tile__secondary{left:.5px;width:calc(100% - 1px)}.mdc-grid-list--tile-gutter-1 .mdc-grid-list__tiles{margin:.5px auto}.mdc-grid-list--tile-aspect-16x9 .mdc-grid-tile__primary{padding-bottom:calc(100% / 1.77778)}.mdc-grid-list--tile-aspect-3x2 .mdc-grid-tile__primary{padding-bottom:calc(100% / 1.5)}.mdc-grid-list--tile-aspect-2x3 .mdc-grid-tile__primary{padding-bottom:calc(100% / .66667)}.mdc-grid-list--tile-aspect-4x3 .mdc-grid-tile__primary{padding-bottom:calc(100% / 1.33333)}.mdc-grid-list--tile-aspect-3x4 .mdc-grid-tile__primary{padding-bottom:calc(100% / .75)}.mdc-grid-list--twoline-caption .mdc-grid-tile__secondary{height:68px}.mdc-grid-list--header-caption .mdc-grid-tile__secondary{top:0;bottom:auto}.mdc-grid-list[dir=rtl] .mdc-grid-list--with-icon-align-start .mdc-grid-tile__secondary,[dir=rtl] .mdc-grid-list .mdc-grid-list--with-icon-align-start .mdc-grid-tile__secondary{padding-left:8px;padding-right:56px}.mdc-grid-list--with-icon-align-start .mdc-grid-tile__icon{left:16px;right:initial;font-size:24px}.mdc-grid-list[dir=rtl] .mdc-grid-list--with-icon-align-start .mdc-grid-tile__icon,[dir=rtl] .mdc-grid-list .mdc-grid-list--with-icon-align-start .mdc-grid-tile__icon{left:initial;right:16px}.mdc-grid-list--with-icon-align-end .mdc-grid-tile__secondary{padding-left:16px;padding-right:56px}.mdc-grid-list[dir=rtl] .mdc-grid-list--with-icon-align-end .mdc-grid-tile__secondary,[dir=rtl] .mdc-grid-list .mdc-grid-list--with-icon-align-end .mdc-grid-tile__secondary{padding-left:56px;padding-right:16px}.mdc-grid-list--with-icon-align-end .mdc-grid-tile__icon{left:initial;right:16px;font-size:24px}.mdc-grid-list[dir=rtl] .mdc-grid-list--with-icon-align-end .mdc-grid-tile__icon,[dir=rtl] .mdc-grid-list .mdc-grid-list--with-icon-align-end .mdc-grid-tile__icon{left:16px;right:initial}.mdc-grid-tile{display:block;position:relative;width:200px;width:var(--mdc-grid-list-tile-width,200px)}
+
+.mdc-grid-tile__primary{background-color: #fff;
+    background-color: var(--mdc-theme-background,#fff);
+    color: rgba(0,0,0,.87);
+    color: var(--mdc-theme-text-primary-on-background,rgba(0,0,0,.87));
+    position: relative;
+    height: 0;
+    width: 150px;}
+            
+.mdc-grid-tile__primary-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.mdc-grid-tile__secondary{background-color:#3f51b5;background-color:var(--mdc-theme-primary,#3f51b5);color:#fff;color:var(--mdc-theme-text-primary-on-primary,#fff);position:absolute;bottom:0;-webkit-box-sizing:border-box;box-sizing:border-box;height:48px;padding-top:19px;padding-left:8px;padding-right:8px}.mdc-grid-tile__title{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:block;margin:0;padding:0;font-size:1rem;font-weight:500;line-height:1rem}
+            
+            
+            
+.radios-play-button{position:absolute;height:60px!important;width:60px!important;left:calc(50% - 30px);top:calc(50% - 30px);max-width:60px!important;max-height:60px!important;z-index:3;display:none}.content-column .mdc-grid-tile__secondary{bottom:initial}
+          
+.content-column .mdc-grid-tile__secondary {
+    background-color: #ff0000!important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+@media screen and (max-width:640px){.content-column .mdc-grid-list .mdc-grid-tile__secondary .mdc-grid-tile__title{font-size:.85rem}.content-column .mdc-grid-tile__secondary:hover .mdc-grid-tile__title{font-size:.8rem}}@media screen and (max-width:380px){.content-column .mdc-grid-list .mdc-grid-tile__secondary .mdc-grid-tile__title{font-size:.75rem}}@media screen and (max-width:837px){.content-column .mdc-grid-list .mdc-grid-tile{margin-bottom:50px}
+        </style>
+
+            
+        
+
+
+
+        
+
+        <!-- BLOCK FOR THE STYLES IN ALL PAGES -->
+        
+    
+    
+        <link rel="stylesheet" type="text/css" href="https://cdn.mytuner.mobi/static/ctr/site/css/podcasts.min.css?9e0cd3f6" />
+
+
+
+
+
+
+        
+            
+
+            
+        
+
+        <div id="cookiebanner" style=" "></div>
+
+        <!-- BOTTOM INSTALL AD FOR MOBILE -->
+        
+            
+                
+                    
+
+                
+            
+        
+
+        
+        <script type="text/javascript" src="https://cdn.mytuner.mobi/static/ctr/js/packed.min.js?d6555f88"></script>
+        
+
+        <script>window._request_is_mobile=false;var is_mobile=false;var subscribeString="Añadir a Mi Lista";var subscribedString="Remover de Mi Lista";var stringNumberOfSubscribedRadios="esNumberOfSubscribedRadios";var stringRadioSlugIdList="esRadioSlugIdList";var stringPodcastSlugIdList="esPodcastSlugIdList";
+        
+function collapse(divId,exclusive,icon){if(!exclusive){if(!$("#"+divId).hasClass("collapsed")){document.getElementById(divId).style.height="0px";$("#"+divId).addClass("collapsed");$(icon).css("transform","rotateZ(0deg)");}else{document.getElementById(divId).style.height=$("#"+divId).data("height")+"px";$("#"+divId).removeClass("collapsed");$(icon).css("transform","rotateZ(180deg)");}}else{$(".collapsible").each(function(ind,val){if(val.id!==divId){val.style.height="0px";$(val).addClass("collapsed");}else{if(!$("#"+divId).hasClass("collapsed")){val.style.height="0px";$(val).addClass("collapsed");$(icon).css("transform","rotateZ(0)");}else{val.style.height=$(val).data("height")+"px";$(val).removeClass("collapsed");$(icon).css("transform","rotateZ(180deg)");}}});$(".collapse-controller .material-icons").each(function(ind,m_icon){if(m_icon!=icon.get(0)){$(m_icon).css("transform","rotateZ(0)");}});}}
+$(".collapse-controller").each(function(ind,val){var target_id="#"+$(val).data("collapse");var height=(36+8)*$(target_id).find("a").length-8;$(target_id).data("height",height);if($(target_id).hasClass("collapsed")){$(target_id).css("height","0px");}else{$(target_id).css("height",height+"px");$(val).find(".material-icons").css("transform","rotateZ(180deg)");}
+$(target_id).css('visibility',"visible");$(val).click(function(){collapse($(this).data("collapse"),$(this).data("exclusive-div")==="true"||$(this).data("exclusive-div")===true,$(this).find(".material-icons"));});});var cookiejar={get:function(key){return decodeURIComponent(window.document.cookie.replace(new RegExp('(?:(?:^|.*;)\\s*'+encodeURIComponent(key).replace(/[\-\.\+\*]/g,'\\$&')+'\\s*\\=\\s*([^;]*).*$)|^.*$'),'$1'))||null;},set:function(key,val,end,path,domain,secure){if(!key||/^(?:expires|max\-age|path|domain|secure)$/i.test(key)){return false;}
+var expires='';if(end){switch(end.constructor){case Number:expires=end===Infinity?'; expires=Fri, 31 Dec 9999 23:59:59 GMT':'; max-age='+end;break;case String:expires='; expires='+end;break;case Date:expires='; expires='+end.toUTCString();break;}}
+window.document.cookie=encodeURIComponent(key)+'='+encodeURIComponent(val)+expires+(domain?'; domain='+domain:'')+(path?'; path='+path:'')+(secure?'; secure':'');return true;},has:function(key){return(new RegExp('(?:^|;\\s*)'+encodeURIComponent(key).replace(/[\-\.\+\*]/g,'\\$&')+'\\s*\\=')).test(window.document.cookie);},remove:function(key,path,domain){if(!key||!this.has(key)){return false;}
+window.document.cookie=encodeURIComponent(key)+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT'+(domain?'; domain='+domain:'')+(path?'; path='+path:'');return true;}};if(!cookiejar.has('cookiebanner-accepted')){document.getElementById('cookiebanner').style.display="block";}
+function acceptCookies(){cookiejar.set('cookiebanner-accepted',1,Infinity,'/');document.getElementById('cookiebanner').style.display="none";}
+var userAgent=navigator.userAgent||navigator.vendor||window.opera;if(/android/i.test(userAgent)&&''!=""){document.getElementById("footerLinkInstallAppMobile").hidden=false;}else if(/iPad|iPhone|iPod/.test(userAgent)&&!window.MSStream&&''!=""){document.getElementById("footerLinkInstallAppMobile").hidden=false;}
+function showUserPodcasts(){$("#bt_account_podcasts").addClass("mdc-tab--active");$("#bt_account_radios").removeClass("mdc-tab--active");$("#radio_column").hide("fast");$("#podcast_column").show("fast");}
+function showUserRadios(){$("#bt_account_podcasts").removeClass("mdc-tab--active");$("#bt_account_radios").addClass("mdc-tab--active");$("#podcast_column").hide("fast");$("#radio_column").show("fast");}
+document.getElementById('top_menu_search_box').value='';$("#podcast_column").hide();$('.thumb').click(function(event){event.preventDefault();event.stopPropagation();});$('.btn-fav').click(function(event){event.preventDefault();event.stopPropagation();});$('.bt-fav').click(function(event){event.preventDefault();event.stopPropagation();});if("IntersectionObserver"in window){var lazyloadImages=document.querySelectorAll(".lazy");var imageObserver=new IntersectionObserver(function(entries,observer){entries.forEach(function(entry){if(entry.isIntersecting){var image=entry.target;image.src=image.dataset.src;image.classList.remove("lazy");imageObserver.unobserve(image);}});},{rootMargin:"0px 0px 200px 0px"});lazyloadImages.forEach(function(image){imageObserver.observe(image);});}
+else{var lazyloadImages=document.querySelectorAll(".lazy");for(var i=0;i<lazyloadImages.length;i++){var image=lazyloadImages[i].classList.remove("lazy");}
+$(lazyloadImages).unveil(200);};</script>
+
+        
+
+        
+    
+        <script type="text/javascript" src="https://cdn.mytuner.mobi/static/ctr/js/favorites.min.js?37774920"></script>
+    
+
+
+</html>
 
