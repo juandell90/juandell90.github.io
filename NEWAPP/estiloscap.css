@@ -33,7 +33,7 @@ h2 {
 }
 
 h4 {
-  color: #999;
+  color: #fff;
 }
 
 .tgl {
@@ -192,4 +192,4 @@ input {
     
 .poster-number{align-items:flex-start}.card-info h4{margin-bottom:0;font-size:22px}.card-info p{margin-top:10px}.poster-number img{max-width:130px;margin-right:20px;aspect-ratio:5 / 2.8}
 
-#lightbox-content{margin:-40px auto;width:100%;border-radius:5px;position:relative;overflow:hidden;padding-top:55%}.responsive-iframe{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%}
+#lightbox-content{margin:-40px auto;width:70%;border-radius:5px;position:relative;overflow:hidden;padding-top:40%}.responsive-iframe{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%}
