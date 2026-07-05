@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/vaOFYHJns2S3aOMTGNeJs49QNBN.jpg" group-title="Without category", play/rutube 1254 5-7
+https://juandell90.github.io/play/rutube%201254%205-7.m3u8
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/vaOFYHJns2S3aOMTGNeJs49QNBN.jpg" group-title="Without category", apocalipsis zombie plutotv
 https://juandell90.github.io/play/apocalipsiszombie.m3u8
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/r7TEWHLr1lsIsTkiEFwtM3hAWma.jpg" group-title="Without category", Depredador: tierras salvajes
