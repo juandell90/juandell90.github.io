@@ -1,0 +1,433 @@
+#EXTM3U
+#PLAYLIST:143 24-7
+# Built with the CODECS.COM Playlist Builder
+
+#EXTINF:-1 tvg-id="SolidariaTV.es" tvg-name="Solidaria TV" tvg-logo="https://i.imgur.com/Bgm2iZY.png" group-title="RELIGIOSO",Solidaria TV
+https://canadaremar2.todostreaming.es/live/argentina-web.m3u8
+
+#EXTINF:-1 tvg-name="ORBE 21" tvg-logo="https://canalorbe21.com/wp-content/uploads/2024/08/Orbe21-ID-2024-logotipo-simbolo-positivo-e1725056726176.png" group-title="ARGENTINA",ORBE 21
+https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
+
+#EXTINF:-1 tvg-name="cinepicanteltus" group-title="Uncategorized",cinepicanteltus
+https://amg00658-amg00658c106-canelatv-international-7979.playouts.now.amagi.tv/playlist/amg00658-canelamediafast-cinepicanteltus-canelatvinternational/playlist.m3u8
+
+#EXTINF:-1 tvg-name="CLASICOS ANIMALOS" group-title="CARICATURAS",CLASICOS ANIMALOS
+https://live20.bozztv.com/giatvplayout7/giatv-209599/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-name="CLASICOS ANIMADOS 2" group-title="CARICATURAS",CLASICOS ANIMADOS 2
+https://rpn.bozztv.com/gusa/gusa-cartoonclassics/index.m3u8
+
+#EXTINF:-1 tvg-id="RetroCartoon.br" tvg-name="RetroCartoon" tvg-logo="https://i.imgur.com/hIlEfhl.png" group-title="CARICATURAS",RetroCartoon
+https://stmv3.voxtvhd.com.br/xtremaretrocartoons/xtremaretrocartoons/playlist.m3u8
+
+#EXTINF:-1 tvg-name="apanines" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPVEqZA3a3tB4eXQt_M0alWZxdXu_9XNhGxrK0h7nmjg&s" group-title="CHILE",apanines
+https://live20.bozztv.com/akamaissh101/ssh101/apaninestv2025/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Toonsmania TV" group-title="CARICATURAS",Toonsmania TV
+https://live20.bozztv.com/giatvplayout7/giatv-210634/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Locomotion" group-title="Uncategorized",Locomotion
+https://live20.bozztv.com/giatvplayout7/giatv-210075/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-id="ENTFamily.uk" tvg-name="Ent Family" tvg-logo="https://static.elektamedia.com/ch/entf.png" group-title="Uncategorized",Ent Family
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
+
+#EXTINF:-1 tvg-id="ENTChannel.uk" tvg-name="Ent Channel" tvg-logo="https://static.elektamedia.com/ch/entch.png" group-title="Uncategorized",Ent Channel
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
+
+#EXTINF:-1 tvg-id="KairosTV.pe" tvg-name="Kairos TV" tvg-logo="https://i.imgur.com/QdzWS9A.jpeg" group-title="Uncategorized",Kairos TV
+https://videostream.shockmedia.com.ar:19360/kairostv/kairostv.m3u8
+
+#EXTINF:-1 tvg-id="MetroTV.ar" tvg-name="Metro TV" tvg-logo="https://i.imgur.com/7f7M7zl.png" group-title="Uncategorized",Metro TV
+https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
+
+#EXTINF:-1 tvg-name="MultiVox Cine" group-title="Uncategorized",MultiVox Cine
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NeoTV.ar" tvg-name="NEO TV" tvg-logo="https://i.imgur.com/Xtu85tb.png" group-title="Uncategorized",NEO TV
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
+#EXTINF:-1 tvg-id="TodoNovelas.es" tvg-name="Todo Novelas" tvg-logo="https://i.imgur.com/NuYwGok.png" group-title="Uncategorized",Todo Novelas
+https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8
+
+#EXTINF:-1 tvg-name="pelis series" group-title="Uncategorized",pelis series
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Cine 2025" group-title="Uncategorized",Cine 2025
+http://m3u.tvcluboficial.com/free/oct/oct/1159.m3u8
+
+#EXTINF:-1 tvg-id="KanalDDrama.al" tvg-name="Kanal D Drama" tvg-logo="https://i.ibb.co/7ykfjhL/unnamed-removebg.png" group-title="Uncategorized",Kanal D Drama
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
+
+#EXTINF:-1 tvg-name="pelis" group-title="Uncategorized",pelis
+https://stmv2.voxtvhd.com.br/videokapc/videokapc/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NickClasico.us" tvg-name="NICK CLASICO" tvg-logo="https://i.imgur.com/yxOuiqj.png" group-title="Uncategorized",NICK CLASICO
+https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8
+
+#EXTINF:-1 tvg-name="PELICULAS 24/7" group-title="Uncategorized",PELICULAS 24/7
+http://stream-cdn-iad3.vaughnsoft.net/play/live_juancine_tv.flv
+
+#EXTINF:-1 tvg-name="PELICULAS 24/7" group-title="Uncategorized",PELICULAS 24/7
+http://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_moe.flv
+
+#EXTINF:-1 tvg-name="mega cine" group-title="Uncategorized",mega cine
+https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="cine clasico" group-title="Uncategorized",cine clasico
+https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8
+
+#EXTINF:-1 tvg-name="Br-CineK" group-title="Uncategorized",Br-CineK
+https://w2.manasat.com/kcine/smil:kcine.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="extrema terror" tvg-logo="https://i.imgur.com/j91M4Yf.png" group-title="Uncategorized",extrema terror
+https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
+
+#EXTINF:-1 tvg-name="extrema clásico" tvg-logo="https://i.imgur.com/j91M4Yf.png" group-title="Uncategorized",extrema clásico
+https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
+
+#EXTINF:-1 tvg-name="extrema kids" tvg-logo="https://i.imgur.com/X2d8y4e.png" group-title="Uncategorized",extrema kids
+https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
+
+#EXTINF:-1 tvg-name="cartoon" tvg-logo="https://i.imgur.com/X2d8y4e.png" group-title="Uncategorized",cartoon
+https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Latino" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAX5MvIrXeh_m7dC68oFuef-NtrT9325lXvnS9pZycnQ&s=10" group-title="Uncategorized",Latino
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2154
+
+#EXTINF:-1 tvg-name="Films" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAX5MvIrXeh_m7dC68oFuef-NtrT9325lXvnS9pZycnQ&s=10" group-title="Uncategorized",Films
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2153
+
+#EXTINF:-1 tvg-name="Spanyol" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAX5MvIrXeh_m7dC68oFuef-NtrT9325lXvnS9pZycnQ&s=10" group-title="Uncategorized",Spanyol
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2649
+
+#EXTINF:-1 tvg-name="Cine & Series" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAX5MvIrXeh_m7dC68oFuef-NtrT9325lXvnS9pZycnQ&s=10" group-title="Uncategorized",Cine & Series
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=2152
+
+#EXTINF:-1 tvg-name="Familia" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAX5MvIrXeh_m7dC68oFuef-NtrT9325lXvnS9pZycnQ&s=10" group-title="Uncategorized",Familia
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3528
+
+#EXTINF:-1 tvg-name="Terror" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAX5MvIrXeh_m7dC68oFuef-NtrT9325lXvnS9pZycnQ&s=10" group-title="Uncategorized",Terror
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3529
+
+#EXTINF:-1 tvg-name="Crimen" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAX5MvIrXeh_m7dC68oFuef-NtrT9325lXvnS9pZycnQ&s=10" group-title="Uncategorized",Crimen
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=3533
+
+#EXTINF:-1 tvg-name="Runtime Familia" tvg-logo="https://images.pluto.tv/channels/6086d3f420fc8500075f8dbf/colorLogoPNG.png" group-title="Uncategorized",Runtime Familia
+https://run-runfl.otteravision.com/run/runfl/runfl_720.m3u8
+
+#EXTINF:-1 tvg-id="RuntimeCrimen.es" tvg-name="Runtime Crimen" tvg-logo="https://images.pluto.tv/channels/6086d3f420fc8500075f8dbf/colorLogoPNG.png" group-title="Uncategorized",Runtime Crimen
+https://run-rucrl.otteravision.com/run/rucrl/rucrl_720.m3u8
+
+#EXTINF:-1 tvg-id="AdultSwim.ca" tvg-name="Adult Swim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/960px-Adult_Swim_2003_logo.svg.png" group-title="Uncategorized",Adult Swim
+http://45.167.1.136:8000/play/a012
+
+#EXTINF:-1 tvg-name="Angry Birds" tvg-logo="https://assets.stickpng.com/images/580b57fcd9996e24bc43c515.png" group-title="Uncategorized",Angry Birds
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=547&avod=1&coppa=1&is_lat=1&us_privacy=1---&did=29d976831067d48c1669f305dcaea6f9
+
+#EXTINF:-1 tvg-name="Dinosaurios" group-title="Uncategorized",Dinosaurios
+https://live20.bozztv.com/giatvplayout7/giatv-209644/playlist.m3u8
+
+#EXTINF:-1 tvg-name="SPIDERMAN" tvg-logo="https://gia.tv/streams/pptv/210702.jpg?1758864551" group-title="Uncategorized",SPIDERMAN
+https://live20.bozztv.com/giatvplayout7/giatv-210702/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TomAndJerry.do" tvg-name="TOM AND JERRY" tvg-logo="https://w7.pngwing.com/pngs/28/710/png-transparent-tom-and-jerry-tom-and-jerry-heroes-logo-fictional-character.png" group-title="Uncategorized",TOM AND JERRY
+https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-id="TomAndJerry.do" tvg-name="TOM AND JERRY" tvg-logo="https://w7.pngwing.com/pngs/28/710/png-transparent-tom-and-jerry-tom-and-jerry-heroes-logo-fictional-character.png" group-title="Uncategorized",TOM AND JERRY
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Los pitufos" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/Logo_Los_Pitufos_%282019%29.png" group-title="Uncategorized",Los pitufos
+https://imps-smrfs.otteravision.com/imps/smrfs/smrfs.m3u8
+
+#EXTINF:-1 tvg-name="los pitufos" group-title="Uncategorized",los pitufos
+https://jmp2.uk/stvp-ESBD130000205
+
+#EXTINF:-1 tvg-name="La Pantera Rosa" tvg-logo="https://www.ecured.cu/images/0/04/Pantera_Rosa_2.jpg" group-title="Uncategorized",La Pantera Rosa
+https://linear-1069.frequency.stream/mt/plex/1069/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-name="DRAGON BALL Z" group-title="Uncategorized",DRAGON BALL Z
+https://live20.bozztv.com/giatv/giatv-dball/dball/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Dragón Ball" group-title="Uncategorized",Dragón Ball
+https://jmp2.uk/plu-685a996c7c4f2ad40cb4f276.m3u8
+
+#EXTINF:-1 tvg-name="Dragón Ball Z (2)" group-title="Uncategorized",Dragón Ball Z (2)
+https://jmp2.uk/plu-68e8fd7c3ede4398bc69af93.m3u8
+
+#EXTINF:-1 tvg-id="SouthPark.de" tvg-name="South Park" tvg-logo="https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoSVG_1748431640576.svg" group-title="Uncategorized",South Park
+https://jmp2.uk/plu-65df731cec9fda0008b7aa8d.m3u8
+
+#EXTINF:-1 tvg-name="Simpson 24/7" group-title="Uncategorized",Simpson 24/7
+https://stream-cdn-iad3.vaughnsoft.net/play/live_simpson_maniahd193.flv
+
+#EXTINF:-1 tvg-name="Simpson 24/7 2" group-title="Uncategorized",Simpson 24/7 2
+https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Simpson 24/7 4" group-title="Uncategorized",Simpson 24/7 4
+https://live20.bozztv.com/akamaissh101/ssh101/simplat/chunks.m3u8
+
+#EXTINF:-1 tvg-name="LOS SIMPSONS OP2" tvg-logo="https://i.ibb.co/rKScDcBn/LOSSIMPSONS.png" group-title="Uncategorized",LOS SIMPSONS OP2
+http://stream-cdn-iad3.vaughnsoft.net/play/live_simpson_media.flv
+
+#EXTINF:-1 tvg-name="EL CHAVO DEL 8" tvg-logo="https://cdn.imgbin.com/8/22/21/imgbin-el-chavo-del-ocho-logo-sitcom-television-show-comedy-others-cfmV7MN0y8ijg47aNWgmgWrD1.jpg" group-title="Uncategorized",EL CHAVO DEL 8
+https://live20.bozztv.com/giatvplayout7/giatv-208870/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Chespirito 24/7" tvg-logo="http://img.tvcluboficial.com/chespirito.jpg" group-title="Uncategorized",Chespirito 24/7
+http://m3u.tvcluboficial.com/free/oct/oct/153.m3u8
+
+#EXTINF:-1 tvg-name="LOS SIMPSONS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_Simpsons_yellow_logo.svg/960px-The_Simpsons_yellow_logo.svg.png" group-title="Uncategorized",LOS SIMPSONS
+http://srv3.zcast.com.br/sim1al5/sim1al5/playlist.m3u8
+
+#EXTINF:-1 tvg-name="LOS SIMPSONS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_Simpsons_yellow_logo.svg/960px-The_Simpsons_yellow_logo.svg.png" group-title="Uncategorized",LOS SIMPSONS
+http://srv3.zcast.com.br/sim16al20/sim16al20/playlist.m3u8
+
+#EXTINF:-1 tvg-name="LOS SIMPSONS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/The_Simpsons_yellow_logo.svg/960px-The_Simpsons_yellow_logo.svg.png" group-title="Uncategorized",LOS SIMPSONS
+http://srv3.zcast.com.br/sim11al15/sim11al15/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SouthPark.de" tvg-name="South Park" tvg-logo="https://images.pluto.tv/channels/628751bb7154a40007168843/colorLogoSVG_1748431640576.svg" group-title="Uncategorized",South Park
+https://live20.bozztv.com/giatvplayout7/giatv-209660/playlist.m3u8
+
+#EXTINF:-1 tvg-id="YuGiOh.us" tvg-name="Yu Gi Oh" tvg-logo="https://provider-static.plex.tv/epg/cms/production/e10f9ed3-8112-4287-8355-cc00be4413a8/Wurl_Yu-Gi-Oh_Channel_Logo_light_Astridrdx.png" group-title="Uncategorized",Yu Gi Oh
+https://amg01796-amg01796c18-rakuten-es-7491.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugiohees-rakutenes/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Zona De Accion" group-title="Uncategorized",Zona De Accion
+https://live20.bozztv.com/giatvplayout7/giatv-209634/index.m3u8
+
+#EXTINF:-1 tvg-id="MarkaTV.do" tvg-name="Marka tv" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3355-294x165-FFFFFF.jpg" group-title="Uncategorized",Marka tv
+https://5790d294af2dc.streamlock.net/markatv/markatv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Wow Movies" group-title="Uncategorized",Wow Movies
+https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CosmosTv.ar" tvg-name="Cosmos tv" tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png" group-title="Uncategorized",Cosmos tv
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+
+#EXTINF:-1 tvg-id="VisionTV.az" tvg-name="Vision tv" tvg-logo="https://i.imgur.com/ok1ab9f.jpeg" group-title="Uncategorized",Vision tv
+https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8
+
+#EXTINF:-1 tvg-id="GenTV.ar" tvg-name="Gen tv" tvg-logo="https://i.imgur.com/qGddRW4.png" group-title="Uncategorized",Gen tv
+https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Aurora Media film" group-title="Uncategorized",Aurora Media film
+https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
+
+#EXTINF:-1 tvg-name="Grjgngo" tvg-logo="https://www.meganetfun.com/storage/channel-logos/22gMX1eClzUXKX6qDaSvjXpBOutwXzL2eMgqi9JY.png" group-title="Uncategorized",Grjgngo
+https://amogonetworx-grjngo-2-eu.plex.wurl.tv/2000.m3u8
+
+#EXTINF:-1 tvg-name="BEST CLASICOS" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3896-294x165-FFFFFF.jpg" group-title="Uncategorized",BEST CLASICOS
+https://acceso.mediosdecostarica.com:3873/hybrid/play.m3u8
+
+#EXTINF:-1 tvg-id="SuperToons.bg" tvg-name="Super Toons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/28/SuperToons.jpg" group-title="Uncategorized",Super Toons
+https://d1swszxzumm47b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-og0iw9ikdkebc/feed/samsung/streams/SUPERTOONS_ES/master.m3u8?token=737aa2c3f17862a448f403cd2ac2b5ef1a0c413e1cf080a13a19cea99119221f
+
+#EXTINF:-1 tvg-id="CartoonClassics.pl" tvg-name="Cartoon Classics" tvg-logo="https://gia.tv/channels/logo/392d658a3b091dae4114aaead80f1e1b.jpg" group-title="Uncategorized",Cartoon Classics
+https://rpn.bozztv.com/gusa/gusa-cartoonclassics/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-name="Tigueritos" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1dMJh582uegH2pvIzK7JFZBqpEFJJl3tn86xFU5d6qyKo_93zu1SimNybTlmiB49uU4yNdYQzyyrItSvgJSE0X8qhT2lDkr_guWxWUAZe8HqwoEVA0rCCq7Gw6Eiocw06v_yrCX5j_1k/s1600/cooltext322362673602554.png" group-title="Uncategorized",Tigueritos
+https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TALTALTV 2" tvg-logo="https://taltaltv.net/logostv/LOGOTV.jpg" group-title="Uncategorized",TALTALTV 2
+https://live20.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Primired HD" tvg-logo="https://i.ibb.co/pBZrJ3MJ/Logo-Primired.png" group-title="Uncategorized",Primired HD
+https://cdn.global.elektamedia.com/live/c7eds/Primired/SA_LIVE_hls_enc/master.m3u8
+
+#EXTINF:-1 tvg-name="Laika Channel Spain HD" tvg-logo="https://i.ibb.co/nqkqsK8Y/Letras-de-Laika-Channel-Espa-a.png" group-title="Uncategorized",Laika Channel Spain HD
+https://live20.bozztv.com/giatvplayout7/giatv-209474/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Laika Channel Galicia HD" tvg-logo="https://i.ibb.co/8gBCpNNt/Letras-de-Laika-Channel-Galicia.png" group-title="Uncategorized",Laika Channel Galicia HD
+https://live20.bozztv.com/giatvplayout7/giatv-210596/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Unetev.cl" tvg-name="Unetev HD" tvg-logo="https://i.ibb.co/YDQQng7/Logo-Unetev.png" group-title="Uncategorized",Unetev HD
+https://tv.arkeo.cl:1936/unetev/unetev/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Wow Movies SD (Opcion 2)" tvg-logo="https://i.ibb.co/HpCtLzy/logo-Wow-Movies.jpg" group-title="Uncategorized",Wow Movies SD (Opcion 2)
+https://live20.bozztv.com/akamaissh101/ssh101/wowchannelsd/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Locomotion Esp" tvg-logo="https://i.ibb.co/RDPMGmb/logo-Locomotion.png" group-title="Uncategorized",Locomotion Esp
+https://live20.bozztv.com/akamaissh101/ssh101/myevent2025/playlist.m3u8
+
+#EXTINF:-1 tvg-name="LOCOMOTION 24/7 HD" tvg-logo="https://i.ibb.co/xQBQyJy/Logo-Locomotion-1.png" group-title="Uncategorized",LOCOMOTION 24/7 HD
+https://live20.bozztv.com/giatvplayout7/giatv-210075/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Zyoon Tv HD" tvg-logo="https://i.ibb.co/zWhrb4q9/Logo-Zyoontv.jpg" group-title="Uncategorized",Zyoon Tv HD
+https://live20.bozztv.com/giatv/giatv-ZYOONTV/ZYOONTV/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Canal Buzz HD" tvg-logo="https://i.ibb.co/kYdb9nr/Logo-Buzz.png" group-title="Uncategorized",Canal Buzz HD
+https://live20.bozztv.com/akamaissh101/ssh101/canalbuzz2026/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TALTALTV ANIME (series) HD" tvg-logo="https://i.ibb.co/dphksTM/Logo-Anime-Taltal-TV-HD.png" group-title="Uncategorized",TALTALTV ANIME (series) HD
+https://live20.bozztv.com/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/playlist.m3u8
+
+#EXTINF:-1 tvg-id="IuniorTV.it" tvg-name="Iunior TV HD" tvg-logo="https://i.ibb.co/35jpRw1G/Logo-Iunior-TV.png" group-title="Uncategorized",Iunior TV HD
+https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Loading HD Brasil" tvg-logo="https://i.ibb.co/BzVf3mG/Logo-Loading.png" group-title="Uncategorized",Loading HD Brasil
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Anime TV Brasil" tvg-logo="https://i.ibb.co/ZVKdyNQ/logo-Anime-TV.png" group-title="Uncategorized",Anime TV Brasil
+https://stmv2.painelvideocast.com.br/animetv/animetv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Wording TV HD Brasil" tvg-logo="https://i.ibb.co/DkHFvM1/logo-Wording.png" group-title="Uncategorized",Wording TV HD Brasil
+https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="PlenitudTV.gt" tvg-name="Plenitud TV HD" tvg-logo="https://i.ibb.co/nbprpqk/Logo-Plenitud-TV.jpg" group-title="Uncategorized",Plenitud TV HD
+https://live20.bozztv.com/giatvplayout7/giatv-208727/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Plenitud Juvenil HD" tvg-logo="https://i.ibb.co/MxqP3Tsp/Logo-Plenitud-Juvenil.jpg" group-title="Uncategorized",Plenitud Juvenil HD
+https://live20.bozztv.com/giatvplayout7/giatv-209259/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Red TV HD 24/7" tvg-logo="https://i.ibb.co/gF5gsdH/Logo-Red-TV.jpg" group-title="Uncategorized",Red TV HD 24/7
+https://live20.bozztv.com/giatvplayout7/giatv-208729/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MrBeanAnimated.uk" tvg-name="Mr Bean HD" tvg-logo="https://i.ibb.co/X5wkQRm/Logo-Mr-Bean.jpg" group-title="Uncategorized",Mr Bean HD
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Mr Bean Animado HD" tvg-logo="https://i.ibb.co/87Q3Lf3/Logo-Mr-Bean.png" group-title="Uncategorized",Mr Bean Animado HD
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Adventures Of Sonic The Hedgehog Espanol HD" tvg-logo="https://i.ibb.co/w78LpdX/Logo-Adventures-Of-Sonic-The-Hedgehog.png" group-title="Uncategorized",Adventures Of Sonic The Hedgehog Espanol HD
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2260
+
+#EXTINF:-1 tvg-name="DM Kids TV HD" tvg-logo="https://i.ibb.co/HdcYm3N/Logo-DM-Kids-TV.png" group-title="Uncategorized",DM Kids TV HD
+https://video03.logicahost.com.br/dmkidstv/dmkidstv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Toon Goggles en Spanish" tvg-logo="https://i.ibb.co/PsLfq2R/Logo-Toon-Goggles-en-Spanish.png" group-title="Uncategorized",Toon Goggles en Spanish
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=771
+
+#EXTINF:-1 tvg-id="GoGoPlayTV.bo" tvg-name="Gogoplay TV" tvg-logo="https://i.ibb.co/dc3XwNr/logo-Gogoplay-TV.png" group-title="Uncategorized",Gogoplay TV
+https://live20.bozztv.com/akamaissh101/ssh101/gogoplay/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Mi TV Television Clasica" tvg-logo="https://i.ibb.co/L1Q70jL/Logo-Mi-TV-Television-Clasica.png" group-title="Uncategorized",Mi TV Television Clasica
+https://mitv.getstreamhosting.com:1936/live/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV Retro Palmares" tvg-logo="https://i.ibb.co/vX9JVmf/Logo-TV-Retro-Palmares.png" group-title="Uncategorized",TV Retro Palmares
+https://live20.bozztv.com/akamaissh101/ssh101/tvretropalmares/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Telecosta.ec" tvg-name="Telecosta" tvg-logo="https://i.ibb.co/zr565ht/Logo-Telecosta.png" group-title="Uncategorized",Telecosta
+https://tv91.hostingnuclear.com:19360/telecosta/telecosta.m3u8
+
+#EXTINF:-1 tvg-id="VisionTV.az" tvg-name="Vision TV HD" tvg-logo="https://i.ibb.co/yk4xrNL/logo-Visi-n-TV.png" group-title="Uncategorized",Vision TV HD
+https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8
+
+#EXTINF:-1 tvg-name="Moni TV HD (opcion 2)" tvg-logo="https://i.ibb.co/v3k7zgg/logo-Moni-TV.png" group-title="Uncategorized",Moni TV HD (opcion 2)
+https://live20.bozztv.com/akamaissh101/ssh101/monitvhd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ChinolaTV.do" tvg-name="Chinola TV HD" tvg-logo="https://i.ibb.co/0mPY5Yb/Logo-Chinola-TV.jpg" group-title="Uncategorized",Chinola TV HD
+https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
+
+#EXTINF:-1 tvg-id="TVGInfantil.es" tvg-name="Xabarin TV HD" tvg-logo="https://i.ibb.co/hYXXZwt/logo-Xabarin-TV.png" group-title="Uncategorized",Xabarin TV HD
+http://crtvg-infantil-schlive.flumotion.cloud/crtvglive/smil:channel5PRG.smil/chunklist_b2200000.m3u8
+
+#EXTINF:-1 tvg-name="Clan Latinoamerica HD (geobloqueo)" tvg-logo="https://i.ibb.co/p4gTy4Y/Logo-Clan-HD.png" group-title="Uncategorized",Clan Latinoamerica HD (geobloqueo)
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-name="En Familia HD" tvg-logo="https://i.ibb.co/mqP0fSd/Logo-En-Familia.jpg" group-title="Uncategorized",En Familia HD
+https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8
+
+#EXTINF:-1 tvg-name="La 1 HD (geobloqueo)" tvg-logo="https://i.ibb.co/9TLg8Dw/Logo-La-1-HD.png" group-title="Uncategorized",La 1 HD (geobloqueo)
+https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-name="Star Tve HD (geobloqueo)" tvg-logo="https://i.ibb.co/Wtdp09b/logo-Star-Tve-HD.png" group-title="Uncategorized",Star Tve HD (geobloqueo)
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_720.m3u8
+
+#EXTINF:-1 tvg-id="FanDuelTV.us" tvg-name="TVG HD" tvg-logo="https://i.ibb.co/n8Qf1zm/logo-Tvg-HD.png" group-title="Uncategorized",TVG HD
+http://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks_dvr.m3u8
+
+#EXTINF:-1 tvg-name="Corenta anos da TVG HD" tvg-logo="https://i.ibb.co/n8Qf1zm/logo-Tvg-HD.png" group-title="Uncategorized",Corenta anos da TVG HD
+https://crtvg-40-anos-crtvg-schlive.flumotion.cloud/crtvglive/smil:channel9PRG.smil/chunklist_b2200000.m3u8
+
+#EXTINF:-1 tvg-id="TVGMiraRadioGalega.es" tvg-name="TVG Mira Radio Galega HD" tvg-logo="https://i.ibb.co/n8Qf1zm/logo-Tvg-HD.png" group-title="Uncategorized",TVG Mira Radio Galega HD
+http://crtvg-mirarg-schlive.flumotion.cloud/crtvglive/smil:channel1PRG.smil/chunklist_b2200000.m3u8
+
+#EXTINF:-1 tvg-name="TVG Eventos 1 HD" tvg-logo="https://i.ibb.co/n8Qf1zm/logo-Tvg-HD.png" group-title="Uncategorized",TVG Eventos 1 HD
+http://crtvg-events1.flumotion.cloud/crtvg/events1_high/chunks_dvr.m3u8
+
+#EXTINF:-1 tvg-name="TVG Eventos 2 HD" tvg-logo="https://i.ibb.co/n8Qf1zm/logo-Tvg-HD.png" group-title="Uncategorized",TVG Eventos 2 HD
+http://crtvg-events2.flumotion.cloud/crtvg/events2_high/chunks_dvr.m3u8
+
+#EXTINF:-1 tvg-name="TVG Eventos 3 HD" tvg-logo="https://i.ibb.co/n8Qf1zm/logo-Tvg-HD.png" group-title="Uncategorized",TVG Eventos 3 HD
+http://crtvg-events3.flumotion.cloud/crtvg/events3_high/chunks_dvr.m3u8
+
+#EXTINF:-1 tvg-id="ANoveTV.es" tvg-name="Anove TV HD" tvg-logo="https://i.ibb.co/gmkXHYG/logo-Anove-TV.png" group-title="Uncategorized",Anove TV HD
+https://cloud.streamingconnect.tv/hls/anove/anove.m3u8
+
+#EXTINF:-1 tvg-id="TeleVigo.es" tvg-name="Televigo HD" tvg-logo="https://i.ibb.co/ZT5LTKK/logo-Televigo-HD.png" group-title="Uncategorized",Televigo HD
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=12687
+
+#EXTINF:-1 tvg-id="Telemino.es" tvg-name="TeleMino HD" tvg-logo="https://i.ibb.co/WcCHV8g/Logo-Tele-Mino.png" group-title="Uncategorized",TeleMino HD
+https://laregionlive.flumotion.cloud/laregionlive/smil:channel1.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Cine y Series HD" tvg-logo="https://i.ibb.co/23Hjszc/Logo-Cine-y-Series-TV.png" group-title="Uncategorized",Cine y Series HD
+https://atresmedia-ceries-1-us.plex.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sony One Series Comedia" tvg-logo="https://i.ibb.co/FLmD2tT5/Logo-Sony-One-Series-Comedia.png" group-title="Uncategorized",Sony One Series Comedia
+https://d1fhd07bw4d2d6.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sony One Hits Comedia" tvg-logo="https://i.ibb.co/0jm6Khvb/Logo-Sony-One-Hits-Comedia.png" group-title="Uncategorized",Sony One Hits Comedia
+https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sony One Exitos" tvg-logo="https://i.ibb.co/PvmppwTV/Logo-Sony-One-Exitos.png" group-title="Uncategorized",Sony One Exitos
+https://240d7025e5434cb687148fff33611a9c.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-832-ES-SONYONEXITOS-LG_ES/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sony One Hits Accion" tvg-logo="https://i.ibb.co/WNbtwsnm/Logo-Sony-One-Hits-Accion.png" group-title="Uncategorized",Sony One Hits Accion
+https://375132e20edd4ed0bbddadeefa5b652d.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-829-ES-SONYONEHITSACCIN-LG_ES/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sony One The Blacklist" tvg-logo="https://i.ibb.co/39PCwVST/Logo-Sony-One-The-Blacklist.png" group-title="Uncategorized",Sony One The Blacklist
+https://db57ce9cb585443b89cc08f6e6d00a61.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-834-ES-SONYONETHEBLACKLIST-LG_ES/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Sony One Shark Tank" tvg-logo="https://i.ibb.co/606yLy4q/Logo-Sony-One-Shark-Tank.png" group-title="Uncategorized",Sony One Shark Tank
+https://9a299be3e295481e9c17b8a0f8f11d05.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-835-ES-SONYONESHARKTANK-LG_ES/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Comedia HD" tvg-logo="https://i.ibb.co/37tDmgx/Logo-Comedia.jpg" group-title="Uncategorized",Comedia HD
+https://71db867f03ce4d71a29e92155f07ab87.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6180/master.m3u8
+
+#EXTINF:-1 tvg-id="CineFriki.es" tvg-name="Cine Friki HD" tvg-logo="https://i.ibb.co/fQ5dxJt/Logo-Cine-Friki.jpg" group-title="Uncategorized",Cine Friki HD
+https://zylo-cinefriki-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-zylo-cinefriki-rakuten/CDN/master.m3u8
+
+#EXTINF:-1 tvg-id="Grjngo.pl" tvg-name="Grjngo HD" tvg-logo="https://i.ibb.co/MDn5f3F/Logo-Grjngo.jpg" group-title="Uncategorized",Grjngo HD
+https://86ebcafef90e449fbb9439c196e7d149.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-es_GrjngoPeliculasDelOeste-1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DistritoTV.es" tvg-name="Distrito TV HD" tvg-logo="https://i.ibb.co/99xVwy9/logo-Distrito-TV.png" group-title="Uncategorized",Distrito TV HD
+https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
+
+#EXTINF:-1 tvg-id="InteralmeriaTV.es" tvg-name="interalmeria tv HD" tvg-logo="https://i.ibb.co/9bqNXJZ/logo-Interalmeria-TV.png" group-title="Uncategorized",interalmeria tv HD
+https://interalmeria.tv/directo/live.m3u8
+
+#EXTINF:-1 tvg-id="Canal33Madrid.es" tvg-name="CANAL 33 MADRID HD" tvg-logo="https://i.ibb.co/fYsJF3j/logo-Canal-33-Madrid.png" group-title="Uncategorized",CANAL 33 MADRID HD
+https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Canal Sur Andalucia HD (opcion 2)" tvg-logo="https://i.ibb.co/zP1ZNqb/Logo-Canal-Sur.png" group-title="Uncategorized",Canal Sur Andalucia HD (opcion 2)
+https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8
+
+#EXTINF:-1 tvg-name="Canal Sur Andalucia 2 Accesible HD" tvg-logo="https://i.ibb.co/zQLJPfz/Logo-Canal-Sur-2.png" group-title="Uncategorized",Canal Sur Andalucia 2 Accesible HD
+https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Canal Malaga HD" tvg-logo="https://i.ibb.co/1qWsgBf/logo-Canal-M-laga.png" group-title="Uncategorized",Canal Malaga HD
+http://canalmalaga-tv-live.flumotion.com/chunks.m3u8
+
+#EXTINF:-1 tvg-name="Onda Algeciras TV HD" tvg-logo="https://i.ibb.co/JdC61x9/logo-Onda-Algeciras-TV.png" group-title="Uncategorized",Onda Algeciras TV HD
+https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
+
+#EXTINF:-1 tvg-id="PopularTVCantabria.es" tvg-name="Popular TV Cantabria HD" tvg-logo="https://i.ibb.co/2jwnjpH/logo-Popular-TV-Cantabria.png" group-title="Uncategorized",Popular TV Cantabria HD
+https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
+
+#EXTINF:-1 tvg-id="AlacantiTV.es" tvg-name="Alacanti TV HD" tvg-logo="https://i.ibb.co/pjbbHy2/logo-Alacanti-TV.png" group-title="Uncategorized",Alacanti TV HD
+https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8
+
+#EXTINF:-1 tvg-id="Elche7TV.es" tvg-name="Elche 7 TV HD" tvg-logo="https://i.ibb.co/gDZqWNb/logo-Elche-7-TV.png" group-title="Uncategorized",Elche 7 TV HD
+https://elche7tv.gestec-video.com/hls/canal2.m3u8
+
+#EXTINF:-1 tvg-name="Bon Dia TV HD (geobloqueo)" tvg-logo="https://i.ibb.co/bJDzJX2/logo-Bon-Dia-TV.png" group-title="Uncategorized",Bon Dia TV HD (geobloqueo)
+https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8
+
+#EXTINF:-1 tvg-id="ElToroTV.es" tvg-name="El Toro TV HD" tvg-logo="https://i.ibb.co/n7v3MxR/Logo-El-Toro-TV.png" group-title="Uncategorized",El Toro TV HD
+https://edge-nodo-001.streaming.hitcloser.net/eltorotv-streaming-web/index.m3u8
+
+#EXTINF:-1 tvg-name="Alegre TV HD" tvg-logo="https://i.ibb.co/VHhX37K/Logo-Alegre-TV.png" group-title="Uncategorized",Alegre TV HD
+https://streamunoapp.com:3149/live/alegretvlive.m3u8
+
+#EXTINF:-1 tvg-id="CostaRicaChannel.cr" tvg-name="Costa Rica Channel HD" tvg-logo="https://i.ibb.co/tJJQmmR/Logo-Costa-Rica-Channel.png" group-title="Uncategorized",Costa Rica Channel HD
+https://video0.rogohosting.com:19360/8006/8006.m3u8
+
